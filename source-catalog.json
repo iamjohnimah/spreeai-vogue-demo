@@ -1,0 +1,116 @@
+{
+  "source": "https://www.vogue.com/shopping/new-arrivals",
+  "capturedAt": "2026-10-03",
+  "products": [
+    {
+      "order": 1,
+      "id": "6abeba6f4f1c0f88032a81d5",
+      "brand": "Kallmeyer",
+      "name": "Tilda jacket",
+      "price": 1250.0,
+      "currency": "USD",
+      "retailer": "NORDSTROM",
+      "retailerUrl": "https://www.nordstrom.com/s/kallmeyer-tilda-jacket/9119460?color=44444GVQ8P",
+      "image": "https://assets.vogue.com/photos/6abeb8f87470eea9d4347b19/3:4/w_748,c_limit/1.jpg"
+    },
+    {
+      "order": 2,
+      "id": "6abeba70cd062db23eb7fa3c",
+      "brand": "Tove",
+      "name": "Eden top",
+      "price": 925.0,
+      "currency": "USD",
+      "retailer": "NET-A-PORTER",
+      "retailerUrl": "https://www.net-a-porter.com/en-us/shop/product/tove/clothing/tops/eden-strapless-draped-satin-top/46376663163143697",
+      "image": "https://assets.vogue.com/photos/6abeb8f97d8f9610eee9f555/3:4/w_748,c_limit/2.jpg"
+    },
+    {
+      "order": 3,
+      "id": "6abeba6f4c64fb3a21fa1fd6",
+      "brand": "Lié Studio",
+      "name": "The Kyle gloves",
+      "price": 270.0,
+      "currency": "USD",
+      "retailer": "NET-A-PORTER",
+      "retailerUrl": "https://www.net-a-porter.com/en-us/shop/product/lie-studio/accessories/leather/the-kyle-leather-gloves/46376663163138821",
+      "image": "https://assets.vogue.com/photos/6abeb8fab4d8fdbcc14a9bec/3:4/w_748,c_limit/3.jpg"
+    },
+    {
+      "order": 4,
+      "id": "6abeba6f3fc068873bc6ac38",
+      "brand": "Hunting Season",
+      "name": "The Lola bag",
+      "price": 595.0,
+      "currency": "USD",
+      "retailer": "SHOPBOP",
+      "retailerUrl": "https://www.shopbop.com/product/vp/v=1/1545573202.htm?sizeCode=314",
+      "image": "https://assets.vogue.com/photos/6abeb8fba167cc9e13576bb2/3:4/w_748,c_limit/4.jpg"
+    },
+    {
+      "order": 5,
+      "id": "6abeba70ebbd62f2073b0ec9",
+      "brand": "St. Agni",
+      "name": "jacquard coat",
+      "price": 1199.0,
+      "currency": "USD",
+      "retailer": "BLOOMINGDALE'S",
+      "retailerUrl": "https://www.bloomingdales.com/shop/product/st.-agni-wool-silk-jacquard-coat?ID=6332488",
+      "image": "https://assets.vogue.com/photos/6abeb8f97ffcbbad70974b65/3:4/w_748,c_limit/5.jpg"
+    },
+    {
+      "order": 6,
+      "id": "6abe6c7b4b556a0cd9f79f1d",
+      "brand": "Zara",
+      "name": "x John Galliano mesh dress",
+      "price": 759.0,
+      "currency": "USD",
+      "retailer": "ZARA",
+      "retailerUrl": "https://www.zara.com/us/en/limited-edition-guipure-and-dotted-mesh-dress-p08528882.html?v1=576273346&v2=2762934",
+      "image": "https://assets.vogue.com/photos/6abe6a0e4f1c0f88032a7ca4/3:4/w_748,c_limit/18.jpg"
+    },
+    {
+      "order": 7,
+      "id": "6abeba704f1c0f88032a81dd",
+      "brand": "Arma",
+      "name": "Mooneyforest jacket",
+      "price": 2565.0,
+      "currency": "USD",
+      "retailer": "NORDSTROM",
+      "retailerUrl": "https://www.nordstrom.com/s/arma-mooneyforest-vega/9017446?color=44444GHDLB",
+      "image": "https://assets.vogue.com/photos/6abeb8fbebbd62f2073b0ebd/3:4/w_748,c_limit/6.jpg"
+    },
+    {
+      "order": 8,
+      "id": "6abeba70b4b9d8db80b3068b",
+      "brand": "Siedrés ",
+      "name": "Brity pants",
+      "price": 595.0,
+      "currency": "USD",
+      "retailer": "NORDSTROM",
+      "retailerUrl": "https://www.nordstrom.com/s/siedres-brity/9144592?color=44444GWZAP",
+      "image": "https://assets.vogue.com/photos/6abeb8fa4bb07e53ea81b3f4/3:4/w_748,c_limit/7.jpg"
+    },
+    {
+      "order": 9,
+      "id": "6abeba70b7fd5e578c3562d3",
+      "brand": "Bottega Veneta",
+      "name": "Intrecciato wraparound sunglasses",
+      "price": 615.0,
+      "currency": "USD",
+      "retailer": "BOTTEGA VENETA",
+      "retailerUrl": "https://www.bottegaveneta.com/en-us/intrecciato-wraparound-sunglasses-havana-yellow-A009H5VBL801509.html",
+      "image": "https://assets.vogue.com/photos/6abeb8fa5654d81857a59ab0/3:4/w_748,c_limit/8.jpg"
+    },
+    {
+      "order": 10,
+      "id": "6abeba70dfa7af4660237eda",
+      "brand": "Khaite",
+      "name": "Ona boots",
+      "price": 1560.0,
+      "currency": "USD",
+      "retailer": "KHAITE",
+      "retailerUrl": "https://khaite.com/collections/new/products/ona-knee-high-boot-in-chocolate",
+      "image": "https://assets.vogue.com/photos/6abeb8f997c919e9a0471f26/3:4/w_748,c_limit/9.jpg"
+    }
+  ]
+}
