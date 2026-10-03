@@ -15,10 +15,14 @@ The storefront uses Vogue's wordmark, observed public typography, navigation, pr
 
 ## Review status
 
-The storefront, product navigation, saved outfits, outfit selection, comparison selection and shopping bag were checked locally, including 390px and 320px widths without horizontal page overflow. Actual render success is not yet verified: staging currently reports that these garments are still being prepared, and the staging admin is unavailable. Fit notes and curated Style edits are demonstrations, not calibrated fit maps or a live AI stylist. Size recommendations require calibrated garment measurements and return an explicit unavailable state when no valid result is supplied.
+The storefront and fitting room were checked locally on desktop and at 390px and 320px widths without horizontal page overflow. Decorative upward arrows were removed. The Vogue wordmark, fitting-room header, typography, controls and content groups now share a restrained editorial treatment.
+
+Real SPREEAI staging try-on returned complete, readable images for all ten items on Olivia, plus the Tilda jacket and Brity pants together. Garment readiness was completed through the supported manual QA endpoint on the isolated Vogue staging partner; individual review votes and failed renders remain in history. Back and video remain placeholders. The dress had four provider-filtered avatar test renders; the successful Olivia preview was reviewed and verified separately, and provider filtering remains active. Try-on handles a service rate-limit response with one bounded retry respecting Retry-After.
+
+Fit notes and curated Style edits are guidance, not calibrated fit maps or a live AI stylist. Size recommendations require calibrated garment measurements; the current Vogue records do not have size charts and show an explicit unavailable state. Staging services may require VPN access for viewers.
 
 ## Publishing
 
 GitHub Pages publishes the static files at the repository root through the included workflow. There are no API keys, session tokens or private project history in this repository. SPREEAI authenticates browser sessions at runtime. Photo uploads are sent directly to SPREEAI after the user's consent; they are not stored in this repository.
 
-Build: 2026.10.03.01.
+Build: 2026.10.03.02.

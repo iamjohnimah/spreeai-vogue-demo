@@ -38,7 +38,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Kallmeyer"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "facts": [
         "Featured in Vogue’s New Arrivals edit",
         "Retailer: NORDSTROM",
@@ -79,7 +79,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Tove"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "facts": [
         "Featured in Vogue’s New Arrivals edit",
         "Retailer: NET-A-PORTER",
@@ -120,7 +120,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Lié Studio"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "facts": [
         "Featured in Vogue’s New Arrivals edit",
         "Retailer: NET-A-PORTER",
@@ -161,7 +161,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Hunting Season"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "facts": [
         "Featured in Vogue’s New Arrivals edit",
         "Retailer: SHOPBOP",
@@ -202,7 +202,7 @@ window.PARTNER_DEMO = {
       "source": [
         "St. Agni"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "facts": [
         "Featured in Vogue’s New Arrivals edit",
         "Retailer: BLOOMINGDALE'S",
@@ -243,7 +243,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Zara"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "facts": [
         "Featured in Vogue’s New Arrivals edit",
         "Retailer: ZARA",
@@ -284,7 +284,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Arma"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "facts": [
         "Featured in Vogue’s New Arrivals edit",
         "Retailer: NORDSTROM",
@@ -325,7 +325,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Siedrés"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "facts": [
         "Featured in Vogue’s New Arrivals edit",
         "Retailer: NORDSTROM",
@@ -366,7 +366,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Bottega Veneta"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "facts": [
         "Featured in Vogue’s New Arrivals edit",
         "Retailer: BOTTEGA VENETA",
@@ -407,7 +407,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Khaite"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "facts": [
         "Featured in Vogue’s New Arrivals edit",
         "Retailer: KHAITE",
