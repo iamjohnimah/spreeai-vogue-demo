@@ -25,4 +25,4 @@ Fit notes and curated Style edits are guidance, not calibrated fit maps or a liv
 
 GitHub Pages publishes the static files at the repository root through the included workflow. There are no API keys, session tokens or private project history in this repository. SPREEAI authenticates browser sessions at runtime. Photo uploads are sent directly to SPREEAI after the user's consent; they are not stored in this repository.
 
-Build: 2026.10.03.02.
+Build: 2026.10.03.03.
