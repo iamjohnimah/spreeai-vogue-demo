@@ -6,7 +6,7 @@ Independent shopping review, not an official Vogue website or endorsed partnersh
 
 25 products: the original ten New Arrivals pieces and 15 additional products from https://www.vogue.com/shopping, with Vogue product photographs, designer names, prices and retailer links. Provenance is in source-catalog.json. Prices are a capture, not live inventory.
 
-Vogue wordmarks, FB Didot, Vogue Avant Garde and Adobe Garamond typography, navigation, editorial banner and shopping layout. Added visible branded card try-on actions, category filters, price sorting and a refined fitting room. Mobile comparison actions now wrap within the viewport. Original retailer checkout links remain external.
+Vogue wordmarks, FB Didot, Vogue Avant Garde and Adobe Garamond typography, navigation, editorial banner and shopping layout. Centered, always-visible Vogue try-on buttons now sit inside the collection and product image frames, in a reserved area beneath the garment. Photographs use contain sizing and do not overlap the buttons. Compare stands alone below product details. The product page uses an image-mounted branded try-on button and a dedicated Build a look card, with Find my size beside Size Guide. Each fitting-room tool opens independently; try-on has no feature-hub navigation or saved-look action. Category filters and price sorting remain available. Desktop 1440px and mobile 390px/320px checks verified button placement, image loading and no horizontal page overflow; product sizing, builder and comparison entry points opened independently. Original retailer checkout links remain external.
 
 ## Features and verification
 
@@ -24,4 +24,4 @@ Editable React source is included under source/. With a current Node runtime: cd
 
 No API secrets, session credentials or shopper photos are included. Browser sessions authenticate with SPREEAI at runtime. Own photos are transmitted directly to SPREEAI only after shopper consent. The service may require VPN access.
 
-Build 2026.10.07.01.
+Build 2026.10.07.02.
