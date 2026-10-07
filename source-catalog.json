@@ -1,116 +1,234 @@
 {
-  "source": "https://www.vogue.com/shopping/new-arrivals",
-  "capturedAt": "2026-10-03",
+  "sources": [
+    "https://www.vogue.com/shopping/new-arrivals",
+    "https://www.vogue.com/shopping"
+  ],
+  "capturedAt": "2026-10-07",
   "products": [
     {
-      "order": 1,
-      "id": "6abeba6f4f1c0f88032a81d5",
-      "brand": "Kallmeyer",
+      "id": "vogue-1",
       "name": "Tilda jacket",
-      "price": 1250.0,
-      "currency": "USD",
-      "retailer": "NORDSTROM",
+      "brand": "Kallmeyer",
+      "price": 1250,
+      "sourceImage": "https://assets.vogue.com/photos/6abeb8f87470eea9d4347b19/3:4/w_748,c_limit/1.jpg",
       "retailerUrl": "https://www.nordstrom.com/s/kallmeyer-tilda-jacket/9119460?color=44444GVQ8P",
-      "image": "https://assets.vogue.com/photos/6abeb8f87470eea9d4347b19/3:4/w_748,c_limit/1.jpg"
+      "vogueProductId": "6abeba6f4f1c0f88032a81d5"
     },
     {
-      "order": 2,
-      "id": "6abeba70cd062db23eb7fa3c",
-      "brand": "Tove",
+      "id": "vogue-2",
       "name": "Eden top",
-      "price": 925.0,
-      "currency": "USD",
-      "retailer": "NET-A-PORTER",
+      "brand": "Tove",
+      "price": 925,
+      "sourceImage": "https://assets.vogue.com/photos/6abeb8f97d8f9610eee9f555/3:4/w_748,c_limit/2.jpg",
       "retailerUrl": "https://www.net-a-porter.com/en-us/shop/product/tove/clothing/tops/eden-strapless-draped-satin-top/46376663163143697",
-      "image": "https://assets.vogue.com/photos/6abeb8f97d8f9610eee9f555/3:4/w_748,c_limit/2.jpg"
+      "vogueProductId": "6abeba70cd062db23eb7fa3c"
     },
     {
-      "order": 3,
-      "id": "6abeba6f4c64fb3a21fa1fd6",
-      "brand": "Lié Studio",
+      "id": "vogue-3",
       "name": "The Kyle gloves",
-      "price": 270.0,
-      "currency": "USD",
-      "retailer": "NET-A-PORTER",
+      "brand": "Lié Studio",
+      "price": 270,
+      "sourceImage": "https://assets.vogue.com/photos/6abeb8fab4d8fdbcc14a9bec/3:4/w_748,c_limit/3.jpg",
       "retailerUrl": "https://www.net-a-porter.com/en-us/shop/product/lie-studio/accessories/leather/the-kyle-leather-gloves/46376663163138821",
-      "image": "https://assets.vogue.com/photos/6abeb8fab4d8fdbcc14a9bec/3:4/w_748,c_limit/3.jpg"
+      "vogueProductId": "6abeba6f4c64fb3a21fa1fd6"
     },
     {
-      "order": 4,
-      "id": "6abeba6f3fc068873bc6ac38",
-      "brand": "Hunting Season",
+      "id": "vogue-4",
       "name": "The Lola bag",
-      "price": 595.0,
-      "currency": "USD",
-      "retailer": "SHOPBOP",
+      "brand": "Hunting Season",
+      "price": 595,
+      "sourceImage": "https://assets.vogue.com/photos/6abeb8fba167cc9e13576bb2/3:4/w_748,c_limit/4.jpg",
       "retailerUrl": "https://www.shopbop.com/product/vp/v=1/1545573202.htm?sizeCode=314",
-      "image": "https://assets.vogue.com/photos/6abeb8fba167cc9e13576bb2/3:4/w_748,c_limit/4.jpg"
+      "vogueProductId": "6abeba6f3fc068873bc6ac38"
     },
     {
-      "order": 5,
-      "id": "6abeba70ebbd62f2073b0ec9",
-      "brand": "St. Agni",
+      "id": "vogue-5",
       "name": "jacquard coat",
-      "price": 1199.0,
-      "currency": "USD",
-      "retailer": "BLOOMINGDALE'S",
+      "brand": "St. Agni",
+      "price": 1199,
+      "sourceImage": "https://assets.vogue.com/photos/6abeb8f97ffcbbad70974b65/3:4/w_748,c_limit/5.jpg",
       "retailerUrl": "https://www.bloomingdales.com/shop/product/st.-agni-wool-silk-jacquard-coat?ID=6332488",
-      "image": "https://assets.vogue.com/photos/6abeb8f97ffcbbad70974b65/3:4/w_748,c_limit/5.jpg"
+      "vogueProductId": "6abeba70ebbd62f2073b0ec9"
     },
     {
-      "order": 6,
-      "id": "6abe6c7b4b556a0cd9f79f1d",
-      "brand": "Zara",
+      "id": "vogue-6",
       "name": "x John Galliano mesh dress",
-      "price": 759.0,
-      "currency": "USD",
-      "retailer": "ZARA",
+      "brand": "Zara",
+      "price": 759,
+      "sourceImage": "https://assets.vogue.com/photos/6abe6a0e4f1c0f88032a7ca4/3:4/w_748,c_limit/18.jpg",
       "retailerUrl": "https://www.zara.com/us/en/limited-edition-guipure-and-dotted-mesh-dress-p08528882.html?v1=576273346&v2=2762934",
-      "image": "https://assets.vogue.com/photos/6abe6a0e4f1c0f88032a7ca4/3:4/w_748,c_limit/18.jpg"
+      "vogueProductId": "6abe6c7b4b556a0cd9f79f1d"
     },
     {
-      "order": 7,
-      "id": "6abeba704f1c0f88032a81dd",
-      "brand": "Arma",
+      "id": "vogue-7",
       "name": "Mooneyforest jacket",
-      "price": 2565.0,
-      "currency": "USD",
-      "retailer": "NORDSTROM",
+      "brand": "Arma",
+      "price": 2565,
+      "sourceImage": "https://assets.vogue.com/photos/6abeb8fbebbd62f2073b0ebd/3:4/w_748,c_limit/6.jpg",
       "retailerUrl": "https://www.nordstrom.com/s/arma-mooneyforest-vega/9017446?color=44444GHDLB",
-      "image": "https://assets.vogue.com/photos/6abeb8fbebbd62f2073b0ebd/3:4/w_748,c_limit/6.jpg"
+      "vogueProductId": "6abeba704f1c0f88032a81dd"
     },
     {
-      "order": 8,
-      "id": "6abeba70b4b9d8db80b3068b",
-      "brand": "Siedrés ",
+      "id": "vogue-8",
       "name": "Brity pants",
-      "price": 595.0,
-      "currency": "USD",
-      "retailer": "NORDSTROM",
+      "brand": "Siedrés",
+      "price": 595,
+      "sourceImage": "https://assets.vogue.com/photos/6abeb8fa4bb07e53ea81b3f4/3:4/w_748,c_limit/7.jpg",
       "retailerUrl": "https://www.nordstrom.com/s/siedres-brity/9144592?color=44444GWZAP",
-      "image": "https://assets.vogue.com/photos/6abeb8fa4bb07e53ea81b3f4/3:4/w_748,c_limit/7.jpg"
+      "vogueProductId": "6abeba70b4b9d8db80b3068b"
     },
     {
-      "order": 9,
-      "id": "6abeba70b7fd5e578c3562d3",
-      "brand": "Bottega Veneta",
+      "id": "vogue-9",
       "name": "Intrecciato wraparound sunglasses",
-      "price": 615.0,
-      "currency": "USD",
-      "retailer": "BOTTEGA VENETA",
+      "brand": "Bottega Veneta",
+      "price": 615,
+      "sourceImage": "https://assets.vogue.com/photos/6abeb8fa5654d81857a59ab0/3:4/w_748,c_limit/8.jpg",
       "retailerUrl": "https://www.bottegaveneta.com/en-us/intrecciato-wraparound-sunglasses-havana-yellow-A009H5VBL801509.html",
-      "image": "https://assets.vogue.com/photos/6abeb8fa5654d81857a59ab0/3:4/w_748,c_limit/8.jpg"
+      "vogueProductId": "6abeba70b7fd5e578c3562d3"
     },
     {
-      "order": 10,
-      "id": "6abeba70dfa7af4660237eda",
-      "brand": "Khaite",
+      "id": "vogue-10",
       "name": "Ona boots",
-      "price": 1560.0,
-      "currency": "USD",
-      "retailer": "KHAITE",
+      "brand": "Khaite",
+      "price": 1560,
+      "sourceImage": "https://assets.vogue.com/photos/6abeb8f997c919e9a0471f26/3:4/w_748,c_limit/9.jpg",
       "retailerUrl": "https://khaite.com/collections/new/products/ona-knee-high-boot-in-chocolate",
-      "image": "https://assets.vogue.com/photos/6abeb8f997c919e9a0471f26/3:4/w_748,c_limit/9.jpg"
+      "vogueProductId": "6abeba70dfa7af4660237eda"
+    },
+    {
+      "id": "vogue-11",
+      "name": "Olyne car coat",
+      "brand": "Rue Sophie",
+      "price": 298,
+      "sourceImage": "https://assets.vogue.com/photos/6a8db8b6870cd5b39ae33360/3:4/w_748%2Cc_limit/29.jpg",
+      "retailerUrl": "https://ruesophie.com/products/olyne-car-coat?",
+      "vogueProductId": "6a8dbe5501ce01b976230342"
+    },
+    {
+      "id": "vogue-12",
+      "name": "Poppy cardigan",
+      "brand": "Flore Flore",
+      "price": 260,
+      "sourceImage": "https://assets.vogue.com/photos/6a8db7a201ce01b97623030e/3:4/w_748%2Cc_limit/8.jpg",
+      "retailerUrl": "https://www.net-a-porter.com/en-us/shop/product/flore-flore/clothing/cardigans/poppy-organic-cotton-jersey-cardigan/46376663163116525",
+      "vogueProductId": "6a8dbe56d305a3f2c0ed3900"
+    },
+    {
+      "id": "vogue-13",
+      "name": "Beaton pants",
+      "brand": "Polo Ralph Lauren",
+      "price": 298,
+      "sourceImage": "https://assets.vogue.com/photos/6a8db7856700a0b41dd27960/3:4/w_748%2Cc_limit/1.jpg",
+      "retailerUrl": "https://www.ralphlauren.com/women-clothing-pants/beaton-corduroy-pant/100087654.html",
+      "vogueProductId": "6a8dbe57f4c3f4a2d2ea253c"
+    },
+    {
+      "id": "vogue-14",
+      "name": "Esme tote bag",
+      "brand": "The Horse",
+      "price": 270,
+      "sourceImage": "https://assets.vogue.com/photos/6a8db79701ce01b976230308/3:4/w_748%2Cc_limit/11.jpg",
+      "retailerUrl": "https://thehorse.co/products/esme-tote-black?currency=USD&country=US&variant=42897204412521&",
+      "vogueProductId": "6a8dbe59f4c3f4a2d2ea2544"
+    },
+    {
+      "id": "vogue-15",
+      "name": "Edgard shirt",
+      "brand": "Skall",
+      "price": 190,
+      "sourceImage": "https://assets.vogue.com/photos/6a8db8c552c6bbb7b4790542/3:4/w_748%2Cc_limit/24.jpg",
+      "retailerUrl": "https://www.net-a-porter.com/en-us/shop/product/skall/clothing/shirts/edgard-organic-cotton-poplin-shirt/46376663163120721",
+      "vogueProductId": "6a8dbe5bfb341c91ffc0ba40"
+    },
+    {
+      "id": "vogue-16",
+      "name": "Henna brooch",
+      "brand": "By Malene Birger",
+      "price": 80,
+      "sourceImage": "https://assets.vogue.com/photos/6a8db8c2caa3d9927fc189e4/3:4/w_748%2Cc_limit/31.jpg",
+      "retailerUrl": "https://www.bymalenebirger.com/us/en/henna-brooch/10357203Z.html",
+      "vogueProductId": "6a8dbe5ccaa3d9927fc18a15"
+    },
+    {
+      "id": "vogue-17",
+      "name": "Mariana pumps",
+      "brand": "Maguire",
+      "price": 265,
+      "sourceImage": "https://assets.vogue.com/photos/6a8db78579a6a5af6e0dc2cb/3:4/w_748%2Cc_limit/14.jpg",
+      "retailerUrl": "https://shop.com/products/8498889097239/mariana-black-pump",
+      "vogueProductId": "6a8dbe5b041ebfbe99b36920"
+    },
+    {
+      "id": "vogue-18",
+      "name": "Nomi cardigan",
+      "brand": "The Frankie Shop",
+      "price": 190,
+      "sourceImage": "https://assets.vogue.com/photos/6a8db7b641b1125cfb9d76e3/3:4/w_748%2Cc_limit/5.jpg",
+      "retailerUrl": "https://thefrankieshop.com/products/nomi-thin-knit-cardigan-grey",
+      "vogueProductId": "6a8dbe5641b1125cfb9d772e"
+    },
+    {
+      "id": "vogue-19",
+      "name": "embroidered floral skirt",
+      "brand": "Dries Van Noten",
+      "price": 4850,
+      "sourceImage": "https://assets.vogue.com/photos/6a905f08b8041c5edc7e84f8/3:4/w_748%2Cc_limit/45.jpg",
+      "retailerUrl": "https://www.net-a-porter.com/en-us/shop/product/dries-van-noten/clothing/midi/embellished-floral-jacquard-midi-skirt/46376663163136169",
+      "vogueProductId": "6a9061bb52b55229e0d260a7"
+    },
+    {
+      "id": "vogue-20",
+      "name": "floral-embroidered blazer",
+      "brand": "Dries Van Noten",
+      "price": 2930,
+      "sourceImage": "https://assets.vogue.com/photos/6a905f089ca1b948ab2a0440/3:4/w_748%2Cc_limit/23.jpg",
+      "retailerUrl": "https://www.net-a-porter.com/en-us/shop/product/dries-van-noten/clothing/smart/single-breasted-floral-embroidered-cotton-blend/46376663163128966",
+      "vogueProductId": "6a9061bbe1efe127078c9e33"
+    },
+    {
+      "id": "vogue-21",
+      "name": "Isley sweatshirt",
+      "brand": "Nili Lotan",
+      "price": 1090,
+      "sourceImage": "https://assets.vogue.com/photos/6ab5410ee9a6cf3b90a80a6c/3:4/w_748%2Cc_limit/image10%2520silo.jpg",
+      "retailerUrl": "https://www.net-a-porter.com/en-us/shop/product/nili-lotan/clothing/v-neck/isley-cashmere-sweatshirt/46376663163151589",
+      "vogueProductId": "6ab543e58701e4ac4e6fe7d5"
+    },
+    {
+      "id": "vogue-22",
+      "name": "buckle knee boots",
+      "brand": "Dries Van Noten",
+      "price": 1770,
+      "sourceImage": "https://assets.vogue.com/photos/6a905f0782b3be71e4c10051/3:4/w_748%2Cc_limit/31.jpg",
+      "retailerUrl": "https://www.net-a-porter.com/en-us/shop/product/dries-van-noten/shoes/knee-high/buckle-detail-leather-knee-boots/46376663163135327",
+      "vogueProductId": "6a9061bb0b79f05ee7e1ab68"
+    },
+    {
+      "id": "vogue-23",
+      "name": "cashmere dress",
+      "brand": "Celine",
+      "price": 5700,
+      "sourceImage": "https://assets.vogue.com/photos/6a905f08b8041c5edc7e84ed/3:4/w_748%2Cc_limit/48.jpg",
+      "retailerUrl": "https://www.celine.com/en-us/women/ready-to-wear/dresses-and-skirts/cashmere-wallpaper-dress-RR0TN5606.GOD8.html?nav=A0010",
+      "vogueProductId": "6a9061bcd689dc46fcc0af4e"
+    },
+    {
+      "id": "vogue-24",
+      "name": "Lina maxi dress",
+      "brand": "Proenza Schouler",
+      "price": 2490,
+      "sourceImage": "https://assets.vogue.com/photos/6a905f079d12f772821527ba/3:4/w_748%2Cc_limit/32.jpg",
+      "retailerUrl": "https://www.net-a-porter.com/en-us/shop/product/proenza-schouler/clothing/maxi-dresses/lina-open-back-crinkled-silk-maxi-dress/46376663163143979",
+      "vogueProductId": "6a9061bd3d0448077ae4368f"
+    },
+    {
+      "id": "vogue-25",
+      "name": "chain necklace",
+      "brand": "Chanel",
+      "price": 2100,
+      "sourceImage": "https://assets.vogue.com/photos/6a905f0579a5da223da46ba7/3:4/w_748%2Cc_limit/40.jpg",
+      "retailerUrl": "https://www.chanel.com/us/fashion/p/ABI044B25688UC986/necklace-metal/",
+      "vogueProductId": "6a9061bd67281a183cd77af9"
     }
   ]
 }

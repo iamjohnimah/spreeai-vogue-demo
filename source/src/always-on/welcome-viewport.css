@@ -1,0 +1,59 @@
+/* Anchor to the available viewport, not a translated midpoint of a tall dialog.
+   Close controls live outside the scrolling welcome content. */
+.welcome-viewport {
+  position: fixed;
+  inset: 0;
+  height: 100vh;
+  height: 100dvh;
+  padding: max(12px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) max(12px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left));
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+  z-index: 130;
+}
+.welcome-viewport-associate { z-index: 191; }
+.welcome-viewport > .welcome-shopping,
+.welcome-viewport > .as-welcome {
+  position: relative;
+  inset: auto;
+  transform: none;
+  width: min(980px, 100%);
+  max-height: 100%;
+  min-height: 0;
+  overflow: hidden;
+  pointer-events: auto;
+}
+.welcome-viewport > .welcome-shopping { display: flex; }
+.welcome-shopping-body {
+  width: 100%;
+  min-height: 0;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.welcome-viewport > .as-welcome { width: min(1120px, 100%); }
+.welcome-viewport .as-welcome-copy { overscroll-behavior: contain; }
+.welcome-viewport .welcome-shopping > .close,
+.welcome-viewport .as-welcome > .as-welcome-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 5;
+  width: 44px;
+  height: 44px;
+  min-width: 44px;
+  min-height: 44px;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  background: #fff;
+  color: var(--tone-ink);
+  border: 0;
+  border-radius: 50%;
+  touch-action: manipulation;
+}
+@media (max-width: 700px) {
+  .welcome-shopping-body { grid-template-columns: minmax(0, 1fr); }
+}

@@ -1,0 +1,93 @@
+/* October review: simpler entry, a persistent profile and one photo workspace. */
+.collection .collection-toolbar{border-top:0!important}
+.catalog-sort>summary,.catalog-sort>div,.catalog-sort button{border-top:0!important;border-bottom:0!important;text-decoration:none!important}
+.catalog-sort>summary>span{display:inline-block;transition:transform .25s cubic-bezier(.2,.7,.3,1)}
+.catalog-sort[open]>summary>span{transform:rotate(180deg)}
+.catalog-sort button:hover{background:#f6f4f0}
+.feedback-fit .account-heading h1{line-height:1.1;text-wrap:balance}
+.feedback-fit .account-heading .eyebrow{font-size:12px!important;letter-spacing:.14em}
+.feedback-fit .account-heading p{margin-bottom:0}
+.feedback-fit .profile-nav{margin-bottom:18px}
+.feedback-fit .identity-methods{margin-bottom:22px;gap:10px}
+.feedback-fit .identity-methods button{height:70px;padding:12px 16px}
+.feedback-fit .twin-browser-title{align-items:start;gap:16px}
+.feedback-fit .twin-browser-title p{font-size:15px!important;max-width:440px}
+.twin-filter-trigger{display:inline-flex;align-items:center;gap:9px;border:1px solid #dcd6cc;border-radius:24px;min-height:44px;padding:10px 18px;font:inherit;font-size:16px;margin:4px 0 18px;background:#fff;color:#292621;cursor:pointer}
+.twin-filter-trigger[aria-expanded=true]{background:#f2eee8}
+.twin-filter-trigger>span{border-radius:50%;background:#292621;color:white;width:22px;height:22px;display:grid;place-items:center;font-size:13px}
+.feedback-fit .twin-filters{padding:16px;border:1px solid #e4ded5;background:#faf9f6;border-radius:14px;margin:0 0 20px}
+.twin-clear-filters{grid-column:1/-1;justify-self:start;min-height:32px}
+body .feedback-fit .connected-twins{grid-template-columns:repeat(4,minmax(0,170px))!important;justify-content:center;gap:18px!important}
+body .feedback-fit .connected-twins button{width:100%;min-width:0;margin:0;display:block;padding:0 0 12px!important;background:#fff}
+body .feedback-fit .connected-twins img{display:block;width:100%;height:auto!important;aspect-ratio:2/3;object-fit:cover;border-radius:10px 10px 0 0}
+body .feedback-fit .connected-twins strong{font-size:18px;line-height:1.25;align-items:center}
+body .feedback-fit .connected-twins small{font-size:13px;line-height:1.4;margin-top:4px}
+body .feedback-fit .connected-twins button[aria-pressed=true]{border-color:#817562;box-shadow:0 0 0 1px #817562}
+body .feedback-fit .review-pagination{position:static;background:transparent;box-shadow:none;margin:24px 0 0}
+.feedback-fit .profile-source>p{font-size:16px!important;margin:0 0 18px}
+body .feedback-fit .profile-editor{grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:28px!important}
+body .feedback-fit .connected-measures{background:#f8f6f2;padding:24px;border:1px solid #ece6dd}
+body .feedback-fit .upload-preview{position:relative;border:1px solid #e2dcd2;border-radius:18px;overflow:hidden;background:#f8f6f2;padding:0}
+body .photo-upload .inline-image-zoom{height:auto!important;max-height:none!important;display:flex;flex-direction:column;padding:0}
+body .photo-upload .inline-zoom-stage{height:490px!important;min-height:0!important;max-height:none!important;width:100%;background:#f4f1ec;padding:52px 12px 8px;overflow:hidden}
+body .photo-upload .inline-zoom-stage img{width:100%;height:100%;object-fit:contain;max-height:none!important}
+body .photo-upload .upload-preview-actions{position:absolute;top:10px;right:10px;display:flex;gap:6px;margin:0;z-index:2}
+body .photo-upload .upload-preview-actions button{min-height:38px;padding:7px 12px;border:1px solid #e1d9ce;background:#fffffff0;border-radius:22px;font-size:14px;color:#292621;cursor:pointer}
+body .photo-upload .inline-zoom-slider{padding:14px 18px 6px;margin:0;display:flex;align-items:center;gap:12px;min-height:44px}
+body .photo-upload .inline-zoom-slider input{flex:1;min-width:0}
+body .photo-upload .zoom-hint{padding:0 18px 12px;font-size:12px;text-align:center;color:#777068}
+body .feedback-fit .upload-zone{min-height:490px!important;border-radius:18px}
+.inline-photo-consent{border-top:1px solid #ded8d0;padding-top:18px;margin-top:8px}
+.inline-photo-consent h3{font-size:20px;font-weight:500;margin:0 0 10px}
+.feedback-fit .inline-photo-consent p{font-size:14px!important;line-height:1.5;margin:0 0 10px;color:#68635c}
+.inline-photo-consent a{text-decoration:underline;text-underline-offset:3px;color:inherit}
+.inline-photo-consent fieldset{border:0;margin:16px 0 0;padding:0;display:grid;gap:12px;min-width:0}
+body .inline-photo-consent label{display:flex;flex-direction:row;align-items:flex-start;gap:10px;font-size:14px;line-height:1.4;margin:0;color:#343029}
+body .inline-photo-consent input[type=checkbox]{appearance:auto;width:18px;height:18px!important;flex:0 0 18px;margin:2px 0 0;padding:0;accent-color:#292621}
+.feedback-fit .connected-measures>.primary{width:100%;border-radius:9px;letter-spacing:0;text-transform:none;font-size:17px}
+.feedback-fit .connected-measures details summary{font-size:16px;line-height:1.3}
+@media(max-width:720px){
+ .feedback-fit .account-heading{display:block}
+ body .feedback-fit .account-status{display:flex!important;align-items:center;justify-content:flex-start;margin:14px 0 0;padding:0}
+ body .feedback-fit .identity-methods{grid-template-columns:1fr 1fr!important;gap:8px}
+ body .feedback-fit .identity-methods button{min-height:66px!important;height:auto!important;gap:8px!important;padding:12px!important}
+ body .feedback-fit .identity-methods span{font-size:17px!important}
+ body .feedback-fit .identity-methods small{display:none}
+ .feedback-fit .twin-browser-title{flex-wrap:wrap;gap:8px}
+ .feedback-fit .twin-browser-title h2{font-size:25px!important}
+ .feedback-fit .twin-browser-title .unit-toggle{margin:0 0 8px}
+ .feedback-fit .twin-filters{grid-template-columns:1fr 1fr;gap:12px}
+ body .feedback-fit .connected-twins{grid-template-columns:repeat(2,minmax(0,170px))!important;gap:14px!important}
+ body .feedback-fit .profile-editor{grid-template-columns:minmax(0,1fr)!important;gap:20px!important}
+ body .feedback-fit .upload-zone{min-height:400px!important}
+ body .photo-upload .inline-zoom-stage{height:450px!important}
+ body .feedback-fit .connected-measures{padding:20px}
+ body .photo-upload .upload-preview-actions button{min-height:44px;font-size:15px}
+ body .photo-upload .inline-zoom-stage{padding-top:62px}
+ .feedback-fit .inline-photo-consent p,body .inline-photo-consent label{font-size:15px!important}
+}
+@media(prefers-reduced-motion:reduce){.catalog-sort>summary>span{transition:none}}
+.catalog-sort{border:0!important;margin:0!important;padding:0!important}
+body .feedback-fit .connected-measures .inline-photo-consent label{display:grid!important;grid-template-columns:20px minmax(0,1fr);align-items:start;gap:10px;margin:0!important;padding:0;text-align:left}
+body .feedback-fit .connected-measures .inline-photo-consent label>span{grid-column:2;grid-row:1;font-size:14px!important;line-height:1.45!important;margin:0;padding:0}
+body .feedback-fit .connected-measures .inline-photo-consent input[type=checkbox]{grid-column:1;grid-row:1;margin:2px 0 0!important;min-height:18px;width:18px;height:18px!important}
+@media(max-width:720px){body .feedback-fit .connected-measures .inline-photo-consent label>span{font-size:15px!important}}
+body .feedback-fit .review-pagination{position:static!important;inset:auto!important;background:transparent!important}
+body .feedback-fit .connected-twins img{aspect-ratio:2/3!important}
+body .feedback-fit .connected-measures>.primary:disabled{opacity:.4;cursor:not-allowed}
+@media(min-width:721px){
+ .account-modal:has(.twin-browser){height:min(960px,94dvh)!important;max-height:94dvh!important}
+ body .feedback-fit:has(.twin-browser){padding:24px 32px!important}
+ body .feedback-fit:has(.twin-browser) .account-heading{margin-bottom:16px!important}
+ body .feedback-fit:has(.twin-browser) .account-heading h1{font-size:30px!important}
+ body .feedback-fit:has(.twin-browser) .identity-methods{margin-bottom:16px}
+ body .feedback-fit:has(.twin-browser) .identity-methods button{height:62px}
+ body .feedback-fit .connected-twins{grid-template-columns:repeat(4,minmax(0,140px))!important;gap:14px!important}
+ body .feedback-fit .connected-twins img{height:clamp(130px,18vh,190px)!important;object-fit:contain}
+}
+
+
+
+/* The header and profile remain the entry points; no persistent bottom bar. */
+body:has(.store-header){padding-bottom:env(safe-area-inset-bottom,0px)}
+body:has(.store-header) .compare-tray{bottom:calc(18px + env(safe-area-inset-bottom,0px))!important}

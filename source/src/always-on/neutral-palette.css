@@ -1,0 +1,12 @@
+/* Warm off-white palette shared by online, in-store and VIC. */
+:root {
+  --tone-paper-light: #fbfaf9;
+  --tone-paper: #f7f5f3;
+  --tone-surface: #eeebe8;
+  --tone-line: #dcd7d2;
+  --tone-line-strong: #b5aaa0;
+  --tone-muted: #77706a;
+  --tone-secondary: #5f5953;
+  --tone-ink-soft: #403b37;
+  --tone-ink: #211f1d;
+}

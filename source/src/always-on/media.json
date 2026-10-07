@@ -1,0 +1,31 @@
+{
+  "stylistVideo": "/always-on-assets/stylist-welcome-web.mp4",
+  "stylistPoster": "/always-on-assets/stylist-poster.webp",
+  "guideChapters": [
+    {
+      "video": "/always-on-assets/welcome-always-on-v2.mp4",
+      "poster": "/always-on-assets/welcome-always-on-v2.jpg",
+      "captions": "/always-on-assets/welcome-always-on-v2.vtt"
+    },
+    {
+      "video": "/always-on-assets/portrait-1.mp4",
+      "poster": "/always-on-assets/portrait-1.jpg",
+      "captions": "/always-on-assets/portrait-1.vtt"
+    },
+    {
+      "video": "/always-on-assets/portrait-2.mp4",
+      "poster": "/always-on-assets/portrait-2.jpg",
+      "captions": "/always-on-assets/portrait-2.vtt"
+    },
+    {
+      "video": "/always-on-assets/portrait-3.mp4",
+      "poster": "/always-on-assets/portrait-3.jpg",
+      "captions": "/always-on-assets/portrait-3.vtt"
+    },
+    {
+      "video": "/always-on-assets/portrait-4.mp4",
+      "poster": "/always-on-assets/portrait-4.jpg",
+      "captions": "/always-on-assets/portrait-4.vtt"
+    }
+  ]
+}

@@ -1,28 +1,27 @@
 # Vogue × SPREEAI shopping concept
 
-An independent storefront review using the first ten items from Vogue's New Arrivals page, captured October 3, 2026. This is not an official Vogue website or an endorsed partnership.
+Independent shopping review, not an official Vogue website or endorsed partnership.
 
-The storefront uses Vogue's wordmark, observed public typography, navigation, product photographs and shopping layout. SPREEAI's fitting room is embedded in the shopping flow. Descriptive editorial copy is original to this concept.
+## October 7 update
 
-## Features
+25 products: the original ten New Arrivals pieces and 15 additional products from https://www.vogue.com/shopping, with Vogue product photographs, designer names, prices and retailer links. Provenance is in source-catalog.json. Prices are a capture, not live inventory.
 
-- Personal virtual try-on and size recommendation requests connected to SPREEAI staging.
-- Up to three looks in side-by-side comparison.
-- Fit preference notes, curated Style edits and a complementary outfit builder.
-- Heart outfits, preserve the exact selected pieces, and reopen saved looks in the same browser.
-- Back try-on and video try-on are explicitly marked Coming soon.
-- Shopping bag with links to each original retailer. Payments and orders occur at those retailers.
+Vogue wordmarks, FB Didot, Vogue Avant Garde and Adobe Garamond typography, navigation, editorial banner and shopping layout. Added visible branded card try-on actions, category filters, price sorting and a refined fitting room. Mobile comparison actions now wrap within the viewport. Original retailer checkout links remain external.
 
-## Review status
+## Features and verification
 
-The storefront and fitting room were checked locally on desktop and at 390px and 320px widths without horizontal page overflow. Decorative upward arrows were removed. The Vogue wordmark, fitting-room header, typography, controls and content groups now share a restrained editorial treatment.
+Local interactions verified: category filtering, price sorting, shopping bag size validation, saved looks and restoration, outfit-to-bag quantity merging, styling search and occasion controls, comparison selection, and profile consent gating. Desktop 1440px and mobile 390px/320px product images loaded without page overflow. No claim of pixel identity: Vogue's live advertising and editorial inventory vary.
 
-Real SPREEAI staging try-on returned complete, readable images for all ten items on Olivia, plus the Tilda jacket and Brity pants together. Garment readiness was completed through the supported manual QA endpoint on the isolated Vogue staging partner; individual review votes and failed renders remain in history. Back and video remain placeholders. The dress had four provider-filtered avatar test renders; the successful Olivia preview was reviewed and verified separately, and provider filtering remains active. Try-on handles a service rate-limit response with one bounded retry respecting Retry-After.
+All 15 staging garment records were created in isolated vogue-partner-review. Importing a record is not successful try-on verification. Current anonymous guest tests of all 25 garments failed: existing pieces return a missing Twin image URL error; new variants remain AVATARS while their QA renders fail against the same missing images. Failed renders were not accepted and readiness was not bypassed. Restore staging image resolution, rerun garment QA, review the output and then mark verified variants ready.
 
-Fit notes and curated Style edits are guidance, not calibrated fit maps or a live AI stylist. Size recommendations require calibrated garment measurements; the current Vogue records do not have size charts and show an explicit unavailable state. Staging services may require VPN access for viewers.
+The Twin picker now rejects incomplete image records and explains the service issue. Photo preview/upload/delete consent flow remains implemented; end-to-end upload was not verified in this pass because the browser file chooser timed out. Rendering remains a live staging dependency, never a synthetic success.
 
-## Publishing
+Back and video try-on remain explicit Coming soon placeholders. Size recommendation requests need calibrated retailer charts; these records lack them. Fit preferences and curated Style edits are guidance, not calibrated fit maps or an AI stylist. Browser-local saves are not cloud accounts.
 
-GitHub Pages publishes the static files at the repository root through the included workflow. There are no API keys, session tokens or private project history in this repository. SPREEAI authenticates browser sessions at runtime. Photo uploads are sent directly to SPREEAI after the user's consent; they are not stored in this repository.
+## Rebuild and publish
 
-Build: 2026.10.03.03.
+Editable React source is included under source/. With a current Node runtime: cd source, npm install, npm run build. This writes the bundled assets and updates index.html cache hashes. GitHub Pages publishes root static files via the existing workflow.
+
+No API secrets, session credentials or shopper photos are included. Browser sessions authenticate with SPREEAI at runtime. Own photos are transmitted directly to SPREEAI only after shopper consent. The service may require VPN access.
+
+Build 2026.10.07.01.

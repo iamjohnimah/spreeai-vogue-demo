@@ -1,0 +1,65 @@
+/* Keep the mobile measurement destination below dialog controls and page headers. */
+.measurement-fields { min-width: 0; scroll-margin-top: 88px; }
+.measurement-fields:focus { outline: none; }
+.measurement-fields label { min-width: 0; }
+.account-studio .connected-measures select,
+.as-measures select,
+.as-fit-piece select,
+.complete-pieces select,
+.fit-compare-grid select,
+.fit-details-modal .fit-details-controls select {
+  box-sizing: border-box;
+  min-width: 0;
+  max-width: 100%;
+  min-height: 44px;
+  padding-inline: 26px;
+  text-align: center;
+  text-align-last: center;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12'%3E%3Cpath d='m2 4 4 4 4-4' fill='none' stroke='%2377706a' stroke-width='1.5'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  background-size: 12px 12px;
+}
+.as-fit-piece select { width: min(100%, 150px); }
+.account-studio .connected-measures select, .as-measures select { width: 100%; }
+.size-studio > details > summary { min-width: 0; }
+.size-studio > details > summary > span { min-width: 0; overflow-wrap: anywhere; }
+.size-studio-status { flex-wrap: wrap; justify-content: center; text-align: center; }
+.size-studio-status i { flex-shrink: 0; }
+.size-studio .visual-size-grid button,
+.fit-options .shopping-sizes button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  white-space: normal;
+}
+.visual-size-grid button small,
+.fit-options .shopping-sizes small { white-space: normal; overflow-wrap: anywhere; max-width: 100%; }
+.fit-compare-card .fit-compare-use {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 30px;
+  text-align: center;
+  white-space: normal;
+}
+.fit-compare-use > .fit-compare-use-label { font-size: inherit; line-height: 1.35; min-width: 0; overflow-wrap: anywhere; }
+.fit-compare-use > [aria-hidden] { position: absolute; right: 10px; font-size: 18px; }
+@media(max-width: 380px) {
+  .size-studio .visual-size-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .fit-compare-card .fit-compare-use { padding-inline: 24px; }
+  .fit-compare-use > [aria-hidden] { right: 6px; font-size: 15px; }
+}
+/* Let outfit size controls shrink with the phone instead of widening the page. */
+.complete-composition > *, .complete-pieces article > div { min-width: 0; }
+@media(max-width: 380px) {
+  .complete-composition { grid-template-columns: minmax(0, 1fr); }
+  .complete-pieces > article { grid-template-columns: 65px minmax(0, 1fr) 20px; gap: 10px; }
+  .complete-pieces article > img { width: 65px; }
+  .complete-pieces select { width: 100%; }
+}

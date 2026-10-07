@@ -1,0 +1,2 @@
+import {useLayoutEffect,useState} from 'react';
+export function useTheme(){const [dark,setDark]=useState(()=>{try{return localStorage.getItem('spree-theme')==='dark'}catch{return false}});useLayoutEffect(()=>{document.documentElement.dataset.theme=dark?'dark':'light';document.documentElement.style.colorScheme=dark?'dark':'light';try{localStorage.setItem('spree-theme',dark?'dark':'light')}catch{}},[dark]);return {dark,toggleTheme:()=>setDark(value=>!value)}}

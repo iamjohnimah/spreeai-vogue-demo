@@ -1,0 +1,36 @@
+/* Phone layouts preserve the shopping flow and comfortable touch targets. */
+@media(max-width:700px){
+ .store-header .header-side.right{gap:0}
+ .store-header .header-side.right>button{min-width:40px;min-height:44px}
+ .native-gallery,#product-outfit-builder{scroll-margin-top:110px}
+ .modal .close{min-width:44px;min-height:44px}
+ .modal.voice-stylist-modal .close{position:sticky;top:8px;float:right;margin:8px 12px -52px 0;z-index:15;background:var(--surface,#fff);border-radius:50%}
+ .account-studio .profile-nav{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:4px}
+ .account-studio .profile-nav>button{font-size:15px;min-height:44px;margin:0!important;padding:10px 8px}
+ .account-studio input,.account-studio select,.compare-picker input,.outfit-picker input{font-size:16px}
+ .account-studio .profile-filters button{min-height:44px;font-size:14px}
+ .compare-shopping .compare-looks{gap:12px;scroll-padding:0}
+ .compare-shopping .compare-look,.compare-shopping .add-compare-look{min-width:calc(50% - 6px);flex:0 0 calc(50% - 6px)}
+ .compare-shopping .compare-look-photo,.compare-shopping .add-compare-look{height:240px;border-radius:12px}
+ .compare-shopping .compare-look h3{font-size:16px;line-height:1.3}
+ .compare-shopping .compare-look .remove-piece{width:40px;height:40px;top:5px;right:5px}
+ .voice-results .compare-shopping{padding:0}
+ .voice-results .compare-shopping .compare-looks{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}
+ .voice-results .compare-shopping .compare-look{min-width:0}
+ .voice-results .compare-shopping .compare-look-photo{height:230px}
+ .menu-body>button,.menu-body>a{min-height:48px}
+ .complete-actions{display:flex;flex-wrap:wrap;gap:12px}
+ .complete-actions>.primary{width:100%}
+ .complete-pieces select{font-size:16px;min-height:44px;max-width:100%}
+ .product-facts dd{min-width:0}
+ [data-theme=dark] .modal.voice-stylist-modal .close{background:var(--tone-ink);color:#fff}
+}
+@media(max-width:700px){[data-theme=dark] .account-studio .profile-nav .account-session-link{color:#ddd}}
+@media(max-width:360px){.store-header{padding-inline:12px}.store-header .wordmark{width:110px;min-width:0}.store-header .wordmark img{width:100%;max-width:110px}.store-header .header-side.right{flex-shrink:0}}
+
+/* Account focus must never acquire a square frame when a dialog closes. */
+.store-header button[aria-label="My Account"],
+.store-header button[aria-label="My Account"]:focus,
+.store-header button[aria-label="My Account"]:focus-visible{outline:none;border:0;box-shadow:none;border-radius:50%}
+.store-header button[aria-label="My Account"]:focus-visible{background:color-mix(in srgb,currentColor 12%,transparent)}
+@media(forced-colors:active){.store-header button[aria-label="My Account"]:focus-visible{background:Highlight;color:HighlightText}}

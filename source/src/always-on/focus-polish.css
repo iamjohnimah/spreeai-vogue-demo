@@ -1,0 +1,16 @@
+/* Keep keyboard focus visible without adding rectangular frames to the design. */
+:focus-visible{outline:none!important;box-shadow:none!important}
+button:focus-visible,a:focus-visible,summary:focus-visible{text-decoration:underline;text-decoration-thickness:2px;text-underline-offset:5px}
+input:focus-visible,select:focus-visible,textarea:focus-visible{border-color:currentColor!important;border-bottom-width:3px!important}
+button[aria-label^="Close"]:focus-visible,button[aria-label^="Close"]:focus{outline:none!important;box-shadow:none!important;border-radius:50%;text-decoration:none}
+button[aria-label^="Close"]:focus-visible,.store-header .header-side.right>button:focus-visible{background:color-mix(in srgb,currentColor 12%,transparent);border-radius:50%}
+a:focus-visible img,button:focus-visible>img{filter:brightness(.88)}
+@media(forced-colors:active){button:focus-visible,a:focus-visible,summary:focus-visible{color:Highlight;text-decoration:underline;text-decoration-thickness:3px}}
+
+button:focus-visible svg,a:focus-visible svg{filter:drop-shadow(0 0 3px currentColor)}
+
+/* Account stays an unframed icon, including after closing a dialog. */
+.store-header button[aria-label="My Account"],.store-header button[aria-label="My Account"]:hover,.store-header button[aria-label="My Account"]:focus,.store-header button[aria-label="My Account"]:focus-visible{background:transparent!important;box-shadow:none!important;text-decoration:none}
+.store-header button[aria-label="My Account"] svg{filter:none!important}
+.store-header button[aria-label="My Account"] svg{opacity:1!important}
+.store-header button[aria-label="My Account"]{position:relative}

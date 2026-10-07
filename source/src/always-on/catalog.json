@@ -1,0 +1,996 @@
+[
+  {
+    "id": "spree-roanne-panelled-knit-maxi-dress-demosite",
+    "name": "Knit Maxi Dress",
+    "category": "Dresses",
+    "price": 115,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-roanne-panelled-knit-maxi-dress-demosite-0-original.png",
+    "model": "/catalog/spree-roanne-panelled-knit-maxi-dress-demosite-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/roanne-panelled-knit-maxi-dress-demosite/f6a01f5e-9f01-0000-0b00-46521b5a4bd9.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/roanne-panelled-knit-maxi-dress-demosite/faa01f5e-9f01-0000-0b00-0277b8b29a81.png"
+    ],
+    "description": "Knit Maxi Dress, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-seraphis-skirt-black-demosite",
+    "name": "Seraphis Skirt - Black",
+    "category": "Bottoms",
+    "price": 998,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-seraphis-skirt-black-demosite-0-original.png",
+    "model": "/catalog/spree-seraphis-skirt-black-demosite-1-original.jpg",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/seraphis-skirt-black-demosite/d682db81-a001-0000-0b00-68ec45f2c715.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/seraphis-skirt-black-demosite/9683db81-a001-0000-0b00-36706afad490.jpg"
+    ],
+    "description": "Seraphis Skirt - Black, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-womens-jeans-demo-site",
+    "name": "Dark Jeans",
+    "category": "Bottoms",
+    "price": 108,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-womens-jeans-demo-site-0-original.png",
+    "model": "/catalog/spree-womens-jeans-demo-site-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/womens-jeans-demo-site/4be2b6b9-9f01-0000-0b00-0001b2b73a53.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/womens-jeans-demo-site/50e2b6b9-9f01-0000-0b00-4bdef4ec0a73.png"
+    ],
+    "description": "Dark Jeans, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-pink-cheetah-sweater-demo-site",
+    "name": "Pink Cheetah Sweater",
+    "category": "Knitwear",
+    "price": 150,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-pink-cheetah-sweater-demo-site-0-original.png",
+    "model": "/catalog/spree-pink-cheetah-sweater-demo-site-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/pink-cheetah-sweater-demo-site/45f4c0b9-9f01-0000-0b00-c78901adb88b.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/pink-cheetah-sweater-demo-site/15f4c0b9-9f01-0000-0b00-fd9d4046d36c.png"
+    ],
+    "description": "Pink Cheetah Sweater, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-gianvitorossi-sofia-sling-70",
+    "name": "Sofia Sling 70",
+    "category": "Shoes",
+    "price": 995,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-gianvitorossi-sofia-sling-70-0-original.jpg",
+    "model": "/catalog/spree-gianvitorossi-sofia-sling-70-1-original.jpg",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/gianvitorossi-sofia-sling-70/109de16e-a001-0000-0b00-13ecb1e605a3.jpg",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/gianvitorossi-sofia-sling-70/239de16e-a001-0000-0b00-8b23ac3e8058.png"
+    ],
+    "description": "Sofia Sling 70, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ]
+  },
+  {
+    "id": "spree-plaid-shirt",
+    "name": "Plaid shirt",
+    "category": "Shirts",
+    "price": 50,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-plaid-shirt-0-original.png",
+    "model": "/catalog/spree-plaid-shirt-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/plaid-shirt/6789f1b9-9f01-0000-0b00-dd08a887b560.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/plaid-shirt/7589f1b9-9f01-0000-0b00-308eed0b2511.png"
+    ],
+    "description": "Plaid shirt, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-heaven-mayhem-clarke-cuff-silver",
+    "name": "Clarke Cuff",
+    "category": "Accessories",
+    "price": 100,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-heaven-mayhem-clarke-cuff-silver-0-original.jpg",
+    "model": "/catalog/spree-heaven-mayhem-clarke-cuff-silver-1-original.jpg",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/heaven-mayhem-clarke-cuff-silver/57a4e16e-a001-0000-0b00-193d931c8e35.jpg",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/heaven-mayhem-clarke-cuff-silver/5aa4e16e-a001-0000-0b00-9f0cc650a07a.jpg"
+    ],
+    "description": "Clarke Cuff, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "One size"
+    ]
+  },
+  {
+    "id": "spree-oversized-sweatshirt-demo-site",
+    "name": "Oversized Sweatshirt",
+    "category": "Tops",
+    "price": 39.99,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-oversized-sweatshirt-demo-site-0-original.png",
+    "model": "/catalog/spree-oversized-sweatshirt-demo-site-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/oversized-sweatshirt-demo-site/e376c518-9f01-0000-0b00-c40c4eb16dbb.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/oversized-sweatshirt-demo-site/d776c518-9f01-0000-0b00-861beb82368d.png"
+    ],
+    "description": "Oversized Sweatshirt, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-zara-linen-fringe-jacket",
+    "name": "Linen Blend Fringe Jacket",
+    "category": "Outerwear",
+    "price": 229,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-zara-linen-fringe-jacket-0-original.jpg",
+    "model": "/catalog/spree-zara-linen-fringe-jacket-1-original.jpg",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/zara-linen-fringe-jacket/23b8db81-a001-0000-0b00-c8b1dd5d6462.jpg",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/zara-linen-fringe-jacket/24b8db81-a001-0000-0b00-245c01a8c8ff.jpg"
+    ],
+    "description": "Linen Blend Fringe Jacket, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-romma-top-black-demosite",
+    "name": "Romma Knit Top - Black",
+    "category": "Tops",
+    "price": 398,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-romma-top-black-demosite-0-original.png",
+    "model": "/catalog/spree-romma-top-black-demosite-1-original.jpg",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/romma-top-black-demosite/fe73db81-a001-0000-0b00-5131790d3574.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/romma-top-black-demosite/cf74db81-a001-0000-0b00-8a78d99737ed.jpg"
+    ],
+    "description": "Romma Knit Top - Black, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-tank-top-demo-site",
+    "name": "Tank Top",
+    "category": "Tops",
+    "price": 28,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-tank-top-demo-site-0-original.png",
+    "model": "/catalog/spree-tank-top-demo-site-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/tank-top-demo-site/6e93b2b9-9f01-0000-0b00-10b925c33de6.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/tank-top-demo-site/6f93b2b9-9f01-0000-0b00-1c660b261f56.png"
+    ],
+    "description": "Tank Top, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-wide-leg-jeans-demo-site",
+    "name": "Wide Leg Jeans",
+    "category": "Bottoms",
+    "price": 250,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-wide-leg-jeans-demo-site-0-original.png",
+    "model": "/catalog/spree-wide-leg-jeans-demo-site-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/wide-leg-jeans-demo-site/fee313b9-9f01-0000-0b00-4b0f96c331c8.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/wide-leg-jeans-demo-site/f9e313b9-9f01-0000-0b00-cccb379d38d5.png"
+    ],
+    "description": "Wide Leg Jeans, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-matteau-breton-tee-002",
+    "name": "Breton Striped Cotton-Jersey T-Shirt",
+    "category": "Tops",
+    "price": 315,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-matteau-breton-tee-002-0-original.png",
+    "model": "/catalog/spree-matteau-breton-tee-002-1-original.jpg",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/matteau-breton-tee-002/304f2d82-a001-0000-0b00-0f28e407d771.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/matteau-breton-tee-002/53ebe16e-a001-0000-0b00-1da08bfb4182.jpg"
+    ],
+    "description": "Breton Striped Cotton-Jersey T-Shirt, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-liberowe-fringed-tweed-jacket",
+    "name": "Fringed Tweed Jacket",
+    "category": "Outerwear",
+    "price": 1950,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-liberowe-fringed-tweed-jacket-0-original.jpg",
+    "model": "/catalog/spree-liberowe-fringed-tweed-jacket-1-original.jpg",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/liberowe-fringed-tweed-jacket/e2dce16e-a001-0000-0b00-720239500bd1.jpg",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/liberowe-fringed-tweed-jacket/e2dce16e-a001-0000-0b00-e09547472bb2.jpg"
+    ],
+    "description": "Fringed Tweed Jacket, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-slim-fit-vest-with-peplum-hem-demosite",
+    "name": "Slim-Fit Vest",
+    "category": "Tops",
+    "price": 399,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-slim-fit-vest-with-peplum-hem-demosite-0-original.png",
+    "model": "/catalog/spree-slim-fit-vest-with-peplum-hem-demosite-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-vest-with-peplum-hem-demosite/2f58641a-a001-0000-0b00-80c6a892d916.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-vest-with-peplum-hem-demosite/c757641a-a001-0000-0b00-5c8bdb77ab39.png"
+    ],
+    "description": "Slim-Fit Vest, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-textured-knit-resort-shirt",
+    "name": "Textured Knit Resort Shirt",
+    "category": "Shirts",
+    "price": 59,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-textured-knit-resort-shirt-0-original.png",
+    "model": "/catalog/spree-textured-knit-resort-shirt-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/textured-knit-resort-shirt/eed8ebb9-9f01-0000-0b00-c0e31d044bcd.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/textured-knit-resort-shirt/efd8ebb9-9f01-0000-0b00-06bb400d493c.png"
+    ],
+    "description": "Textured Knit Resort Shirt, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-cardigan-in-a-flowy-fabric-demosite",
+    "name": "Cardigan in Flowy Fabric",
+    "category": "Knitwear",
+    "price": 14.99,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-cardigan-in-a-flowy-fabric-demosite-0-original.png",
+    "model": "/catalog/spree-cardigan-in-a-flowy-fabric-demosite-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/cardigan-in-a-flowy-fabric-demosite/7f53e16e-a001-0000-0b00-54696801703a.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/cardigan-in-a-flowy-fabric-demosite/2153e16e-a001-0000-0b00-4db39f2c264f.png"
+    ],
+    "description": "Cardigan in Flowy Fabric, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-denim-jacket-demo-site",
+    "name": "Red cropped jacket",
+    "category": "Outerwear",
+    "price": 150,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-denim-jacket-demo-site-0-original.png",
+    "model": "/catalog/spree-denim-jacket-demo-site-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/denim-jacket-demo-site/25b1b4b9-9f01-0000-0b00-2462c95817a6.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/denim-jacket-demo-site/21b1b4b9-9f01-0000-0b00-14cdbdd1c442.png"
+    ],
+    "description": "A vivid red cropped jacket, selected from the SPREEAI demo collection. Explore the silhouette and build your edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "sourceTitle": "Denim Jacket"
+  },
+  {
+    "id": "spree-burberry-check-silk-scarf-sand",
+    "name": "Check Silk Scarf - Sand",
+    "category": "Accessories",
+    "price": 555,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-burberry-check-silk-scarf-sand-0-original.jpg",
+    "model": "/catalog/spree-burberry-check-silk-scarf-sand-1-original.jpg",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/burberry-check-silk-scarf-sand/7142e16e-a001-0000-0b00-039518de9b2d.jpg",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/burberry-check-silk-scarf-sand/8a42e16e-a001-0000-0b00-c13053fef6e5.png"
+    ],
+    "description": "Check Silk Scarf - Sand, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "One size"
+    ]
+  },
+  {
+    "id": "spree-cropped-jacket-demo-site",
+    "name": "Cropped Jacket",
+    "category": "Outerwear",
+    "price": 98,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-cropped-jacket-demo-site-0-original.png",
+    "model": "/catalog/spree-cropped-jacket-demo-site-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/cropped-jacket-demo-site/f963e78a-9f01-0000-0b00-5cae474a60a9.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/cropped-jacket-demo-site/5164e78a-9f01-0000-0b00-aa4f81732e9c.png"
+    ],
+    "description": "Cropped Jacket, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-elene-top-bleu-taormina-paisley",
+    "name": "Elene Top",
+    "category": "Tops",
+    "price": 278,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-elene-top-bleu-taormina-paisley-0-original.png",
+    "model": "/catalog/spree-elene-top-bleu-taormina-paisley-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/elene-top-bleu-taormina-paisley/d07ee16e-a001-0000-0b00-f593310d52ae.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/elene-top-bleu-taormina-paisley/da7ee16e-a001-0000-0b00-9f46ee2cefc1.png"
+    ],
+    "description": "Elene Top, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-cecilia-pump",
+    "name": "Cecilia Pump",
+    "category": "Shoes",
+    "price": 980,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-cecilia-pump-0-original.png",
+    "model": "/catalog/spree-cecilia-pump-1-original.jpg",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/cecilia-pump/5c64e16e-a001-0000-0b00-8e144adb7c65.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/cecilia-pump/2163e16e-a001-0000-0b00-4d8ec7a833ae.png"
+    ],
+    "description": "Cecilia Pump, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ]
+  },
+  {
+    "id": "spree-leather-pants-demo-site",
+    "name": "Leather Pants",
+    "category": "Bottoms",
+    "price": 35.9,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-leather-pants-demo-site-0-original.png",
+    "model": "/catalog/spree-leather-pants-demo-site-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/leather-pants-demo-site/ccd4e16e-a001-0000-0b00-d945f30e0c8f.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/leather-pants-demo-site/6ed4e16e-a001-0000-0b00-35e66d0b6e94.png"
+    ],
+    "description": "Leather Pants, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-regular-fit-linen-blend-polo-shirt-demo-site",
+    "name": "Black & White Polo Shirt",
+    "category": "Shirts",
+    "price": 39.99,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-regular-fit-linen-blend-polo-shirt-demo-site-0-original.png",
+    "model": "/catalog/spree-regular-fit-linen-blend-polo-shirt-demo-site-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/regular-fit-linen-blend-polo-shirt-demo-site/80d7bb18-9f01-0000-0b00-59cd96a6ff82.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/regular-fit-linen-blend-polo-shirt-demo-site/1ed7bb18-9f01-0000-0b00-d7e4dc2ff530.png"
+    ],
+    "description": "Black & White Polo Shirt, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-hudson-st-pant-demosite",
+    "name": "Wide-Leg Pants",
+    "category": "Bottoms",
+    "price": 695,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-hudson-st-pant-demosite-0-original.png",
+    "model": "/catalog/spree-hudson-st-pant-demosite-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/hudson-st-pant-demosite/d3b4e16e-a001-0000-0b00-66ff7bec0579.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/hudson-st-pant-demosite/beb4e16e-a001-0000-0b00-2325509ad765.png"
+    ],
+    "description": "Wide-Leg Pants, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-regular-fit-blazer-in-italian-made-virgin-wool-demosite",
+    "name": "Regular-Fit Blazer",
+    "category": "Outerwear",
+    "price": 599,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-regular-fit-blazer-in-italian-made-virgin-wool-demosite-0-original.png",
+    "model": "/catalog/spree-regular-fit-blazer-in-italian-made-virgin-wool-demosite-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/regular-fit-blazer-in-italian-made-virgin-wool-demosite/9b74bf18-9f01-0000-0b00-667a60357b07.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/regular-fit-blazer-in-italian-made-virgin-wool-demosite/8674bf18-9f01-0000-0b00-08be631d307e.png"
+    ],
+    "description": "Regular-Fit Blazer, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-black-shorts-demo-site",
+    "name": "Pleated Shorts",
+    "category": "Bottoms",
+    "price": 108,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-black-shorts-demo-site-0-original.png",
+    "model": "/catalog/spree-black-shorts-demo-site-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/black-shorts-demo-site/013fb7b9-9f01-0000-0b00-929d9e41f7da.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/black-shorts-demo-site/f73eb7b9-9f01-0000-0b00-629b6c452dd0.png"
+    ],
+    "description": "Pleated Shorts, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-regular-fit-shirt-demo-site",
+    "name": "Striped Shirt",
+    "category": "Shirts",
+    "price": 24.99,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-regular-fit-shirt-demo-site-0-original.png",
+    "model": "/catalog/spree-regular-fit-shirt-demo-site-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/regular-fit-shirt-demo-site/c3b6b818-9f01-0000-0b00-6e8ee0559507.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/regular-fit-shirt-demo-site/cdb6b818-9f01-0000-0b00-915f790407cb.png"
+    ],
+    "description": "Striped Shirt, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-khaite-leaf-earrings-gold",
+    "name": "Leaf Earrings",
+    "category": "Accessories",
+    "price": 680,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-khaite-leaf-earrings-gold-0-original.jpg",
+    "model": "/catalog/spree-khaite-leaf-earrings-gold-1-original.jpg",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/khaite-leaf-earrings-gold/b2cbe16e-a001-0000-0b00-8a5f0367244c.jpg",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/khaite-leaf-earrings-gold/cdcbe16e-a001-0000-0b00-3dfbc5e46b8f.png"
+    ],
+    "description": "Leaf Earrings, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "One size"
+    ]
+  },
+  {
+    "id": "spree-eel-effect-leather-sneakers",
+    "name": "Eel-effect leather sneakers",
+    "category": "Shoes",
+    "price": 591,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-eel-effect-leather-sneakers-0-original.png",
+    "model": "/catalog/spree-eel-effect-leather-sneakers-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/eel-effect-leather-sneakers/8e73e16e-a001-0000-0b00-75828a021c90.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/eel-effect-leather-sneakers/c474e16e-a001-0000-0b00-19004a878f73.png"
+    ],
+    "description": "Eel-effect leather sneakers, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ]
+  },
+  {
+    "id": "spree-relaxed-fit-linen-blend-tailored-trousers-demo-site",
+    "name": "Linen Trousers",
+    "category": "Bottoms",
+    "price": 44.99,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-relaxed-fit-linen-blend-tailored-trousers-demo-site-0-original.png",
+    "model": "/catalog/spree-relaxed-fit-linen-blend-tailored-trousers-demo-site-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-linen-blend-tailored-trousers-demo-site/b04ebc18-9f01-0000-0b00-2ff2cf7cc633.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-linen-blend-tailored-trousers-demo-site/ac4ebc18-9f01-0000-0b00-886f5cf80809.png"
+    ],
+    "description": "Linen Trousers, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-relaxed-fit-t-shirt-demo-site",
+    "name": "Relaxed-Fit T-Shirt",
+    "category": "Tops",
+    "price": 12.99,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-relaxed-fit-t-shirt-demo-site-0-original.png",
+    "model": "/catalog/spree-relaxed-fit-t-shirt-demo-site-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-t-shirt-demo-site/6c226c1a-a001-0000-0b00-6276ad052655.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-t-shirt-demo-site/1a226c1a-a001-0000-0b00-e98fd7d6ddca.png"
+    ],
+    "description": "Relaxed-Fit T-Shirt, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-izel-sweater-black-demosite",
+    "name": "Sweater - Black",
+    "category": "Knitwear",
+    "price": 358,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-izel-sweater-black-demosite-0-original.png",
+    "model": "/catalog/spree-izel-sweater-black-demosite-1-original.jpg",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/izel-sweater-black-demosite/08c4e16e-a001-0000-0b00-5a680f212545.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/izel-sweater-black-demosite/d4c4e16e-a001-0000-0b00-af88a3995e97.jpg"
+    ],
+    "description": "Sweater - Black, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-printed-shorts",
+    "name": "Blue Embroidered Shirt",
+    "category": "Shirts",
+    "price": 250,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-printed-shorts-0-original.png",
+    "model": "/catalog/spree-printed-shorts-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/printed-shorts/d6241ec8-9f01-0000-0b00-e0a14ce132f3.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/printed-shorts/ae241ec8-9f01-0000-0b00-ee3856729ec1.png"
+    ],
+    "description": "Blue Embroidered Shirt, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-ralphlauren-polo-play-thong-sandal-limeade",
+    "name": "Polo Play Leather Thong Sandal",
+    "category": "Shoes",
+    "price": 209.99,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-ralphlauren-polo-play-thong-sandal-limeade-0-original.jpg",
+    "model": "/catalog/spree-ralphlauren-polo-play-thong-sandal-limeade-1-original.jpg",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/ralphlauren-polo-play-thong-sandal-limeade/bd5edb81-a001-0000-0b00-d3de65e8ff4e.jpg",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/ralphlauren-polo-play-thong-sandal-limeade/db5edb81-a001-0000-0b00-56c604656b10.png"
+    ],
+    "description": "Polo Play Leather Thong Sandal, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ]
+  },
+  {
+    "id": "spree-gauze-shirt-boxy-fit",
+    "name": "Gauze Shirt in Boxy Fit",
+    "category": "Shirts",
+    "price": 59,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-gauze-shirt-boxy-fit-0-original.png",
+    "model": "/catalog/spree-gauze-shirt-boxy-fit-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/gauze-shirt-boxy-fit/37b0f1b9-9f01-0000-0b00-0f7af349d4d9.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/gauze-shirt-boxy-fit/3ab0f1b9-9f01-0000-0b00-c4d304c379e7.png"
+    ],
+    "description": "Gauze Shirt in Boxy Fit, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-regular-fit-shorts-demo-site",
+    "name": "Striped Shorts",
+    "category": "Bottoms",
+    "price": 19.99,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-regular-fit-shorts-demo-site-0-original.png",
+    "model": "/catalog/spree-regular-fit-shorts-demo-site-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/regular-fit-shorts-demo-site/28fdf924-9f01-0000-0b00-b13f9c967197.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/regular-fit-shorts-demo-site/ccfcf924-9f01-0000-0b00-0edf59549ab0.png"
+    ],
+    "description": "Striped Shorts, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-slim-fit-jacket-in-washable-virgin-wool-demo-site",
+    "name": "Slim-Fit Jacket",
+    "category": "Outerwear",
+    "price": 699,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-slim-fit-jacket-in-washable-virgin-wool-demo-site-0-original.png",
+    "model": "/catalog/spree-slim-fit-jacket-in-washable-virgin-wool-demo-site-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-jacket-in-washable-virgin-wool-demo-site/931cba18-9f01-0000-0b00-c272acf8bb59.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-jacket-in-washable-virgin-wool-demo-site/841cba18-9f01-0000-0b00-7781e03af69f.png"
+    ],
+    "description": "Slim-Fit Jacket, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-relaxed-fit-cotton-cargo-pants-demo-site",
+    "name": "Cargo Pants",
+    "category": "Bottoms",
+    "price": 34.99,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-relaxed-fit-cotton-cargo-pants-demo-site-0-original.png",
+    "model": "/catalog/spree-relaxed-fit-cotton-cargo-pants-demo-site-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-cotton-cargo-pants-demo-site/e57bbd18-9f01-0000-0b00-95a0360d164d.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-cotton-cargo-pants-demo-site/dc7bbd18-9f01-0000-0b00-282f719b7284.png"
+    ],
+    "description": "Cargo Pants, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "id": "spree-canvas-relaxed-shirt-jacket",
+    "name": "Canvas Relaxed Shirt Jacket",
+    "category": "Outerwear",
+    "price": 60,
+    "color": "As shown",
+    "row": -1,
+    "image": "/catalog/spree-canvas-relaxed-shirt-jacket-0-original.png",
+    "model": "/catalog/spree-canvas-relaxed-shirt-jacket-1-original.png",
+    "source": [
+      "https://api-minio.prod.spreeai.com/garment/demo-site/canvas-relaxed-shirt-jacket/7751ecb9-9f01-0000-0b00-28e437ba3e17.png",
+      "https://api-minio.prod.spreeai.com/garment/demo-site/canvas-relaxed-shirt-jacket/7751ecb9-9f01-0000-0b00-4b24347a5829.png"
+    ],
+    "description": "Canvas Relaxed Shirt Jacket, selected from the SPREEAI demonstration collection. Explore its silhouette, compare your favorites, and build your own edit.",
+    "details": "Imported demo catalog piece. Product specifications and availability are illustrative in this local store.",
+    "material": "Refer to the original retailer for verified composition and care.",
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  }
+]

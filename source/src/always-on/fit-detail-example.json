@@ -1,0 +1,191 @@
+{
+  "garment_id": "tinos-dress",
+  "size_chart_id": "c813c7d7-a001-0000-2d00-bb0692513e5f",
+  "kind": "body",
+  "recommended": "S",
+  "governing": "waist",
+  "body": [
+    {
+      "point": "bust",
+      "inches": 35,
+      "source": "usual_size"
+    },
+    {
+      "point": "waist",
+      "inches": 27,
+      "source": "usual_size"
+    },
+    {
+      "point": "hip",
+      "inches": 38,
+      "source": "usual_size"
+    }
+  ],
+  "sizes": [
+    {
+      "size": "XS",
+      "zones": [
+        {
+          "point": "bust",
+          "size_in": 32.3,
+          "body_in": 35,
+          "room_in": -2.7,
+          "verdict": "too_small",
+          "source": "usual_size"
+        },
+        {
+          "point": "waist",
+          "size_in": 25.2,
+          "body_in": 27,
+          "room_in": -1.8,
+          "verdict": "too_small",
+          "source": "usual_size"
+        },
+        {
+          "point": "shoulder width",
+          "size_in": 12.6
+        },
+        {
+          "point": "sleeve length",
+          "size_in": 24.4
+        },
+        {
+          "point": "length",
+          "size_in": 49.6
+        }
+      ]
+    },
+    {
+      "size": "S",
+      "zones": [
+        {
+          "point": "bust",
+          "size_in": 33.9,
+          "body_in": 35,
+          "room_in": -1.1,
+          "verdict": "too_small",
+          "source": "usual_size"
+        },
+        {
+          "point": "waist",
+          "size_in": 26.8,
+          "body_in": 27,
+          "room_in": -0.2,
+          "verdict": "true",
+          "source": "usual_size"
+        },
+        {
+          "point": "shoulder width",
+          "size_in": 13
+        },
+        {
+          "point": "sleeve length",
+          "size_in": 24.8
+        },
+        {
+          "point": "length",
+          "size_in": 49.6
+        }
+      ]
+    },
+    {
+      "size": "M",
+      "zones": [
+        {
+          "point": "bust",
+          "size_in": 35.4,
+          "body_in": 35,
+          "room_in": 0.4,
+          "verdict": "true",
+          "source": "usual_size"
+        },
+        {
+          "point": "waist",
+          "size_in": 28.3,
+          "body_in": 27,
+          "room_in": 1.3,
+          "verdict": "room",
+          "source": "usual_size"
+        },
+        {
+          "point": "shoulder width",
+          "size_in": 13.4
+        },
+        {
+          "point": "sleeve length",
+          "size_in": 25.2
+        },
+        {
+          "point": "length",
+          "size_in": 50
+        }
+      ]
+    },
+    {
+      "size": "L",
+      "zones": [
+        {
+          "point": "bust",
+          "size_in": 37.4,
+          "body_in": 35,
+          "room_in": 2.4,
+          "verdict": "room",
+          "source": "usual_size"
+        },
+        {
+          "point": "waist",
+          "size_in": 30.3,
+          "body_in": 27,
+          "room_in": 3.3,
+          "verdict": "loose",
+          "source": "usual_size"
+        },
+        {
+          "point": "shoulder width",
+          "size_in": 13.8
+        },
+        {
+          "point": "sleeve length",
+          "size_in": 25.6
+        },
+        {
+          "point": "length",
+          "size_in": 50.4
+        }
+      ]
+    },
+    {
+      "size": "XL",
+      "zones": [
+        {
+          "point": "bust",
+          "size_in": 39.4,
+          "body_in": 35,
+          "room_in": 4.4,
+          "verdict": "loose",
+          "source": "usual_size"
+        },
+        {
+          "point": "waist",
+          "size_in": 32.3,
+          "body_in": 27,
+          "room_in": 5.3,
+          "verdict": "loose",
+          "source": "usual_size"
+        },
+        {
+          "point": "shoulder width",
+          "size_in": 14.2
+        },
+        {
+          "point": "sleeve length",
+          "size_in": 26
+        },
+        {
+          "point": "length",
+          "size_in": 50.8
+        }
+      ]
+    }
+  ]
+}

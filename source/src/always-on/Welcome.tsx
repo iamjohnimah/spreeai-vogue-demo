@@ -1,0 +1,11 @@
+import {useState} from 'react';
+import * as Dialog from '@radix-ui/react-dialog';
+import {Camera} from '@phosphor-icons/react/dist/csr/Camera';
+import {UsersThree} from '@phosphor-icons/react/dist/csr/UsersThree';
+import {Check} from '@phosphor-icons/react/dist/csr/Check';
+import {X} from '@phosphor-icons/react/dist/csr/X';
+export default function Welcome({onAccount,onExplore}:{onAccount:(source:'photo'|'twin')=>void;onExplore:()=>void}){
+ const [open,setOpen]=useState(()=>new URLSearchParams(location.search).has('walkthrough')||!sessionStorage.getItem('spree-quick-start-seen'));
+ function dismiss(){sessionStorage.setItem('spree-quick-start-seen','1');setOpen(false)}
+ return <Dialog.Root open={open} onOpenChange={v=>{if(!v)dismiss()}}><Dialog.Portal><Dialog.Overlay className="overlay"/><Dialog.Content className="quick-start"><Dialog.Close className="close" aria-label="Close introduction"><X size={24}/></Dialog.Close><div className="quick-start-art"><img src="/spreeai-always-on-demo/online/media/feedback-yuna-look.webp" alt="Yuna, a Twin, wearing a dress, earrings and a bag"/><span>Try it on. Find your fit. Build your look.</span></div><div className="quick-start-copy"><p className="eyebrow">YOUR FITTING ROOM, BUILT INTO THE COLLECTION</p><Dialog.Title>Meet Always On.</Dialog.Title><Dialog.Description>See pieces on you as you browse. Find your size, compare looks and build an outfit—all without leaving the collection.</Dialog.Description><p className="quick-start-choice">Explore with your own photo or a Twin. No account needed.</p><div className="start-options"><button onClick={()=>{dismiss();onAccount('photo')}}><Camera size={28}/><strong>Add my photo</strong><small>Review photo permissions before uploading.</small></button><button onClick={()=>{dismiss();onAccount('twin')}}><UsersThree size={28}/><strong>Use a Twin</strong><small>Choose a model to try on the collection.</small></button></div><p className="quick-start-features"><Check size={18}/> Styling ideas, whenever you need them.</p><button className="text-link" onClick={()=>{dismiss();onExplore()}}>Explore the collection first</button><small className="quick-start-note">Your choices stay in this browser session. Try-on images are AI-generated previews; appearance and fit may vary.</small></div></Dialog.Content></Dialog.Portal></Dialog.Root>
+}

@@ -1,0 +1,17 @@
+/* Partner acquisition lives in the menu; the account icon keeps personal settings accessible. */
+.menu-body .menu-partner-card{display:flex;flex-direction:column;align-items:flex-start;gap:14px;margin:28px 0 32px;padding:30px;border:1px solid #393630;border-radius:14px;background:linear-gradient(135deg,#302e29,#201f1c);color:#fff;text-decoration:none;box-shadow:0 8px 24px #0000000a;transition:background .2s ease,box-shadow .2s ease}
+.menu-partner-card .menu-partner-eyebrow{font-size:10px;line-height:1.5;letter-spacing:2px;color:#d1c6b6}
+.menu-partner-card strong{font-size:28px;line-height:1.15;font-weight:500;letter-spacing:-.4px}
+.menu-partner-card .menu-partner-copy{font-size:15px;line-height:1.55;color:#e0dbd3;max-width:29ch}
+.menu-partner-card .menu-partner-action{display:inline-flex;align-items:center;justify-content:center;min-height:44px;margin-top:8px;padding:12px 24px;border-radius:5px;background:#f4efe7;color:#26231f;font-size:14px;font-weight:500;transition:background .2s ease}
+.menu-body .menu-partner-card:hover{box-shadow:0 10px 28px #00000018}
+.menu-partner-card:hover .menu-partner-action{background:#fff}
+.menu-body .menu-partner-card:focus-visible{outline:2px solid var(--tone-muted);outline-offset:5px}
+@media(max-width:700px){.menu-body .menu-partner-card{padding:24px;gap:12px;margin:24px 0 28px}.menu-partner-card strong{font-size:26px}.menu-partner-card .menu-partner-action{width:100%}}
+@media(prefers-reduced-motion:reduce){.menu-body .menu-partner-card,.menu-partner-card .menu-partner-action{transition:none}}
+
+.menu-body .menu-how-it-works{display:flex;align-items:center;justify-content:flex-start;gap:14px;margin:0 0 30px;padding:0 0 24px;border-bottom:1px solid var(--tone-line);font-size:19px;line-height:1.4;text-align:left}
+.menu-how-it-works svg{width:24px;height:24px;flex:0 0 24px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round}
+.menu-how-it-works small{display:block;margin-top:4px;font-size:13px;line-height:1.5;color:var(--tone-secondary)}
+.menu-how-it-works:hover span{text-decoration:underline;text-underline-offset:4px}
+.menu-how-it-works:focus-visible{outline:2px solid currentColor;outline-offset:5px}

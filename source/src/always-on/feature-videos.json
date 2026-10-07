@@ -1,0 +1,92 @@
+{
+  "compare": {
+    "video": "/always-on-assets/feature-0.mp4",
+    "poster": "/always-on-assets/feature-0.jpg",
+    "captions": "/always-on-assets/feature-0.vtt",
+    "transcript": "I'm Yuna. Here I am in two different garments. Compare the silhouettes side by side, then swap either piece to find your favorite."
+  },
+  "why": {
+    "video": "/always-on-assets/sizing-fluid.mp4",
+    "poster": "/always-on-assets/sizing-fit-preview.jpg",
+    "captions": "/always-on-assets/sizing-fit-preview.vtt",
+    "transcript": "I'm Yuna. SPREEAI recommends a size using your profile and garment information. Coming soon, see how different fits could look on you. Watch this shirt become relaxed, then closer and more fitted. Same person, different garment fit. These visualizations are a preview of what's coming."
+  },
+  "unlock": {
+    "video": "/always-on-assets/feature-2.mp4",
+    "poster": "/always-on-assets/feature-2.jpg",
+    "captions": "/always-on-assets/feature-2.vtt",
+    "transcript": "I'm Yuna. Your personal views belong right here in the product gallery. Set up once, then see yourself in the garments as you shop."
+  },
+  "poses": {
+    "video": "/always-on-assets/feature-poses-editorial.mp4",
+    "poster": "/always-on-assets/feature-poses-editorial.jpg",
+    "captions": "/always-on-assets/feature-poses-editorial.vtt",
+    "transcript": "I'm Yuna. Your brand directs the poses so shoppers can see themselves styled like your models. Begin front-facing, then choose poses for each garment, folded arms for a leather jacket, or a hand on the hip for a knit polo. Your creative direction shapes every look. Finish with a simulated back view. Unseen details are illustrated."
+  },
+  "motion": {
+    "video": "/always-on-assets/feature-4.mp4",
+    "poster": "/always-on-assets/feature-4.jpg",
+    "captions": "/always-on-assets/feature-4.vtt",
+    "transcript": "A garment comes alive in movement. Your brand can direct a gentle dress turn or an active walk, choosing the action that tells its story."
+  },
+  "builder": {
+    "video": "/always-on-assets/feature-5.mp4",
+    "poster": "/always-on-assets/feature-5.jpg",
+    "captions": "/always-on-assets/feature-5.vtt",
+    "transcript": "Let's build a look together. Start with the top, add trousers, then finish with shoes and accessories. Swap a piece and see the outfit come together."
+  },
+  "stylist": {
+    "video": "/always-on-assets/feature-6.mp4",
+    "poster": "/always-on-assets/feature-6.jpg",
+    "captions": "/always-on-assets/feature-6.vtt",
+    "transcript": "Think of me as your brand's shopping advisor. Tell me the occasion I'll help curate pieces and complete looks in your brand's point of view."
+  },
+  "recommendations": {
+    "video": "/always-on-assets/feature-7.mp4",
+    "poster": "/always-on-assets/feature-7.jpg",
+    "captions": "/always-on-assets/feature-7.vtt",
+    "transcript": "These recommendations are already shown on me. As I browse, the brand's curated edit becomes personal, helping me discover another piece without starting over."
+  },
+  "twins": {
+    "video": "/always-on-assets/feature-8.mp4",
+    "poster": "/always-on-assets/feature-8.jpg",
+    "captions": "/always-on-assets/feature-8.vtt",
+    "transcript": "No photo ready? Choose an AI twin and explore instantly. These preset profiles help you preview the experience. Their measurements aren't your personal size recommendation."
+  },
+  "profile": {
+    "video": "/always-on-assets/feature-9.mp4",
+    "poster": "/always-on-assets/feature-9.jpg",
+    "captions": "/always-on-assets/feature-9.vtt",
+    "transcript": "Add a photo, your height, weight, and fit preferences inside your store account. Save them once, and your personal experience follows you as you shop."
+  },
+  "signin": {
+    "video": "/always-on-assets/feature-10.mp4",
+    "poster": "/always-on-assets/feature-10.jpg",
+    "captions": "/always-on-assets/feature-10.vtt",
+    "transcript": "Your journey begins with the store account you already know. Sign in, connect your visualization profile once, and unlock a more personal storefront."
+  },
+  "saved": {
+    "video": "/always-on-assets/feature-11.mp4",
+    "poster": "/always-on-assets/feature-11.jpg",
+    "captions": "/always-on-assets/feature-11.vtt",
+    "transcript": "Find a look you love, save the outfit, and return to it later. Keep your favorite combinations together, ready to revisit and refine."
+  },
+  "colors": {
+    "video": "/always-on-assets/feature-12.mp4",
+    "poster": "/always-on-assets/feature-12.jpg",
+    "captions": "/always-on-assets/feature-12.vtt",
+    "transcript": "One garment, two colors. Here I am in burgundy and in navy. Compare the shades on the same person before choosing the one you prefer."
+  },
+  "zoom": {
+    "video": "/always-on-assets/feature-13.mp4",
+    "poster": "/always-on-assets/feature-13.jpg",
+    "captions": "/always-on-assets/feature-13.vtt",
+    "transcript": "Take a closer look. Open an image and zoom into the fabric, stitching, and finish. Move around the view to inspect the details that matter."
+  },
+  "collection": {
+    "video": "/always-on-assets/feature-14.mp4",
+    "poster": "/always-on-assets/feature-14.jpg",
+    "captions": "/always-on-assets/feature-14.vtt",
+    "transcript": "Browse the collection as usual. Start with garment photography, see the model, then discover your personal views inside each product. Always on follows your shopping."
+  }
+}

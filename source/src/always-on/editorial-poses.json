@@ -1,0 +1,452 @@
+{
+  "leather-jacket": {
+    "labels": [
+      "Arms folded",
+      "Relaxed lean"
+    ],
+    "directions": [
+      "Fold arms confidently, shoulders angled slightly toward camera, look into lens",
+      "Lean one shoulder against a pale studio wall, one knee relaxed, face toward camera"
+    ]
+  },
+  "knit-polo": {
+    "labels": [
+      "Hand on hip",
+      "Relaxed gesture"
+    ],
+    "directions": [
+      "Place one hand on hip, three-quarter stance toward camera, relaxed other arm",
+      "Look into camera while delicately adjusting the opposite sleeve cuff, one leg forward"
+    ]
+  },
+  "trousers": {
+    "labels": [
+      "Confident stride",
+      "Seated drape"
+    ],
+    "directions": [
+      "Mid-stride walking diagonally toward camera, natural arms, show trouser or skirt drape",
+      "Sit on a simple pale stone cube with feet flat, knees naturally spaced, torso upright, showcase garment drape"
+    ]
+  },
+  "loafers": {
+    "labels": [
+      "Stepping forward",
+      "Seated shoe detail"
+    ],
+    "directions": [
+      "Full body taking an elegant forward step, showcase exact footwear clearly",
+      "Sit elegantly on a pale cube, one foot forward prominently visible, camera three-quarter front, exact footwear clearly shown"
+    ]
+  },
+  "cuff": {
+    "labels": [
+      "Styled detail",
+      "Portrait gesture"
+    ],
+    "directions": [
+      "Waist-up editorial portrait, lift wrist near chest to show bracelet or gently touch scarf or frame earrings without covering them; use gesture appropriate to actual accessory",
+      "Three-quarter frontal portrait with relaxed hand near jaw, showcase the actual accessory in reference and face, chic natural styling"
+    ]
+  },
+  "spree-roanne-panelled-knit-maxi-dress-demosite": {
+    "labels": [
+      "Sculpted silhouette",
+      "Soft skirt lift"
+    ],
+    "directions": [
+      "One hand on hip, weight on back foot, confident three-quarter front fashion stance",
+      "Gently hold the skirt edge with one hand, a graceful small step, keep fabric drape natural"
+    ]
+  },
+  "spree-seraphis-skirt-black-demosite": {
+    "labels": [
+      "Confident stride",
+      "Seated drape"
+    ],
+    "directions": [
+      "Mid-stride walking diagonally toward camera, natural arms, show trouser or skirt drape",
+      "Sit on a simple pale stone cube with feet flat, knees naturally spaced, torso upright, showcase garment drape"
+    ]
+  },
+  "spree-womens-jeans-demo-site": {
+    "labels": [
+      "Confident stride",
+      "Seated drape"
+    ],
+    "directions": [
+      "Mid-stride walking diagonally toward camera, natural arms, show trouser or skirt drape",
+      "Sit on a simple pale stone cube with feet flat, knees naturally spaced, torso upright, showcase garment drape"
+    ]
+  },
+  "spree-pink-cheetah-sweater-demo-site": {
+    "labels": [
+      "Hand on hip",
+      "Cuff adjustment"
+    ],
+    "directions": [
+      "Place one hand on hip, three-quarter stance toward camera, relaxed other arm",
+      "Look into camera while delicately adjusting the opposite sleeve cuff, one leg forward"
+    ]
+  },
+  "spree-gianvitorossi-sofia-sling-70": {
+    "labels": [
+      "Stepping forward",
+      "Seated shoe detail"
+    ],
+    "directions": [
+      "Full body taking an elegant forward step, showcase exact footwear clearly",
+      "Sit elegantly on a pale cube, one foot forward prominently visible, camera three-quarter front, exact footwear clearly shown"
+    ]
+  },
+  "spree-plaid-shirt": {
+    "labels": [
+      "Sleeve styling",
+      "Pocket stance"
+    ],
+    "directions": [
+      "Adjust one sleeve with the opposite hand while gazing toward camera, elegant asymmetrical stance",
+      "One hand rests in trouser pocket, other hand relaxed, cross one ankle in front, face forward"
+    ]
+  },
+  "spree-heaven-mayhem-clarke-cuff-silver": {
+    "labels": [
+      "Styled detail",
+      "Portrait gesture"
+    ],
+    "directions": [
+      "Waist-up editorial portrait, lift wrist near chest to show bracelet or gently touch scarf or frame earrings without covering them; use gesture appropriate to actual accessory",
+      "Three-quarter frontal portrait with relaxed hand near jaw, showcase the actual accessory in reference and face, chic natural styling"
+    ]
+  },
+  "spree-oversized-sweatshirt-demo-site": {
+    "labels": [
+      "Editorial stance",
+      "Relaxed movement"
+    ],
+    "directions": [
+      "Hand at hip, weight shifted, shoulders slightly angled, eye contact",
+      "Natural walking step toward camera while brushing the garment hem with one hand"
+    ]
+  },
+  "spree-zara-linen-fringe-jacket": {
+    "labels": [
+      "Relaxed lean",
+      "Arms folded"
+    ],
+    "directions": [
+      "Lean one shoulder against a pale studio wall, one knee relaxed, face toward camera",
+      "Fold arms confidently, shoulders angled slightly toward camera, look into lens"
+    ]
+  },
+  "spree-romma-top-black-demosite": {
+    "labels": [
+      "Editorial stance",
+      "Relaxed movement"
+    ],
+    "directions": [
+      "Hand at hip, weight shifted, shoulders slightly angled, eye contact",
+      "Natural walking step toward camera while brushing the garment hem with one hand"
+    ]
+  },
+  "spree-tank-top-demo-site": {
+    "labels": [
+      "Relaxed movement",
+      "Editorial stance"
+    ],
+    "directions": [
+      "Natural walking step toward camera while brushing the garment hem with one hand",
+      "Hand at hip, weight shifted, shoulders slightly angled, eye contact"
+    ]
+  },
+  "spree-wide-leg-jeans-demo-site": {
+    "labels": [
+      "Confident stride",
+      "Seated drape"
+    ],
+    "directions": [
+      "Mid-stride walking diagonally toward camera, natural arms, show trouser or skirt drape",
+      "Sit on a simple pale stone cube with feet flat, knees naturally spaced, torso upright, showcase garment drape"
+    ]
+  },
+  "spree-matteau-breton-tee-002": {
+    "labels": [
+      "Relaxed movement",
+      "Editorial stance"
+    ],
+    "directions": [
+      "Natural walking step toward camera while brushing the garment hem with one hand",
+      "Hand at hip, weight shifted, shoulders slightly angled, eye contact"
+    ]
+  },
+  "spree-liberowe-fringed-tweed-jacket": {
+    "labels": [
+      "Arms folded",
+      "Relaxed lean"
+    ],
+    "directions": [
+      "Fold arms confidently, shoulders angled slightly toward camera, look into lens",
+      "Lean one shoulder against a pale studio wall, one knee relaxed, face toward camera"
+    ]
+  },
+  "spree-slim-fit-vest-with-peplum-hem-demosite": {
+    "labels": [
+      "Relaxed movement",
+      "Editorial stance"
+    ],
+    "directions": [
+      "Natural walking step toward camera while brushing the garment hem with one hand",
+      "Hand at hip, weight shifted, shoulders slightly angled, eye contact"
+    ]
+  },
+  "spree-textured-knit-resort-shirt": {
+    "labels": [
+      "Sleeve styling",
+      "Pocket stance"
+    ],
+    "directions": [
+      "Adjust one sleeve with the opposite hand while gazing toward camera, elegant asymmetrical stance",
+      "One hand rests in trouser pocket, other hand relaxed, cross one ankle in front, face forward"
+    ]
+  },
+  "spree-cardigan-in-a-flowy-fabric-demosite": {
+    "labels": [
+      "Hand on hip",
+      "Cuff adjustment"
+    ],
+    "directions": [
+      "Place one hand on hip, three-quarter stance toward camera, relaxed other arm",
+      "Look into camera while delicately adjusting the opposite sleeve cuff, one leg forward"
+    ]
+  },
+  "spree-denim-jacket-demo-site": {
+    "labels": [
+      "Arms folded",
+      "Relaxed lean"
+    ],
+    "directions": [
+      "Fold arms confidently, shoulders angled slightly toward camera, look into lens",
+      "Lean one shoulder against a pale studio wall, one knee relaxed, face toward camera"
+    ]
+  },
+  "spree-burberry-check-silk-scarf-sand": {
+    "labels": [
+      "Scarf styling",
+      "Draped portrait"
+    ],
+    "directions": [
+      "Gently adjust scarf near collarbone, front three-quarter portrait",
+      "One hand rests near scarf end at chest level, shoulders tilted naturally, look into camera"
+    ]
+  },
+  "spree-cropped-jacket-demo-site": {
+    "labels": [
+      "Arms folded",
+      "Relaxed lean"
+    ],
+    "directions": [
+      "Fold arms confidently, shoulders angled slightly toward camera, look into lens",
+      "Lean one shoulder against a pale studio wall, one knee relaxed, face toward camera"
+    ]
+  },
+  "spree-elene-top-bleu-taormina-paisley": {
+    "labels": [
+      "Relaxed movement",
+      "Editorial stance"
+    ],
+    "directions": [
+      "Natural walking step toward camera while brushing the garment hem with one hand",
+      "Hand at hip, weight shifted, shoulders slightly angled, eye contact"
+    ]
+  },
+  "spree-cecilia-pump": {
+    "labels": [
+      "Stepping forward",
+      "Seated shoe detail"
+    ],
+    "directions": [
+      "Full body taking an elegant forward step, showcase exact footwear clearly",
+      "Sit elegantly on a pale cube, one foot forward prominently visible, camera three-quarter front, exact footwear clearly shown"
+    ]
+  },
+  "spree-leather-pants-demo-site": {
+    "labels": [
+      "Confident stride",
+      "Seated drape"
+    ],
+    "directions": [
+      "Mid-stride walking diagonally toward camera, natural arms, show trouser or skirt drape",
+      "Sit on a simple pale stone cube with feet flat, knees naturally spaced, torso upright, showcase garment drape"
+    ]
+  },
+  "spree-regular-fit-linen-blend-polo-shirt-demo-site": {
+    "labels": [
+      "Sleeve styling",
+      "Pocket stance"
+    ],
+    "directions": [
+      "Adjust one sleeve with the opposite hand while gazing toward camera, elegant asymmetrical stance",
+      "One hand rests in trouser pocket, other hand relaxed, cross one ankle in front, face forward"
+    ]
+  },
+  "spree-hudson-st-pant-demosite": {
+    "labels": [
+      "Confident stride",
+      "Seated drape"
+    ],
+    "directions": [
+      "Mid-stride walking diagonally toward camera, natural arms, show trouser or skirt drape",
+      "Sit on a simple pale stone cube with feet flat, knees naturally spaced, torso upright, showcase garment drape"
+    ]
+  },
+  "spree-regular-fit-blazer-in-italian-made-virgin-wool-demosite": {
+    "labels": [
+      "Arms folded",
+      "Relaxed lean"
+    ],
+    "directions": [
+      "Fold arms confidently, shoulders angled slightly toward camera, look into lens",
+      "Lean one shoulder against a pale studio wall, one knee relaxed, face toward camera"
+    ]
+  },
+  "spree-black-shorts-demo-site": {
+    "labels": [
+      "Confident stride",
+      "Seated drape"
+    ],
+    "directions": [
+      "Mid-stride walking diagonally toward camera, natural arms, show trouser or skirt drape",
+      "Sit on a simple pale stone cube with feet flat, knees naturally spaced, torso upright, showcase garment drape"
+    ]
+  },
+  "spree-regular-fit-shirt-demo-site": {
+    "labels": [
+      "Sleeve styling",
+      "Pocket stance"
+    ],
+    "directions": [
+      "Adjust one sleeve with the opposite hand while gazing toward camera, elegant asymmetrical stance",
+      "One hand rests in trouser pocket, other hand relaxed, cross one ankle in front, face forward"
+    ]
+  },
+  "spree-khaite-leaf-earrings-gold": {
+    "labels": [
+      "Jewelry portrait",
+      "Editorial portrait"
+    ],
+    "directions": [
+      "Three-quarter face toward camera, hand brushes hair away to reveal earring",
+      "Face forward, chin gently lifted, hands away from ears, exact earrings visible"
+    ]
+  },
+  "spree-eel-effect-leather-sneakers": {
+    "labels": [
+      "Stepping forward",
+      "Seated shoe detail"
+    ],
+    "directions": [
+      "Full body taking an elegant forward step, showcase exact footwear clearly",
+      "Sit elegantly on a pale cube, one foot forward prominently visible, camera three-quarter front, exact footwear clearly shown"
+    ]
+  },
+  "spree-relaxed-fit-linen-blend-tailored-trousers-demo-site": {
+    "labels": [
+      "Confident stride",
+      "Seated drape"
+    ],
+    "directions": [
+      "Mid-stride walking diagonally toward camera, natural arms, show trouser or skirt drape",
+      "Sit on a simple pale stone cube with feet flat, knees naturally spaced, torso upright, showcase garment drape"
+    ]
+  },
+  "spree-relaxed-fit-t-shirt-demo-site": {
+    "labels": [
+      "Editorial stance",
+      "Relaxed movement"
+    ],
+    "directions": [
+      "Hand at hip, weight shifted, shoulders slightly angled, eye contact",
+      "Natural walking step toward camera while brushing the garment hem with one hand"
+    ]
+  },
+  "spree-izel-sweater-black-demosite": {
+    "labels": [
+      "Hand on hip",
+      "Cuff adjustment"
+    ],
+    "directions": [
+      "Place one hand on hip, three-quarter stance toward camera, relaxed other arm",
+      "Look into camera while delicately adjusting the opposite sleeve cuff, one leg forward"
+    ]
+  },
+  "spree-printed-shorts": {
+    "labels": [
+      "Sleeve styling",
+      "Pocket stance"
+    ],
+    "directions": [
+      "Adjust one sleeve with the opposite hand while gazing toward camera, elegant asymmetrical stance",
+      "One hand rests in trouser pocket, other hand relaxed, cross one ankle in front, face forward"
+    ]
+  },
+  "spree-ralphlauren-polo-play-thong-sandal-limeade": {
+    "labels": [
+      "Stepping forward",
+      "Seated shoe detail"
+    ],
+    "directions": [
+      "Full body taking an elegant forward step, showcase exact footwear clearly",
+      "Sit elegantly on a pale cube, one foot forward prominently visible, camera three-quarter front, exact footwear clearly shown"
+    ]
+  },
+  "spree-gauze-shirt-boxy-fit": {
+    "labels": [
+      "Sleeve styling",
+      "Pocket stance"
+    ],
+    "directions": [
+      "Adjust one sleeve with the opposite hand while gazing toward camera, elegant asymmetrical stance",
+      "One hand rests in trouser pocket, other hand relaxed, cross one ankle in front, face forward"
+    ]
+  },
+  "spree-regular-fit-shorts-demo-site": {
+    "labels": [
+      "Confident stride",
+      "Seated drape"
+    ],
+    "directions": [
+      "Mid-stride walking diagonally toward camera, natural arms, show trouser or skirt drape",
+      "Sit on a simple pale stone cube with feet flat, knees naturally spaced, torso upright, showcase garment drape"
+    ]
+  },
+  "spree-slim-fit-jacket-in-washable-virgin-wool-demo-site": {
+    "labels": [
+      "Arms folded",
+      "Relaxed lean"
+    ],
+    "directions": [
+      "Fold arms confidently, shoulders angled slightly toward camera, look into lens",
+      "Lean one shoulder against a pale studio wall, one knee relaxed, face toward camera"
+    ]
+  },
+  "spree-relaxed-fit-cotton-cargo-pants-demo-site": {
+    "labels": [
+      "Confident stride",
+      "Seated drape"
+    ],
+    "directions": [
+      "Mid-stride walking diagonally toward camera, natural arms, show trouser or skirt drape",
+      "Sit on a simple pale stone cube with feet flat, knees naturally spaced, torso upright, showcase garment drape"
+    ]
+  },
+  "spree-canvas-relaxed-shirt-jacket": {
+    "labels": [
+      "Arms folded",
+      "Relaxed lean"
+    ],
+    "directions": [
+      "Fold arms confidently, shoulders angled slightly toward camera, look into lens",
+      "Lean one shoulder against a pale studio wall, one knee relaxed, face toward camera"
+    ]
+  }
+}

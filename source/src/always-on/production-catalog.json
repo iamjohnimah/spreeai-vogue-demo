@@ -1,0 +1,5057 @@
+[
+  {
+    "id": "roanne-panelled-knit-maxi-dress-demosite",
+    "title": "Knit Maxi Dress",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Black/Gold",
+          "hex": "#c9b07e"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$115.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/roanne-panelled-knit-maxi-dress-demosite/f6a01f5e-9f01-0000-0b00-46521b5a4bd9.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/roanne-panelled-knit-maxi-dress-demosite/faa01f5e-9f01-0000-0b00-0277b8b29a81.png"
+          }
+        ]
+      }
+    ],
+    "description": "https://www.bottegaveneta.com/en-en/crepe-viscose-jersey-dress-abyss-844030V4YX04140.html",
+    "buy_link": "https://www.bottegaveneta.com/en-en/crepe-viscose-jersey-dress-abyss-844030V4YX04140.html"
+  },
+  {
+    "id": "dalida-knit-dress",
+    "title": "Dalida Knit Dress",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Black",
+          "hex": "#201f22"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$628.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/dalida-knit-dress/676bdfb9-9f01-0000-0b00-4eac2c59a2cd.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/dalida-knit-dress/666bdfb9-9f01-0000-0b00-ba9b1c869102.png"
+          }
+        ]
+      }
+    ],
+    "description": "A knit midi dress featuring an open back with bow details.\n\n— Midi length\n\n— Mock neck\n\n— Double bow details in back\n\n— Flattering knit blend",
+    "buy_link": "https://cultgaia.com/products/dalida-dress-black?variant=43517210525770"
+  },
+  {
+    "id": "nina-embellished-midi-gown",
+    "title": "Embellished Midi Gown",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "yellow",
+          "hex": "#ccb100"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$3995.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/nina-embellished-midi-gown/d3a8b418-9f01-0000-0b00-d455803e64cb.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/nina-embellished-midi-gown/dca8b418-9f01-0000-0b00-78434fc81ee2.png"
+          }
+        ]
+      }
+    ],
+    "description": "Designed to turn heads, our best-selling Nina dress is back to drop jaws. This fully beaded beauty is a disco ball’s dream, dripping in multicolored, hand-embellished crystals on a butter yellow base adorned with intricate beading. Its bodycon silhouette sculpts the waist as it scintillates, while the sweetheart neckline and studded straps beautifully illuminate the decolletage (and the dancefloor). This ankle-grazing gem cuts right above your shoes, finished with a back slit that’s both flirtatious and functional--perfect for showing off your moves. It’s guaranteed to be the center of attention, even if you’re seated in the back of the ballroom.",
+    "buy_link": "https://www.aliceandolivia.com/nina-embellished-midi-gown/CG604E62503F732.html"
+  },
+  {
+    "id": "seraphis-skirt-black-demosite",
+    "title": "Seraphis Skirt - Black",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "bottom",
+        "name": "Bottom",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "BLACK"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "00",
+              "0",
+              "2",
+              "4",
+              "6",
+              "8",
+              "10",
+              "12"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$998",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/seraphis-skirt-black-demosite/d682db81-a001-0000-0b00-68ec45f2c715.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/seraphis-skirt-black-demosite/9683db81-a001-0000-0b00-36706afad490.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "A classic black maxi skirt with a low rise fit and delicate lace embroidery.\n— Maxi length\n— Lace embroidered hem\n— Side zipper\n— Viscose wool blend\n— Wear as a set with the Nevina Top",
+    "buy_link": "https://cultgaia.com/products/seraphis-skirt-black"
+  },
+  {
+    "id": "womens-jeans-demo-site",
+    "title": "Dark Jeans",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "bottom",
+        "name": "Bottom",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Denim",
+          "hex": "#242b41"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$108.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/womens-jeans-demo-site/4be2b6b9-9f01-0000-0b00-0001b2b73a53.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/womens-jeans-demo-site/50e2b6b9-9f01-0000-0b00-4bdef4ec0a73.png"
+          }
+        ]
+      }
+    ],
+    "description": "Citizens of Humanity's 'Nora' jeans offer a tailored approach to a timeless silhouette. They're cut from a stretchy denim that is soft yet durable."
+  },
+  {
+    "id": "dries-van-noten-printed-georgette-pants",
+    "title": "Printed Georgette Straight-Leg Pants",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "bottom",
+        "name": "Bottom",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Purple"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "FR 34",
+              "FR 36",
+              "FR 38",
+              "FR 40",
+              "FR 42",
+              "FR 44"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$745",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/dries-van-noten-printed-georgette-pants/5769e16e-a001-0000-0b00-3f21e8bd6e0e.jpg"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/dries-van-noten-printed-georgette-pants/5769e16e-a001-0000-0b00-dc2e7cc9e0f7.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "These georgette pants carry a marbled-clay print, with a drawstring waist lending an ease to the floor-grazing straight-leg silhouette.",
+    "buy_link": "https://www.net-a-porter.com/en-us/shop/product/dries-van-noten/clothing/straight-leg/printed-georgette-straight-leg-pants/46376663163086418"
+  },
+  {
+    "id": "pink-cheetah-sweater-demo-site",
+    "title": "Pink Cheetah Sweater",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Pink",
+          "hex": "#624749"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$150.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/pink-cheetah-sweater-demo-site/45f4c0b9-9f01-0000-0b00-c78901adb88b.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/pink-cheetah-sweater-demo-site/15f4c0b9-9f01-0000-0b00-fd9d4046d36c.png"
+          }
+        ]
+      }
+    ],
+    "description": "https://www.net-a-porter.com/en-us/shop/new-in?pageNumber=4",
+    "buy_link": "https://www.net-a-porter.com/en-us/shop/new-in?pageNumber=4"
+  },
+  {
+    "id": "magdabutrym-floral-appliqued-off-shoulder-midi-dress",
+    "title": "Floral-Appliquéd Off-the-Shoulder Wool and Silk-Blend Midi Dress",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Gray",
+          "hex": "#afacac"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "FR 34",
+              "FR 36",
+              "FR 38",
+              "FR 40"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$2455",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/magdabutrym-floral-appliqued-off-shoulder-midi-dress/1ce4e16e-a001-0000-0b00-52ccabed9e55.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/magdabutrym-floral-appliqued-off-shoulder-midi-dress/b5e3e16e-a001-0000-0b00-5fe0b6c69894.jpg"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/magdabutrym-floral-appliqued-off-shoulder-midi-dress/ffe3e16e-a001-0000-0b00-041a962f363c.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "Tailored from a wool and silk-blend, Magda Butrym's dress has an off-the-shoulder neckline and fitted bodice that narrows into a wrapped waist belt, finished with a signature floral embellishment at one hip. The pencil skirt falls to a midi length.",
+    "buy_link": "https://www.net-a-porter.com/en-us/shop/product/magda-butrym/clothing/midi-dresses/floral-appliqued-off-the-shoulder-wool-and-silk-blend-midi-dress/46376663163140618"
+  },
+  {
+    "id": "ollie-skirt-floral-jacquard-demosite",
+    "title": "Ollie Skire - Floral Jacquard",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "bottom",
+        "name": "Bottom",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "FLORAL JACQUARD"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "00",
+              "0",
+              "2",
+              "4",
+              "6",
+              "8",
+              "10",
+              "12"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$998",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/ollie-skirt-floral-jacquard-demosite/a901e26e-a001-0000-0b00-cfad7445304d.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/ollie-skirt-floral-jacquard-demosite/7f02e26e-a001-0000-0b00-2e74253431d2.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "A floral jacquard midi skirt with suiting inpsired details and a low rise fit.\n— Midi length\n— Floral jacquard pattern\n— Low rise\n— Wear as a set with the Mee Top",
+    "buy_link": "https://cultgaia.com/products/ollie-skirt-floral-jacquard"
+  },
+  {
+    "id": "cocktail-dress",
+    "title": "Cocktail Dress",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Silver",
+          "hex": "#b1c0ce"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$500.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/cocktail-dress/666ab4b9-9f01-0000-0b00-61f244d5c7cf.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/cocktail-dress/656ab4b9-9f01-0000-0b00-27f0b493c51b.png"
+          }
+        ]
+      }
+    ],
+    "description": "https://cliopeppiatt.co.uk/products/manhattan-mini-dress",
+    "buy_link": "https://cliopeppiatt.co.uk/products/manhattan-mini-dress"
+  },
+  {
+    "id": "gianvitorossi-sofia-sling-70",
+    "title": "Sofia Sling 70",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "footwear",
+        "name": "Footwear",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Black Leather"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "35",
+              "36",
+              "36.5",
+              "37",
+              "38",
+              "38.5",
+              "39",
+              "41.5"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$995.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/gianvitorossi-sofia-sling-70/109de16e-a001-0000-0b00-13ecb1e605a3.jpg"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/gianvitorossi-sofia-sling-70/239de16e-a001-0000-0b00-8b23ac3e8058.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/gianvitorossi-sofia-sling-70/139de16e-a001-0000-0b00-a50dd67a052c.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "Crafted from leather, Sofia Sling 70 is a pointed-toe slingback defined by the Maison's distinctive 70mm heel. Pointed toe. Buckle closure. 3 inch heel (70mm). Handmade in Italy.",
+    "buy_link": "https://www.nordstrom.com/s/sofia-sling-70/8867870"
+  },
+  {
+    "id": "plaid-shirt",
+    "title": "Plaid shirt",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Green/Blue",
+          "hex": "#867d74"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$50.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/plaid-shirt/6789f1b9-9f01-0000-0b00-dd08a887b560.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/plaid-shirt/7589f1b9-9f01-0000-0b00-308eed0b2511.png"
+          }
+        ]
+      }
+    ],
+    "description": "https://www.cettire.com/products/our-legacy-envelop-shirt-966491756/cmVhY3Rpb24vcHJvZHVjdDpSbWlyYjUyV3ZOaTZ3c0FDcg%3D%3D?lng=en&utm_source=google&utm_medium=cpc&gclid=CjwKCAjwpqHTBhAcEiwAj2AfunFVfPmKwjYSuILkJzXnQHDCRcvDeRPX4_J_0bFcZRmxrdBcw6noGRoC1G4QAvD_BwE&gad_source=1&gad_campaignid=1040313833&gbraid=0AAAAAD-gd10bmu_d_AFckRrag0SDErvl3",
+    "buy_link": "https://www.cettire.com/products/our-legacy-envelop-shirt-966491756/cmVhY3Rpb24vcHJvZHVjdDpSbWlyYjUyV3ZOaTZ3c0FDcg%3D%3D?lng=en&utm_source=google&utm_medium=cpc&gclid=CjwKCAjwpqHTBhAcEiwAj2AfunFVfPmKwjYSuILkJzXnQHDCRcvDeRPX4_J_0bFcZRmxrdBcw6noGRoC1G4QAvD_BwE&gad_source=1&gad_campaignid=1040313833&gbraid=0AAAAAD-gd10bmu_d_AFckRrag0SDErvl3"
+  },
+  {
+    "id": "heaven-mayhem-clarke-cuff-silver",
+    "title": "Clarke Cuff",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "bracelet",
+        "name": "Bracelet",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Silver"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "OneSize"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$100",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/heaven-mayhem-clarke-cuff-silver/57a4e16e-a001-0000-0b00-193d931c8e35.jpg"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/heaven-mayhem-clarke-cuff-silver/5aa4e16e-a001-0000-0b00-9f0cc650a07a.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "This cuff bracelet from Heaven Mayhem is crafted from silver-tone metal and features smooth ridges and an enamel center. Cuff, One Size. Imported, China.",
+    "buy_link": "https://www.shopbop.com/clarke-cuff-heaven-mayhem/vp/v=1/1541145595.htm"
+  },
+  {
+    "id": "proenzaschouler-nilo-textured-jacquard-dress",
+    "title": "Nilo Textured Jacquard Dress",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Black/Copper",
+          "hex": "#594236"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "S",
+              "M",
+              "L"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$2990",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/proenzaschouler-nilo-textured-jacquard-dress/d44fdb81-a001-0000-0b00-97e127af8931.jpg"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/proenzaschouler-nilo-textured-jacquard-dress/d34fdb81-a001-0000-0b00-b1a41ac1a7d9.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "Heavyweight jacquard knit with stretch. Thigh-high side slit, fringe trim, scoop neck, sleeveless, pullover design with no closure. Shell: 41% wool/33% viscose/26% polyamide. Trim: 45% wool/25% viscose/20% polyamide/10% cotton. Made in Italy.",
+    "buy_link": "https://www.shopbop.com/nilo-dress-proenza-schouler/vp/v=1/1502064002.htm"
+  },
+  {
+    "id": "crepe-mini-dress-demosite",
+    "title": "Crepe Mini Dress",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Maroon",
+          "hex": "#551823"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$115.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/crepe-mini-dress-demosite/0892185e-9f01-0000-0b00-31fe8de11115.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/crepe-mini-dress-demosite/0392185e-9f01-0000-0b00-d3f14c387df8.png"
+          }
+        ]
+      }
+    ],
+    "description": "https://www.bottegaveneta.com/en-en/crepe-viscose-jersey-dress-abyss-844030V4YX04140.html",
+    "buy_link": "https://www.bottegaveneta.com/en-en/crepe-viscose-jersey-dress-abyss-844030V4YX04140.html"
+  },
+  {
+    "id": "oversized-sweatshirt-demo-site",
+    "title": "Oversized Sweatshirt",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Beige",
+          "hex": "#aea08f"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$39.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/oversized-sweatshirt-demo-site/e376c518-9f01-0000-0b00-c40c4eb16dbb.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/oversized-sweatshirt-demo-site/d776c518-9f01-0000-0b00-861beb82368d.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Grey",
+          "hex": "#55514c"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$39.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/oversized-sweatshirt-demo-site/667b164d-9f01-0000-0b00-7b6728a32185.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/oversized-sweatshirt-demo-site/5b7b164d-9f01-0000-0b00-d7c53d3443b2.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Black",
+          "hex": "#222023"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$39.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/oversized-sweatshirt-demo-site/e7c0194d-9f01-0000-0b00-02bf7cc74b89.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/oversized-sweatshirt-demo-site/e5c0194d-9f01-0000-0b00-ea55cce57df3.png"
+          }
+        ]
+      }
+    ],
+    "description": "Oversized fit with a lined crossover hood, dropped shoulders, and a kangaroo pocket. Wide cuffs and hem.",
+    "buy_link": "https://www2.hm.com/es_es/productpage.1336252003.html"
+  },
+  {
+    "id": "zara-linen-fringe-jacket",
+    "title": "Linen Blend Fringe Jacket",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Ecru"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$229",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/zara-linen-fringe-jacket/23b8db81-a001-0000-0b00-c8b1dd5d6462.jpg"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/zara-linen-fringe-jacket/24b8db81-a001-0000-0b00-245c01a8c8ff.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "Jacket made with 36% linen blend yarn. V-neck and long sleeves. Side pockets hidden in the seams. Matching fringe trim detail. Asymmetric hem. Inner lining. Front metal hook closure.",
+    "buy_link": "https://www.zara.com/us/en/zw-collection-linen-blend-fringe-jacket-p07012800.html"
+  },
+  {
+    "id": "romma-top-black-demosite",
+    "title": "Romma Knit Top - Black",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "BLACK",
+          "hex": "#141715"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$398",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/romma-top-black-demosite/fe73db81-a001-0000-0b00-5131790d3574.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/romma-top-black-demosite/cf74db81-a001-0000-0b00-8a78d99737ed.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "An essential sleeveless knit top with a slight mock neck, cropped hem and cinched waist detailing.\n— Wool blend\n— Slight mock neck\n— Cinching at waist\n— Wear as a set with the Infinity Skirt",
+    "buy_link": "https://cultgaia.com/products/romma-top-black"
+  },
+  {
+    "id": "dress-with-draped-neckline",
+    "title": "Light Blue Dress",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Light Blue",
+          "hex": "#a7cbeb"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$39.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/dress-with-draped-neckline/356e2547-9f01-0000-0b00-88c206684442.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/dress-with-draped-neckline/396e2547-9f01-0000-0b00-e20a63b282a3.png"
+          }
+        ]
+      }
+    ],
+    "description": "Satin halter maxi dress with a soft drape. Fitted style with a deep draped neckline and a button-and-loop closure at the nape of the neck. Concealed zipper with hook-and-eye closure at the back and a back vent. Fully lined bodice.",
+    "buy_link": "https://www2.hm.com/es_es/productpage.1337767001.html"
+  },
+  {
+    "id": "tank-top-demo-site",
+    "title": "Tank Top",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Blue",
+          "hex": "#c4e1e2"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$28.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/tank-top-demo-site/6e93b2b9-9f01-0000-0b00-10b925c33de6.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/tank-top-demo-site/6f93b2b9-9f01-0000-0b00-1c660b261f56.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Yellow",
+          "hex": "#f1ecb9"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$28.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/tank-top-demo-site/d6adb2b9-9f01-0000-0b00-94c314727a0e.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/tank-top-demo-site/dfadb2b9-9f01-0000-0b00-ea57da317d53.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "White",
+          "hex": "#ebeaef"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$28.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/tank-top-demo-site/9422b3b9-9f01-0000-0b00-d67a00cb677b.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/tank-top-demo-site/9522b3b9-9f01-0000-0b00-5bcdb446ca1f.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Black",
+          "hex": "#1e1d22"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$28.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/tank-top-demo-site/df7db3b9-9f01-0000-0b00-10434b08c275.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/tank-top-demo-site/e37db3b9-9f01-0000-0b00-bbc79f99d9c0.png"
+          }
+        ]
+      }
+    ],
+    "description": "https://www.aritzia.com/us/en/product/homestretch%E2%84%A2-2-rib-frequency-tank/116336.html?color=36528"
+  },
+  {
+    "id": "wide-leg-jeans-demo-site",
+    "title": "Wide Leg Jeans",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "bottom",
+        "name": "Bottom",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Red",
+          "hex": "#e2312e"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$250.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/wide-leg-jeans-demo-site/fee313b9-9f01-0000-0b00-4b0f96c331c8.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/wide-leg-jeans-demo-site/f9e313b9-9f01-0000-0b00-cccb379d38d5.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Pastel Pink",
+          "hex": "#ebdad4"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$250.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/wide-leg-jeans-demo-site/aeaba21c-a001-0000-0b00-c1c2b3516837.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/wide-leg-jeans-demo-site/a8aba21c-a001-0000-0b00-25cecf680619.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Purple",
+          "hex": "#331f4d"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$250.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/wide-leg-jeans-demo-site/17d3a11c-a001-0000-0b00-3f45fa5fd022.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/wide-leg-jeans-demo-site/1ad3a11c-a001-0000-0b00-dd820245b539.png"
+          }
+        ]
+      }
+    ],
+    "description": "https://www.net-a-porter.com/en-us/shop/product/alaia/clothing/wide-leg/mid-rise-wide-leg-jeans/46376663163071020",
+    "buy_link": "https://www.net-a-porter.com/en-us/shop/product/alaia/clothing/wide-leg/mid-rise-wide-leg-jeans/46376663163071020"
+  },
+  {
+    "id": "tapered-jeans-demo-site",
+    "title": "Tapered Jeans",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "bottom",
+        "name": "Bottom",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Denim Blue",
+          "hex": "#8396a7"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "28/32",
+              "29/32",
+              "30/32",
+              "30/34",
+              "31/32",
+              "32/32",
+              "32/34",
+              "33/32",
+              "34/32",
+              "34/34",
+              "36/32",
+              "38/32"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$39.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/tapered-jeans-demo-site/feaab918-9f01-0000-0b00-b9d80926ec29.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/tapered-jeans-demo-site/e3aab918-9f01-0000-0b00-4e7bbc68e195.png"
+          }
+        ]
+      }
+    ],
+    "description": "Five-pocket jeans in cotton denim with a slight stretch for optimal comfort. Standard waist-to-low fit with a slightly relaxed skinny leg. Standard waistband and zip fly. The perfect match for your favorite t-shirt.\n",
+    "buy_link": "https://www2.hm.com/es_es/productpage.1315519005.html"
+  },
+  {
+    "id": "matteau-breton-tee-002",
+    "title": "Breton Striped Cotton-Jersey T-Shirt",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Red"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$315",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/matteau-breton-tee-002/304f2d82-a001-0000-0b00-0f28e407d771.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/matteau-breton-tee-002/53ebe16e-a001-0000-0b00-1da08bfb4182.jpg"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/matteau-breton-tee-002/75ebe16e-a001-0000-0b00-7cd741fa526d.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/matteau-breton-tee-002/4febe16e-a001-0000-0b00-5489691452c3.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "Matteau's 'Breton' T-shirt in Red, made in Australia from breathable cotton-jersey. Classic nautical white and red striped pattern. Boxy fit with dropped shoulders and wide sleeves, finished with a boat neckline.",
+    "buy_link": "https://www.net-a-porter.com/en-us/shop/product/matteau/clothing/t-shirts/breton-striped-cotton-jersey-t-shirt/46376663163044985"
+  },
+  {
+    "id": "flared-fit-pants-in-stretch-jersey-demosite",
+    "title": "Flared Pants",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "bottom",
+        "name": "Bottom",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Dark Blue",
+          "hex": "#222028"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "0",
+              "2",
+              "4",
+              "6",
+              "8",
+              "10",
+              "12",
+              "14"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$299.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/flared-fit-pants-in-stretch-jersey-demosite/b98de16e-a001-0000-0b00-66235a98249f.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/flared-fit-pants-in-stretch-jersey-demosite/ae8de16e-a001-0000-0b00-6fecdb26a08b.png"
+          }
+        ]
+      }
+    ],
+    "description": "Details\nIn travel-friendly jersey with stretch and crease resistance, these BOSS Womenswear pants have a modern flared profile. Cropped length. Metal detail on waistband.\nflared fit\nRegular rise\nHook and zip closure\nElastic Waistband\nFlared leg\nPockets bottom front: Side pockets\nPockets bottom back: Welt pocket\nFit foot width: 52,3 cm (20.6 inches)",
+    "buy_link": "https://www.hugoboss.com/us/flared-fit-pants-in-stretch-jersey/hbna50563831_404.html"
+  },
+  {
+    "id": "liberowe-fringed-tweed-jacket",
+    "title": "Fringed Tweed Jacket",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Red"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "x small",
+              "small",
+              "medium",
+              "large",
+              "x large"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$1950",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/liberowe-fringed-tweed-jacket/e2dce16e-a001-0000-0b00-720239500bd1.jpg"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/liberowe-fringed-tweed-jacket/e2dce16e-a001-0000-0b00-e09547472bb2.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "Made from wool-blend tweed and tailored with paneled seams that create a softly flared silhouette. Fringed trims frame the neckline, front and hem, with oversized hook-and-eye fastenings.",
+    "buy_link": "https://www.net-a-porter.com/en-us/shop/product/liberowe/clothing/casual-jackets/fringed-wool-blend-tweed-jacket/46376663163151712"
+  },
+  {
+    "id": "slim-fit-vest-with-peplum-hem-demosite",
+    "title": "Slim-Fit Vest",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Dark Blue",
+          "hex": "#24252e"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$399.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-vest-with-peplum-hem-demosite/2f58641a-a001-0000-0b00-80c6a892d916.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-vest-with-peplum-hem-demosite/c757641a-a001-0000-0b00-5c8bdb77ab39.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Off-white",
+          "hex": "#e6dfd0"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$399.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-vest-with-peplum-hem-demosite/e739651a-a001-0000-0b00-85d0bde6c8e7.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-vest-with-peplum-hem-demosite/bc38651a-a001-0000-0b00-ff55ad681c16.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Red",
+          "hex": "#ba040b"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$399.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-vest-with-peplum-hem-demosite/11e3651a-a001-0000-0b00-13ad21bc1eea.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-vest-with-peplum-hem-demosite/cfe1651a-a001-0000-0b00-ffcc675eb83e.png"
+          }
+        ]
+      }
+    ],
+    "description": "With sleeveless styling and a peplum hem, this BOSS Womenswear vest is crafted in comfortable stretch fabric. Streamlined fit. Double-ended front zipper.\n",
+    "buy_link": "https://www.hugoboss.com/us/slim-fit-vest-with-peplum-hem/hbna50563813_404.html"
+  },
+  {
+    "id": "rodarte-floral-midi-dress",
+    "title": "Floral-Print Silk-Crepe Midi Dress",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Lavender Floral"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "US0",
+              "US2",
+              "US4",
+              "US6",
+              "US8",
+              "US10"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$1595",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/rodarte-floral-midi-dress/6166db81-a001-0000-0b00-3701c412f2bf.jpg"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/rodarte-floral-midi-dress/6166db81-a001-0000-0b00-5951ce7446e5.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "Rodarte's \"Lavender Bouquet\" midi dress, cut from silk-crepe and adorned with understated botanical motifs. Defined by a one-shoulder neckline with draped sleeve detail for refined dimension.",
+    "buy_link": "https://www.net-a-porter.com/en-us/shop/product/rodarte/clothing/midi-dresses/floral-print-silk-crepe-midi-dress/46376663163105286"
+  },
+  {
+    "id": "cami-top-dove-demosite",
+    "title": "Cami Top - Dove",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "DOVE",
+          "hex": "#cdb5a0"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$498",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/cami-top-dove-demosite/914ae16e-a001-0000-0b00-1c3e5330869a.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/cami-top-dove-demosite/5d4be16e-a001-0000-0b00-99e6a16539ab.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "An asymmetrical, shoulder-baring top gathered at the waist and designed in voluminous paneling of mini-pleated plisse.\n— Asymmetrical silhouette\n— Relaxed, yet gathered at the waist\n— Stretch fit\n— Exposed shoulder\n— Mini-pleated chintz plisse",
+    "buy_link": "https://cultgaia.com/products/cami-top-dove"
+  },
+  {
+    "id": "textured-knit-resort-shirt",
+    "title": "Textured Knit Resort Shirt",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Heathered Oat",
+          "hex": "#d6cac3"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$59.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/textured-knit-resort-shirt/eed8ebb9-9f01-0000-0b00-c0e31d044bcd.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/textured-knit-resort-shirt/efd8ebb9-9f01-0000-0b00-06bb400d493c.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Blue",
+          "hex": "#cfd1d5"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$59.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/textured-knit-resort-shirt/f601ecb9-9f01-0000-0b00-22c5aba89f4f.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/textured-knit-resort-shirt/f601ecb9-9f01-0000-0b00-bfc9d2b73dd3.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Black",
+          "hex": "#1b1b1e"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$59.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/textured-knit-resort-shirt/2026ecb9-9f01-0000-0b00-cbbdcf2ae2a2.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/textured-knit-resort-shirt/4b26ecb9-9f01-0000-0b00-606a31a0ecf2.png"
+          }
+        ]
+      }
+    ],
+    "description": "Made from 100% organic cotton in a sweater yarn with a jacquard-like texture. Reads elevated, wears relaxed. Button it up with chinos or linen trousers.",
+    "buy_link": "https://www.everlane.com/products/mens-textured-knit-resort-shirt-heathered-oat"
+  },
+  {
+    "id": "cardigan-in-a-flowy-fabric-demosite",
+    "title": "Cardigan in Flowy Fabric",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Dark Green",
+          "hex": "#144632"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$14.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/cardigan-in-a-flowy-fabric-demosite/7f53e16e-a001-0000-0b00-54696801703a.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/cardigan-in-a-flowy-fabric-demosite/2153e16e-a001-0000-0b00-4db39f2c264f.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Maroon",
+          "hex": "#541721"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$14.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/cardigan-in-a-flowy-fabric-demosite/2758e16e-a001-0000-0b00-69c244b67642.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/cardigan-in-a-flowy-fabric-demosite/2458e16e-a001-0000-0b00-45c7b51e5fa4.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Sky Blue",
+          "hex": "#bed3e6"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$14.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/cardigan-in-a-flowy-fabric-demosite/705ce16e-a001-0000-0b00-c6f522b99174.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/cardigan-in-a-flowy-fabric-demosite/105ce16e-a001-0000-0b00-2160ef76bab3.png"
+          }
+        ]
+      }
+    ],
+    "description": "Lightweight ribbed cardigan with a round neck and buttons down the front.",
+    "buy_link": "https://www2.hm.com/es_es/productpage.1328852003.html"
+  },
+  {
+    "id": "denim-jacket-demo-site",
+    "title": "Denim Jacket",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Red",
+          "hex": "#e72f31"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$150.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/denim-jacket-demo-site/25b1b4b9-9f01-0000-0b00-2462c95817a6.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/denim-jacket-demo-site/21b1b4b9-9f01-0000-0b00-14cdbdd1c442.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Pastel Pink",
+          "hex": "#f2dfdb"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$150.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/denim-jacket-demo-site/a7d3b4b9-9f01-0000-0b00-20cf0d85b245.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/denim-jacket-demo-site/c6d3b4b9-9f01-0000-0b00-798f2a327298.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Purple",
+          "hex": "#36204f"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$150",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/denim-jacket-demo-site/bdfbb4b9-9f01-0000-0b00-ec30cf04265b.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/denim-jacket-demo-site/bcfbb4b9-9f01-0000-0b00-5f2d84d4c006.png"
+          }
+        ]
+      }
+    ],
+    "description": "https://www.net-a-porter.com/en-us/shop/product/alaia/clothing/casual-jackets/denim-cotton-jacket/46376663163071002",
+    "buy_link": "https://www.net-a-porter.com/en-us/shop/product/alaia/clothing/casual-jackets/denim-cotton-jacket/46376663163071002"
+  },
+  {
+    "id": "burberry-check-silk-scarf-sand",
+    "title": "Check Silk Scarf - Sand",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "scarf",
+        "name": "Scarf",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Sand"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "OneSize"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$555",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/burberry-check-silk-scarf-sand/7142e16e-a001-0000-0b00-039518de9b2d.jpg"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/burberry-check-silk-scarf-sand/8a42e16e-a001-0000-0b00-c13053fef6e5.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/burberry-check-silk-scarf-sand/7342e16e-a001-0000-0b00-f938536eb2bd.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "Fabric: Silk twill. Signature checkered pattern with contrast border. Shell: 100% silk. Made in Italy. Dry clean only.",
+    "buy_link": "https://www.shopbop.com/check-silk-scarf-burberry/vp/v=1/1533005.htm"
+  },
+  {
+    "id": "cropped-jacket-demo-site",
+    "title": "Cropped Jacket",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Off White",
+          "hex": "#ded6ca"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$98.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/cropped-jacket-demo-site/f963e78a-9f01-0000-0b00-5cae474a60a9.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/cropped-jacket-demo-site/5164e78a-9f01-0000-0b00-aa4f81732e9c.png"
+          }
+        ]
+      }
+    ],
+    "description": "https://www.aritzia.com/us/en/product/little-cropped-jacket/125276.html?color=11420",
+    "buy_link": "https://www.aritzia.com/us/en/product/little-cropped-jacket/125276.html?color=11420"
+  },
+  {
+    "id": "elene-top-bleu-taormina-paisley",
+    "title": "Elene Top",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Taormina Paisley"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$278.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/elene-top-bleu-taormina-paisley/d07ee16e-a001-0000-0b00-f593310d52ae.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/elene-top-bleu-taormina-paisley/da7ee16e-a001-0000-0b00-9f46ee2cefc1.png"
+          }
+        ]
+      }
+    ],
+    "description": "Rendered in buttery silk-viscose twill, the Elene Top is patterned with our Taormina Paisley, an intricate motif inspired by 19th-century French Provençal textiles. With a relaxed silhouette, it features full-length sleeves and self-covered buttons down the front.",
+    "buy_link": "https://www.shopdoen.com/products/elene-top-bleu-taormina-paisley?variant=42264239800433"
+  },
+  {
+    "id": "mcqueen-shoulder-bow-blouse",
+    "title": "Shoulder Bow Blouse",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Ivory"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "36",
+              "38",
+              "40",
+              "42",
+              "44",
+              "46",
+              "48",
+              "50"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "£1100",
+          "currency": "GBP"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/mcqueen-shoulder-bow-blouse/f9f2e16e-a001-0000-0b00-002004f84938.jpg"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/mcqueen-shoulder-bow-blouse/0df3e16e-a001-0000-0b00-e3e9bdeeffe0.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/mcqueen-shoulder-bow-blouse/f6f2e16e-a001-0000-0b00-341cbda41913.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "Blouse in light ivory silk crepe de Chine with an asymmetric neckline and shoulder bow detailing. Long sleeves with gathered cuffs. Regular fit. 100% Silk. Made in Italy.",
+    "buy_link": "https://www.alexandermcqueen.com/en-gb/pr/shoulder-bow-blouse-A004JDQBADT9007.html"
+  },
+  {
+    "id": "cecilia-pump",
+    "title": "Cecilia Pump",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "footwear",
+        "name": "Footwear",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Grey Suede"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "35",
+              "36",
+              "36.5",
+              "37",
+              "37.5",
+              "38",
+              "38.5",
+              "39",
+              "39.5",
+              "40",
+              "40.5",
+              "41",
+              "42"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$980.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/cecilia-pump/5c64e16e-a001-0000-0b00-8e144adb7c65.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/cecilia-pump/2163e16e-a001-0000-0b00-4d8ec7a833ae.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/cecilia-pump/5364e16e-a001-0000-0b00-384b6edda2fc.png"
+          }
+        ]
+      }
+    ],
+    "description": "A refined suede pump designed to gently embrace and visually slim the foot. Crafted in Italy to be exceptionally lightweight. Signature details include sculptural Ona heel and gold staple detail at vamp.",
+    "buy_link": "https://khaite.com/products/cecilia-pump-50-in-grey?utm_medium=paid&utm_source=shop_campaigns&shpcid=49633&utm_campaign=49633&variant=41569630093375&_su_rec=49vsfQTTHQPbSYeO3y1eiVlcAfzx38R3jt7yCUjv3j4w4iDNiDVst4mD75zT1s7aT2V66NWHNrr71fSde0F4jh1bNp9B1J2hKZ7HP7BWzmK7r5FaMNXv87m6NTtjptGSjh6eTZFLOj4FbRvMSak8FKJ6nfzs8WyNQ1kJDEo3AHFF4_-0iQ4J5VGV4AM1X9v1v-t6YYcuyZdXDdfxeyXF89xaxp7zjOOyo8GkwkifQFC_falaJeRPRe51LIy8uPm-S9DkkHQW6c9uhZVzV9Yd7v1FocgLzBCVFi1Ar4iNde4picbmdRG59Nvq6qxdquKfsC_wne_vAC8TV4qbHqxDUwTT"
+  },
+  {
+    "id": "leather-pants-demo-site",
+    "title": "Leather Pants",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "bottom",
+        "name": "Bottom",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Black",
+          "hex": "#322d31"
+        },
+        "size_groups": [
+          {
+            "sizes": [],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$35.90",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/leather-pants-demo-site/ccd4e16e-a001-0000-0b00-d945f30e0c8f.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/leather-pants-demo-site/6ed4e16e-a001-0000-0b00-35e66d0b6e94.png"
+          }
+        ]
+      }
+    ],
+    "description": "Description and fitting\nH&M Premium Selection\nSoft leather trousers with a low waist and concealed zip, hook, and button fastening. Slanted pockets, welt back pocket with triangular flap and button, horizontal seam at the knees, and a stripe at the front and back.",
+    "buy_link": "https://www2.hm.com/es_es/productpage.1334191001.html"
+  },
+  {
+    "id": "regular-fit-linen-blend-polo-shirt-demo-site",
+    "title": "Black & White Polo Shirt",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Black/Stripes",
+          "hex": "#171417"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$39.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/regular-fit-linen-blend-polo-shirt-demo-site/80d7bb18-9f01-0000-0b00-59cd96a6ff82.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/regular-fit-linen-blend-polo-shirt-demo-site/1ed7bb18-9f01-0000-0b00-d7e4dc2ff530.png"
+          }
+        ]
+      }
+    ],
+    "description": "Polo shirt in a soft linen-blend knit. Features a ribbed V-neck and ribbed trim on the sleeves and hem. Standard fit for a classic and comfortable silhouette.",
+    "buy_link": "https://www2.hm.com/es_es/productpage.1311090003.html"
+  },
+  {
+    "id": "hudson-st-pant-demosite",
+    "title": "Wide-Leg Pants",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "men",
+        "name": "Men",
+        "garment_count": 0
+      },
+      {
+        "id": "bottom",
+        "name": "Bottom",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "ermine",
+          "hex": "#af855d"
+        },
+        "size_groups": [
+          {
+            "sizes": [],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$695.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/hudson-st-pant-demosite/d3b4e16e-a001-0000-0b00-66ff7bec0579.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/hudson-st-pant-demosite/beb4e16e-a001-0000-0b00-2325509ad765.png"
+          }
+        ]
+      }
+    ],
+    "description": "Details\nRelaxed mid-rise pant in fluid regency stripe. Fabric is a fluid viscose twill in a refined regency stripe, woven with subtle lurex for soft luminosity. Designed with front pleats that open into a draped, wide-leg silhouette. Finished with elasticized back waistband, side seam pockets, a single welt pocket at the back, and subtle topstitch detailing throughout.",
+    "buy_link": "https://www.twpclothing.com/products/hudson-st-ivory-green?variant=52746923508075"
+  },
+  {
+    "id": "regular-fit-blazer-in-italian-made-virgin-wool-demosite",
+    "title": "Regular-Fit Blazer",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Black",
+          "hex": "#1c1d21"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$599.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/regular-fit-blazer-in-italian-made-virgin-wool-demosite/9b74bf18-9f01-0000-0b00-667a60357b07.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/regular-fit-blazer-in-italian-made-virgin-wool-demosite/8674bf18-9f01-0000-0b00-08be631d307e.png"
+          }
+        ]
+      }
+    ],
+    "description": "With natural stretch for ease of movement, this BOSS Womenswear blazer is crafted from long-lasting Italian-made wool. Tailored to a regular fit.\n",
+    "buy_link": "https://www.hugoboss.com/us/regular-fit-blazer-in-italian-made-virgin-wool/hbna50490020_404.html"
+  },
+  {
+    "id": "black-shorts-demo-site",
+    "title": "Pleated Shorts",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "bottom",
+        "name": "Bottom",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Black",
+          "hex": "#262522"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$108.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/black-shorts-demo-site/013fb7b9-9f01-0000-0b00-929d9e41f7da.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/black-shorts-demo-site/f73eb7b9-9f01-0000-0b00-629b6c452dd0.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Beige",
+          "hex": "#e5dcd0"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$108.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/black-shorts-demo-site/f77eb7b9-9f01-0000-0b00-86ef17417155.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/black-shorts-demo-site/fa7eb7b9-9f01-0000-0b00-d8eb2b952474.png"
+          }
+        ]
+      }
+    ],
+    "description": "These are pleated shorts with a low rise, relaxed fit and darted back waist for shaping. They're finely tailored from soft stretch fabric that’s lightweight and drapey for everyday wear. This fabric is sourced from a premier Portuguese mill and made with 60% recycled polyester and 29% LENZING™ ECOVERO™ Viscose.\n\n",
+    "buy_link": "https://www.aritzia.com/us/en/product/touchpoint-short/130244.html?color=1274"
+  },
+  {
+    "id": "regular-fit-shirt-demo-site",
+    "title": "Striped Shirt",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Cream/Stripes",
+          "hex": "#d0c9bb"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$24.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/regular-fit-shirt-demo-site/c3b6b818-9f01-0000-0b00-6e8ee0559507.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/regular-fit-shirt-demo-site/cdb6b818-9f01-0000-0b00-915f790407cb.png"
+          }
+        ]
+      }
+    ],
+    "description": "Short-sleeved shirt in a soft, airy cotton blend fabric. Features an open collar, classic placket, back yoke, and straight hem. Standard fit for a comfortable, classic silhouette.",
+    "buy_link": "https://www2.hm.com/es_es/productpage.1309692003.html"
+  },
+  {
+    "id": "eel-effect-leather-sneakers",
+    "title": "Eel-effect leather sneakers",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "footwear",
+        "name": "Footwear",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "red"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "35",
+              "36",
+              "37",
+              "38",
+              "39",
+              "40",
+              "41"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$591.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/eel-effect-leather-sneakers/8e73e16e-a001-0000-0b00-75828a021c90.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/eel-effect-leather-sneakers/c474e16e-a001-0000-0b00-19004a878f73.png"
+          }
+        ]
+      }
+    ],
+    "description": "Unexpected color contrasts are a signature of Dries Van Noten. These lace-up shoes are crafted from glossy red leather and shaped to a streamlined silhouette. Crisp white laces and trim highlight the clean lines, creating a striking contrast against the rich surface.",
+    "buy_link": "https://www.net-a-porter.com/en-us/shop/product/dries-van-noten/shoes/low-top/eel-effect-leather-sneakers/46376663163048440?cm_mmc=LinkshareUS-_-0c5b5rpoqTU-_-Custom-_-LinkBuilder&utm_source=rakuten&utm_medium=affiliation&utm_campaign=US_3556869&utm_content=US_Vogue&utm_term=0c5b5rpoqTU-FiB5IaT_0jk.K8J5lJctsw&ranMID=24449&ranEAID=0c5b5rpoqTU&ranSiteID=0c5b5rpoqTU-FiB5IaT_0jk.K8J5lJctsw&siteID=0c5b5rpoqTU-FiB5IaT_0jk.K8J5lJctsw&adj_t=663co1a&adj_campaign=US_3556869&linkshare_siteID=0c5b5rpoqTU-FiB5IaT_0jk.K8J5lJctsw&linkshare_affiliate_mid=24449"
+  },
+  {
+    "id": "relaxed-fit-linen-blend-tailored-trousers-demo-site",
+    "title": "Linen Trousers",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "bottom",
+        "name": "Bottom",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "White",
+          "hex": "#ffffff"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$44.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-linen-blend-tailored-trousers-demo-site/b04ebc18-9f01-0000-0b00-2ff2cf7cc633.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-linen-blend-tailored-trousers-demo-site/ac4ebc18-9f01-0000-0b00-886f5cf80809.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Beige",
+          "hex": "#d5c4ac"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$44.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-linen-blend-tailored-trousers-demo-site/1f6ef64c-9f01-0000-0b00-71f8c36a934a.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-linen-blend-tailored-trousers-demo-site/226ef64c-9f01-0000-0b00-2896ac57a52b.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Navy",
+          "hex": "#24293b"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$44.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-linen-blend-tailored-trousers-demo-site/63ea034d-9f01-0000-0b00-3e94e9e1f415.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-linen-blend-tailored-trousers-demo-site/1fe9034d-9f01-0000-0b00-2d4dfc6d5709.png"
+          }
+        ]
+      }
+    ],
+    "description": "Trousers in a lightweight cotton and linen blend with pleats. Features a gathered elasticated waistband, zip and button fastening, side pockets, and welt back pockets. A relaxed fit for a casual yet not oversized silhouette. The linen and cotton blend combines the softness of cotton with the structure of linen to create a textured, breathable fabric with a beautiful drape.",
+    "buy_link": "https://www2.hm.com/es_es/productpage.1283074001.html"
+  },
+  {
+    "id": "crepe-viscose-jersey-dress-abyss-demosite",
+    "title": "Jersey Dress",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Navy",
+          "hex": "#222638"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$115.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/crepe-viscose-jersey-dress-abyss-demosite/ae46f85d-9f01-0000-0b00-aa96f23948a7.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/crepe-viscose-jersey-dress-abyss-demosite/ae46f85d-9f01-0000-0b00-782d404e324c.jpeg"
+          }
+        ]
+      }
+    ],
+    "description": "https://www.bottegaveneta.com/en-en/crepe-viscose-jersey-dress-abyss-844030V4YX04140.html",
+    "buy_link": "https://www.bottegaveneta.com/en-en/crepe-viscose-jersey-dress-abyss-844030V4YX04140.html"
+  },
+  {
+    "id": "relaxed-fit-t-shirt-demo-site",
+    "title": "Relaxed-Fit T-Shirt",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Dark Gray",
+          "hex": "#656a72"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$12.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-t-shirt-demo-site/6c226c1a-a001-0000-0b00-6276ad052655.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-t-shirt-demo-site/1a226c1a-a001-0000-0b00-e98fd7d6ddca.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "White",
+          "hex": "#ffffff"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$12.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-t-shirt-demo-site/ccb8a14c-9f01-0000-0b00-784e1fae6a77.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-t-shirt-demo-site/d2b8a14c-9f01-0000-0b00-ec515263934b.png"
+          }
+        ]
+      }
+    ],
+    "description": "Relaxed-fit T-shirt in medium-weight cotton jersey with a casual but not oversized silhouette. Ribbed round neck, dropped shoulders, and a straight-cut hem.",
+    "buy_link": "https://www2.hm.com/en_us/productpage.1309319012.html"
+  },
+  {
+    "id": "floral-print-pants",
+    "title": "Floral-Print Pants",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "bottom",
+        "name": "Bottom",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Floral",
+          "hex": "#bf9677"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$200.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/floral-print-pants/d909b6b9-9f01-0000-0b00-f48e31d3b35d.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/floral-print-pants/d809b6b9-9f01-0000-0b00-b2112cd7a0e3.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Black Floral-Print",
+          "hex": "#2a242b"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$200.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/floral-print-pants/1b2fb6b9-9f01-0000-0b00-4e94e870165f.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/floral-print-pants/202fb6b9-9f01-0000-0b00-63714f3ee264.png"
+          }
+        ]
+      }
+    ],
+    "description": "https://www.net-a-porter.com/en-us/shop/product/gucci/clothing/shirts/floral-print-silk-twill-shirt/46376663163085053",
+    "buy_link": "https://www.net-a-porter.com/en-us/shop/product/gucci/clothing/shirts/floral-print-silk-twill-shirt/46376663163085053"
+  },
+  {
+    "id": "izel-sweater-black-demosite",
+    "title": "Sweater - Black",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "BLACK",
+          "hex": "#181619"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$358",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/izel-sweater-black-demosite/08c4e16e-a001-0000-0b00-5a680f212545.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/izel-sweater-black-demosite/d4c4e16e-a001-0000-0b00-af88a3995e97.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "An essential turtleneck bodysuit crafted from a flattering knit blend.\n— Turtleneck\n— Snap closure\n— Knit blend\n— Figure hugging fabric",
+    "buy_link": "https://cultgaia.com/products/izel-sweater-black"
+  },
+  {
+    "id": "couture-virgin-wool-blend-mini-dress-demosite",
+    "title": "Couture Mini Dress",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Black/white",
+          "hex": "#181619"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$115.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/couture-virgin-wool-blend-mini-dress-demosite/1bfd1b5e-9f01-0000-0b00-6d49ef98ed30.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/couture-virgin-wool-blend-mini-dress-demosite/1efd1b5e-9f01-0000-0b00-a0ea46aa07f3.png"
+          }
+        ]
+      }
+    ],
+    "description": "https://www.bottegaveneta.com/en-en/crepe-viscose-jersey-dress-abyss-844030V4YX04140.html",
+    "buy_link": "https://www.bottegaveneta.com/en-en/crepe-viscose-jersey-dress-abyss-844030V4YX04140.html"
+  },
+  {
+    "id": "printed-shorts",
+    "title": "Blue Embroidered Shirt",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "White",
+          "hex": "#91c1cd"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$250.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/printed-shorts/d6241ec8-9f01-0000-0b00-e0a14ce132f3.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/printed-shorts/ae241ec8-9f01-0000-0b00-ee3856729ec1.png"
+          }
+        ]
+      }
+    ],
+    "description": "https://isleofmonday.com/products/roberto-cavalli-fw-2002-patchwork-shorts",
+    "buy_link": "https://isleofmonday.com/products/roberto-cavalli-fw-2002-patchwork-shorts"
+  },
+  {
+    "id": "simkhai-laia-bustier-strapless-maxi-dress",
+    "title": "Laia Bustier Strapless Maxi Dress",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Black Multi"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "0",
+              "2",
+              "4",
+              "6",
+              "8",
+              "10",
+              "12",
+              "14"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$695.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/simkhai-laia-bustier-strapless-maxi-dress/738bdb81-a001-0000-0b00-30082a9fa482.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/simkhai-laia-bustier-strapless-maxi-dress/998adb81-a001-0000-0b00-8470d4c0d00a.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/simkhai-laia-bustier-strapless-maxi-dress/d48bdb81-a001-0000-0b00-f3b8d6801f19.png"
+          }
+        ]
+      }
+    ],
+    "description": "Features\nStraight neck\nZipper closure at back\nStrapless\nDrape detail at left hip\nColor-blocked design\nTextured design\nLined\nImported\nSize & Fit\nFits true to size, order your normal size\nDesigned for a floor-length look\nApprox. 54.5\" from shoulder to hem, based on a size 4\nMaterials & Care\n97% polyester/3% spandex; lining: 100% polyester\nDry clean",
+    "buy_link": "https://www.bloomingdales.com/shop/product/simkhai-laia-bustier-strapless-maxi-dress?ID=6251579&utm_source=rakuten&utm_medium=affiliate&utm_campaign=affiliates&ranMID=13867&ranEAID=0c5b5rpoqTU&ranSiteID=0c5b5rpoqTU-05Y_FxH7GpR5oqWyPXSZTA&LinkshareID=0c5b5rpoqTU-05Y_FxH7GpR5oqWyPXSZTA&m_sc=aff&PartnerID=LINKSHARE&cm_mmc=LINKSHARE-_-n-_-n-_-n&ranPublisherID=0c5b5rpoqTU&ranLinkID=1&ranLinkTypeID=10&pubNAME=Vogue"
+  },
+  {
+    "id": "renesme-dress-cheetah",
+    "title": "Renesme Dress",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Cheetah",
+          "hex": "#bd9068"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$528.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/renesme-dress-cheetah/d8c7b8b9-9f01-0000-0b00-eb61ca59c394.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/renesme-dress-cheetah/d6c7b8b9-9f01-0000-0b00-c254e75d95b0.png"
+          }
+        ]
+      }
+    ],
+    "description": "A silk twill midi dress featuring a high neckline and a classic cheetah print.\n\n— Midi length\n\n— High neck\n\n— Adjustable straps\n\n— Silk twill",
+    "buy_link": "https://cultgaia.com/products/renesme-dress-cheetah?variant=43517236248650"
+  },
+  {
+    "id": "ralphlauren-polo-play-thong-sandal-limeade",
+    "title": "Polo Play Leather Thong Sandal",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "footwear",
+        "name": "Footwear",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Limeade"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "5",
+              "5.5",
+              "6",
+              "6.5",
+              "7",
+              "7.5",
+              "8",
+              "8.5",
+              "9",
+              "9.5",
+              "10",
+              "11"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$209.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/ralphlauren-polo-play-thong-sandal-limeade/bd5edb81-a001-0000-0b00-d3de65e8ff4e.jpg"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/ralphlauren-polo-play-thong-sandal-limeade/db5edb81-a001-0000-0b00-56c604656b10.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/ralphlauren-polo-play-thong-sandal-limeade/bf5edb81-a001-0000-0b00-57e83949789b.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "Part of our Polo Play collection, these thong sandals are crafted with full-grain sheep leather in a vibrant selection of colors inspired by Ralph Lauren's iconic Polo shirt. The minimalist silhouette is debossed with our signature Pony at the strap. 0.25\" (5mm) heel height. Thong silhouette. Slip-on styling. Upper and lining: 100% leather. Imported.",
+    "buy_link": "https://www.ralphlauren.com/women-footwear-shoes/polo-play-leather-thong-sandal/0080278625.html"
+  },
+  {
+    "id": "pucci-printed-mesh-maxi-dress",
+    "title": "Printed Mesh Maxi Dress",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Beige Print"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "IT38",
+              "IT40",
+              "IT42",
+              "IT44",
+              "IT46",
+              "IT48"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$1060",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/pucci-printed-mesh-maxi-dress/ec57db81-a001-0000-0b00-376d50e4fca5.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/pucci-printed-mesh-maxi-dress/cb57db81-a001-0000-0b00-b84c44920403.jpg"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/pucci-printed-mesh-maxi-dress/ce57db81-a001-0000-0b00-d0f508615e3e.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "PUCCI's maxi dress is crafted in Italy from tonal brown mesh with a swirling, wave-like print. Designed in a classic column silhouette that falls to a full length. All-over printing means each piece is one of a kind.",
+    "buy_link": "https://www.net-a-porter.com/en-us/shop/product/pucci/clothing/maxi-dresses/printed-mesh-maxi-dress/46376663163078433"
+  },
+  {
+    "id": "gauze-shirt-boxy-fit",
+    "title": "Gauze Shirt in Boxy Fit",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Indigo",
+          "hex": "#3f4f70"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$59.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/gauze-shirt-boxy-fit/37b0f1b9-9f01-0000-0b00-0f7af349d4d9.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/gauze-shirt-boxy-fit/3ab0f1b9-9f01-0000-0b00-c4d304c379e7.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Beige",
+          "hex": "#9e927f"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$59.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/gauze-shirt-boxy-fit/dde0f1b9-9f01-0000-0b00-f82ebbcd62fd.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/gauze-shirt-boxy-fit/e0e0f1b9-9f01-0000-0b00-81561b33814d.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Black",
+          "hex": "#191618"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$59.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/gauze-shirt-boxy-fit/63fdf1b9-9f01-0000-0b00-fec4e75c6441.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/gauze-shirt-boxy-fit/17fdf1b9-9f01-0000-0b00-2bdb8be55847.png"
+          }
+        ]
+      }
+    ],
+    "description": "Gauze weave with crinkled texture. Dropped shoulder, long sleeves with button cuffs. Spread collar, button front.",
+    "buy_link": "https://www.gapfactory.com/browse/product.do?pid=1176021021&vid=1&pcid=1052118&cid=1052118&nav=meganav%3AMen%3ANew+%26+Featured%3ANew+Arrivals#pdp-page-content"
+  },
+  {
+    "id": "regular-fit-shorts-demo-site",
+    "title": "Striped Shorts",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "bottom",
+        "name": "Bottom",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Cream/Stripes",
+          "hex": "#cec6b4"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$19.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/regular-fit-shorts-demo-site/28fdf924-9f01-0000-0b00-b13f9c967197.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/regular-fit-shorts-demo-site/ccfcf924-9f01-0000-0b00-0edf59549ab0.png"
+          }
+        ]
+      }
+    ],
+    "description": "Shorts in a textured cotton blend fabric with an elasticated waistband and drawstring. Discreet side pockets and an inset back pocket. Standard fit for a classic and comfortable silhouette.",
+    "buy_link": "https://www2.hm.com/en_us/men/products/shorts.html?patterns=Striped&id=aa14"
+  },
+  {
+    "id": "canvas-baggy-trouser-jeans",
+    "title": "Canvas Baggy Trouser Jeans",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "bottom",
+        "name": "Bottom",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Dark Indigo",
+          "hex": "#131c32"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$50.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/canvas-baggy-trouser-jeans/6f81ecb9-9f01-0000-0b00-7e21895c8984.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/canvas-baggy-trouser-jeans/7081ecb9-9f01-0000-0b00-2f048368f461.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Striped",
+          "hex": "#7e909b"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$50.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/canvas-baggy-trouser-jeans/5aa1ecb9-9f01-0000-0b00-28c298b882d8.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/canvas-baggy-trouser-jeans/53a1ecb9-9f01-0000-0b00-4929287ddfe3.png"
+          }
+        ]
+      }
+    ],
+    "description": "A fit that moves freely. Low slung with a slouchy, loose leg. A baggy canvas jean in a dark indigo wash. Zip fly, front slant pockets and back button-flap patch pockets.",
+    "buy_link": "https://www.gap.com/browse/product.do?pid=801572002&vid=1#pdp-page-content"
+  },
+  {
+    "id": "slim-fit-blouse-in-cotton-with-peplum-hem-demosite",
+    "title": "Slim-Fit Blouse",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "White",
+          "hex": "#ffffff"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$115.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-blouse-in-cotton-with-peplum-hem-demosite/e9fd661a-a001-0000-0b00-2c40bfd2559e.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-blouse-in-cotton-with-peplum-hem-demosite/a3fc661a-a001-0000-0b00-720a6635427f.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Blue",
+          "hex": "#b4cff4"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$115.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-blouse-in-cotton-with-peplum-hem-demosite/2ea8671a-a001-0000-0b00-03c06e6ac6c5.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-blouse-in-cotton-with-peplum-hem-demosite/fda6671a-a001-0000-0b00-3db5feb46583.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Mint Green",
+          "hex": "#d2e3d7"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$115.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-blouse-in-cotton-with-peplum-hem-demosite/0c3c681a-a001-0000-0b00-4918b93026fa.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-blouse-in-cotton-with-peplum-hem-demosite/db3a681a-a001-0000-0b00-e08a7fb0acde.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Brown",
+          "hex": "#765140"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$115.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-blouse-in-cotton-with-peplum-hem-demosite/2127691a-a001-0000-0b00-41189d5d7afc.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-blouse-in-cotton-with-peplum-hem-demosite/f925691a-a001-0000-0b00-86bb9c110fe6.png"
+          }
+        ]
+      }
+    ],
+    "description": "With a defined fit flaring to an elegant peplum hem, this HUGO Womenswear blouse is crafted in crisp cotton poplin. Embroidered logo below rear collar.\n",
+    "buy_link": "https://www.hugoboss.com/us/slim-fit-blouse-in-cotton-with-peplum-hem/hbna50562961_100.html#cgid=11100"
+  },
+  {
+    "id": "braiden-top-wren-demosite",
+    "title": "Braiden Top - Wren",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "WREN"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "00",
+              "0",
+              "2",
+              "4",
+              "6",
+              "8",
+              "10",
+              "12"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$898",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/braiden-top-wren-demosite/a13be16e-a001-0000-0b00-e09ce4de2501.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/braiden-top-wren-demosite/7d3ce16e-a001-0000-0b00-e0d9c60f6711.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "A braided cotton corset top with thin straps and a sculpted bodice.\n— Cotton utility fabrication\n— Braided bodice\n— Thin straps\n— Zipper closure",
+    "buy_link": "https://cultgaia.com/products/braiden-top-wren"
+  },
+  {
+    "id": "katya-sculpted-bow-romper",
+    "title": "Sculpted Bow Romper",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Black/White",
+          "hex": "#15181d"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "0",
+              "2",
+              "4",
+              "6",
+              "8",
+              "10",
+              "12",
+              "14"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$395.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/katya-sculpted-bow-romper/8508b818-9f01-0000-0b00-93500900b1ac.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/katya-sculpted-bow-romper/7e08b818-9f01-0000-0b00-98abf0e2024a.png"
+          }
+        ]
+      }
+    ],
+    "description": "A romper that looks like the chicest mini dress. With hidden inner shorts, our Katya guarantees comfort and ease of movement. It’s designed in a matte satin crepe with sculpted seams that define the waist, creating a subtle hourglass shape. The oversized satin bow makes it feminine and fun, while the strapless neckline stays secure thanks to an inner silicone grip. It’s polished, playful, and super photogenic.",
+    "buy_link": "https://www.aliceandolivia.com/katya-sculpted-bow-romper/CC603210802G980.html"
+  },
+  {
+    "id": "toryburch-sequin-mesh-top",
+    "title": "Sequin Mesh Top",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Snow White / Light Pink"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$299",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/toryburch-sequin-mesh-top/44b0db81-a001-0000-0b00-bc6f66b6412b.jpg"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/toryburch-sequin-mesh-top/43b0db81-a001-0000-0b00-5aae1b23ff12.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "Slim fit sequin mesh top. 92% lyocell, 8% elastane; 100% polyester sequin mesh. Dry clean.",
+    "buy_link": "https://www.toryburch.com/en-us/clothing/tops/sequin-mesh-top/181581.html"
+  },
+  {
+    "id": "calf-hair-trousers",
+    "title": "Calf Hair Trousers",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "bottom",
+        "name": "Bottom",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Calf Hair",
+          "hex": "#3b2b22"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$300.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/calf-hair-trousers/de4e15c8-9f01-0000-0b00-879eeec4306e.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/calf-hair-trousers/da4e15c8-9f01-0000-0b00-181fe410a9f4.png"
+          }
+        ]
+      }
+    ],
+    "description": "https://isleofmonday.com/products/jitrois-calf-hair-leather-trousers",
+    "buy_link": "https://isleofmonday.com/products/jitrois-calf-hair-leather-trousers"
+  },
+  {
+    "id": "gianina-dress-black-demosite",
+    "title": "Gianina Knit Dress - Black",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "BLACK"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$698",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/gianina-dress-black-demosite/8495e16e-a001-0000-0b00-58f034ce3eb0.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/gianina-dress-black-demosite/8195e16e-a001-0000-0b00-fb7a5d9edb83.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/gianina-dress-black-demosite/b296e16e-a001-0000-0b00-6a0b92051987.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "Preorder - Estimated Ship Date is Between September 29th and October 5th\nA high neck knit midi dress featuring an open back with\nsculptural pearl-like stones woven into delicate crisscross straps.\n— Midi length\n— Open back\n— Stone adorned straps",
+    "buy_link": "https://cultgaia.com/products/gianina-dress-black"
+  },
+  {
+    "id": "rohe-textured-fringe-boucle-top",
+    "title": "Textured Fringe Boucle Top",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Cream"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "30",
+              "32",
+              "34",
+              "36",
+              "38",
+              "40",
+              "42",
+              "44"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "€495",
+          "currency": "EUR"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/rohe-textured-fringe-boucle-top/5c6ddb81-a001-0000-0b00-0f3c941811bc.jpg"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/rohe-textured-fringe-boucle-top/5c6ddb81-a001-0000-0b00-301d24a6504d.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "A sleeveless top crafted from textured boucle fringe, with an open neckline and fringe detailing that continues down the sides of the garment. Finished with a button and keyhole opening at the back of the neck. 100% polyester.",
+    "buy_link": "https://roheframes.com/collections/new-arrivals/products/textured-fringe-boucle-top-cream"
+  },
+  {
+    "id": "slim-fit-jacket-in-washable-virgin-wool-demo-site",
+    "title": "Slim-Fit Jacket",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Blue",
+          "hex": "#2c3143"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$699.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-jacket-in-washable-virgin-wool-demo-site/931cba18-9f01-0000-0b00-c272acf8bb59.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/slim-fit-jacket-in-washable-virgin-wool-demo-site/841cba18-9f01-0000-0b00-7781e03af69f.png"
+          }
+        ]
+      }
+    ],
+    "description": "In super-lightweight virgin wool with wrinkle recovery, this BOSS Menswear jacket offers easy-care appeal. Clean slim fit. Machine washable.\n",
+    "buy_link": "https://www.hugoboss.com/us/slim-fit-jacket-in-washable-virgin-wool/hbna50561991_466.html"
+  },
+  {
+    "id": "floral-print-shirt-demo-site",
+    "title": "Floral Print Shirt",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Floral",
+          "hex": "#61847d"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$300.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/floral-print-shirt-demo-site/d749d2b9-9f01-0000-0b00-e4c9ae1dd612.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/floral-print-shirt-demo-site/ce49d2b9-9f01-0000-0b00-48a278299208.png"
+          }
+        ]
+      }
+    ],
+    "description": "https://www.net-a-porter.com/en-us/shop/product/gucci/clothing/shirts/floral-print-silk-twill-shirt/46376663163085053",
+    "buy_link": "https://www.net-a-porter.com/en-us/shop/product/gucci/clothing/shirts/floral-print-silk-twill-shirt/46376663163085053"
+  },
+  {
+    "id": "ilkyaz-ozel-dusk-satin-fringed-pants",
+    "title": "Dusk Satin Fringed Wide-Leg Pants",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "bottom",
+        "name": "Bottom",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Black"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "FR 34",
+              "FR 36",
+              "FR 38",
+              "FR 40",
+              "FR 42",
+              "FR 44"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$720",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/ilkyaz-ozel-dusk-satin-fringed-pants/8cbbe16e-a001-0000-0b00-4b01be12e212.jpg"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/ilkyaz-ozel-dusk-satin-fringed-pants/90bbe16e-a001-0000-0b00-0801d9753cf6.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "ILKYAZ OZEL's 'Dusk' pants are cut from satin in a structured wide-leg silhouette with a subtle sheen. An elongated belt ties around the waist and is trimmed with fringe that delicately sways with movement.",
+    "buy_link": "https://www.net-a-porter.com/en-us/shop/product/ilkyaz-ozel/clothing/wide-leg/dusk-satin-fringed-wide-leg-pants/46376663163136455"
+  },
+  {
+    "id": "toryburch-racerback-tank-003",
+    "title": "Racerback Tank",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Brown/Navy/White Stripe"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$330",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/toryburch-racerback-tank-003/e7a8db81-a001-0000-0b00-709c65190bbc.jpg"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/toryburch-racerback-tank-003/eaa8db81-a001-0000-0b00-cca7fbb4b816.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "Crafted in Japanese cotton jersey, the striped tank features a scoop neck, sporty racerback and a removable flower pin. Designed for a slim fit.",
+    "buy_link": "https://www.toryburch.com/en-us/clothing/tops/racerback-tank/185743.html?color=209"
+  },
+  {
+    "id": "tapered-fit-trousers-in-washable-virgin-wool-demo-site",
+    "title": "Tapered-Fit Trousers",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "bottom",
+        "name": "Bottom",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Blue",
+          "hex": "#3a3c4f"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$299.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/tapered-fit-trousers-in-washable-virgin-wool-demo-site/f3dfba18-9f01-0000-0b00-beb3d85a545d.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/tapered-fit-trousers-in-washable-virgin-wool-demo-site/9ddfba18-9f01-0000-0b00-17991d976ace.png"
+          }
+        ]
+      }
+    ],
+    "description": "Offering easy care and modern style, these washable BOSS Menswear trousers are crafted in lightweight virgin wool. Tapered fit. Wrinkle resistant.\n",
+    "buy_link": "https://www.hugoboss.com/us/tapered-fit-trousers-in-washable-virgin-wool/hbna50561986_466.html"
+  },
+  {
+    "id": "wool-cashmere-cable-knit-mini-dress-demosite",
+    "title": "Knit Mini Dress",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Red",
+          "hex": "#aa0333"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$115.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/wool-cashmere-cable-knit-mini-dress-demosite/a2c6f05f-9f01-0000-0b00-b0528da206a8.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/wool-cashmere-cable-knit-mini-dress-demosite/4ec6f05f-9f01-0000-0b00-0fd54fd65358.png"
+          }
+        ]
+      }
+    ],
+    "description": "https://www.alexandermcqueen.com/en-gb/pr/wool-cashmere-cable-knit-mini-dress-848815Q1BE16062.html",
+    "buy_link": "https://www.alexandermcqueen.com/en-gb/pr/wool-cashmere-cable-knit-mini-dress-848815Q1BE16062.html"
+  },
+  {
+    "id": "bebe-dress-etched-floral",
+    "title": "Bebe Dress",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Floral",
+          "hex": "#313648"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "00",
+              "0",
+              "2",
+              "4",
+              "6",
+              "8",
+              "10",
+              "12"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$1598.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/bebe-dress-etched-floral/f46fa98f-9f01-0000-0b00-d70e0b513685.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/bebe-dress-etched-floral/8a6fa98f-9f01-0000-0b00-a56586c17215.png"
+          }
+        ]
+      }
+    ],
+    "description": "A mini dress featuring bead and sequin embroidery in our etched floral pattern.\n\n— Mini length\n\n— Square neckline\n\n— Embroidered beaded floral print\n\n— Thin straps",
+    "buy_link": "https://cultgaia.com/products/bebe-dress-etched-floral?variant=43517204594762"
+  },
+  {
+    "id": "nike-ld1000-suede-black",
+    "title": "LD-1000 Suede",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "footwear",
+        "name": "Footwear",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Black/Sail/Gum Light Brown/Dark Smoke Grey"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "5",
+              "5.5",
+              "6",
+              "6.5",
+              "7",
+              "7.5",
+              "8",
+              "8.5",
+              "9",
+              "9.5",
+              "10",
+              "10.5",
+              "11",
+              "11.5",
+              "12"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$67.97",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/nike-ld1000-suede-black/65fae16e-a001-0000-0b00-ef7cecb6857d.jpg"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/nike-ld1000-suede-black/7efae16e-a001-0000-0b00-22c9eec2508b.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/nike-ld1000-suede-black/67fae16e-a001-0000-0b00-28939cf67e45.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "Back in 1977, the LD-1000 made waves with dramatically flared heel cushioning to support long-distance runners. The retro shape and Waffle outsole make it a staple comfortable enough for everyday wear. Upper combines leather and suede for durability. Foam midsole. Rubber outsole. Shown: Black/Sail/Gum Light Brown/Dark Smoke Grey.",
+    "buy_link": "https://www.nike.com/t/ld-1000-suede-womens-shoes-gXu3Z9Gy"
+  },
+  {
+    "id": "dress-with-japanese-sleeves-demo-site",
+    "title": "Dress with Japanese Sleeves",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Brown",
+          "hex": "#312b1e"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$14.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/dress-with-japanese-sleeves-demo-site/6cc42647-9f01-0000-0b00-83cef88c5cd8.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/dress-with-japanese-sleeves-demo-site/6ac42647-9f01-0000-0b00-fde14f354eba.png"
+          }
+        ]
+      }
+    ],
+    "description": "Fitted midi dress in stretch knit. Features a boat neckline, kimono sleeves, and a gathered waist. Fully lined bodice.",
+    "buy_link": "https://www2.hm.com/es_es/productpage.1239334023.html"
+  },
+  {
+    "id": "cotton-blouse-with-english-embroidery-demosite",
+    "title": "Blouse with English Embroidery",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "pink",
+          "hex": "#ebd0c9"
+        },
+        "size_groups": [
+          {
+            "sizes": [],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$29.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/cotton-blouse-with-english-embroidery-demosite/bc0ebe18-9f01-0000-0b00-083636c033b3.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/cotton-blouse-with-english-embroidery-demosite/b90ebe18-9f01-0000-0b00-1700ffad62dd.png"
+          }
+        ]
+      }
+    ],
+    "description": "Short cotton blouse with broderie anglaise and scalloped trim. Deep V-neck with flounce trim and open front with concealed hook-and-eye closure and a thin tie at the waist. Elbow-length sleeves with thin elastic and flounce trim at the cuffs, and elasticated seam with gathers at the waist to create a flared hem.",
+    "buy_link": "https://www2.hm.com/es_es/productpage.1332998002.html"
+  },
+  {
+    "id": "saintlaurent-jill-bootie-stonish-beige",
+    "title": "Jill Bootie",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "footwear",
+        "name": "Footwear",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Stonish Beige"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "6",
+              "7",
+              "7.5",
+              "8",
+              "8.5",
+              "9",
+              "9.5",
+              "10",
+              "11"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$1700.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/saintlaurent-jill-bootie-stonish-beige/2d7adb81-a001-0000-0b00-f32688c378ed.jpg"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/saintlaurent-jill-bootie-stonish-beige/487adb81-a001-0000-0b00-51ddb584bc18.png"
+          },
+          {
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/saintlaurent-jill-bootie-stonish-beige/307adb81-a001-0000-0b00-cfe19e0dd254.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "This butter-soft lambskin bootie crafted in Italy with a square pointed toe and tapered heel presents a clean and contemporary silhouette. 3 3/4\" (95mm) heel. Side zip closure. Leather upper, lining and sole. Made in Italy.",
+    "buy_link": "https://www.nordstrom.com/s/jill-bootie-women/8802961"
+  },
+  {
+    "id": "relaxed-fit-cotton-cargo-pants-demo-site",
+    "title": "Cargo Pants",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "bottom",
+        "name": "Bottom",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Light Beige",
+          "hex": "#d1baa0"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$34.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-cotton-cargo-pants-demo-site/e57bbd18-9f01-0000-0b00-95a0360d164d.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-cotton-cargo-pants-demo-site/dc7bbd18-9f01-0000-0b00-282f719b7284.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Olive Green",
+          "hex": "#605b44"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$34.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-cotton-cargo-pants-demo-site/c832e94c-9f01-0000-0b00-764ea888072b.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/relaxed-fit-cotton-cargo-pants-demo-site/ce32e94c-9f01-0000-0b00-f1aaaf46eebf.png"
+          }
+        ]
+      }
+    ],
+    "description": "Cargo pants in soft cotton canvas with a concealed drawstring waist and zip and snap button closure. Features slanted pockets, and concealed flap and snap button pockets on the legs and back. Stitched pleats at the knees. Relaxed fit for a casual yet not oversized silhouette.",
+    "buy_link": "https://www2.hm.com/es_es/productpage.1316423003.html"
+  },
+  {
+    "id": "linen-dress-demo-site",
+    "title": "Linen Dress",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Polka Dot",
+          "hex": "#23211f"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$44.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/linen-dress-demo-site/da12c38a-9f01-0000-0b00-55d1b99514b7.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/linen-dress-demo-site/ea12c38a-9f01-0000-0b00-a6ab2508e5d6.png"
+          }
+        ]
+      },
+      {
+        "color": {
+          "name": "Off White",
+          "hex": "#ebe7ec"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$44.99",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/linen-dress-demo-site/4863c48a-9f01-0000-0b00-8f57b87986f6.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/linen-dress-demo-site/b963c48a-9f01-0000-0b00-891128b7398a.png"
+          }
+        ]
+      }
+    ],
+    "description": "Smooth linen blend.\nTank straps.\nSquare neckline, keyhole with button closure at back.\nSelect styles have allover print.",
+    "buy_link": "https://www.gapfactory.com/browse/product.do?pid=845008061&vid=1&tid=gfpl000071&kwid=1&ds_agid=23920023099-&gclsrc=aw.ds&gad_source=1&gad_campaignid=23925131477&gbraid=0AAAAAD_AT8tSTue6G-zdhXTsLQWQtgc5b&gclid=Cj0KCQjwjb3SBhDgARIsAMKiWzirn47hGYO4L8IMAK2VqbhGHzcf7CY7Gt32hFCbSjaC6S8stUlfVqAaAoJ8EALw_wcB#pdp-page-content"
+  },
+  {
+    "id": "toryburch-mirror-embellished-cotton-dress",
+    "title": "Mirror Embellished Cotton Dress",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "women",
+        "name": "Women",
+        "garment_count": 0
+      },
+      {
+        "id": "dress",
+        "name": "Dress",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Pink / Gray"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "00",
+              "0",
+              "2",
+              "4",
+              "6",
+              "8",
+              "10",
+              "12",
+              "14"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "$1995",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/toryburch-mirror-embellished-cotton-dress/82a1db81-a001-0000-0b00-550c70665b62.jpg"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/toryburch-mirror-embellished-cotton-dress/82a1db81-a001-0000-0b00-35fba262b651.jpg"
+          }
+        ]
+      }
+    ],
+    "description": "Hand-applied mirror embellishment covers this cotton dress, styled with spaghetti straps and a fitted silhouette that falls above the ankle. Ties at the back of the bodice with a hidden side zipper and hook-and-eye closure at the skirt.",
+    "buy_link": "https://www.toryburch.com/en-us/clothing/dresses/mirror-embellished-cotton-dress/183267.html"
+  },
+  {
+    "id": "canvas-relaxed-shirt-jacket",
+    "title": "Canvas Relaxed Shirt Jacket",
+    "partner_id": "demo-site",
+    "categories": [
+      {
+        "id": "top",
+        "name": "Top",
+        "garment_count": 0
+      }
+    ],
+    "variants": [
+      {
+        "color": {
+          "name": "Ecru Beige",
+          "hex": "#968d86"
+        },
+        "size_groups": [
+          {
+            "sizes": [
+              "XXS",
+              "XS",
+              "S",
+              "M",
+              "L",
+              "XL",
+              "XXL"
+            ],
+            "size_system": "US"
+          }
+        ],
+        "price": {
+          "amount": "60.00",
+          "currency": "USD"
+        },
+        "images": [
+          {
+            "tag": "flat",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/canvas-relaxed-shirt-jacket/7751ecb9-9f01-0000-0b00-28e437ba3e17.png"
+          },
+          {
+            "tag": "model",
+            "url": "https://api-minio.prod.spreeai.com/garment/demo-site/canvas-relaxed-shirt-jacket/7751ecb9-9f01-0000-0b00-4b24347a5829.png"
+          }
+        ]
+      }
+    ],
+    "description": "Smooth cotton canvas shirt jacket in a relaxed fit. Spread collar, button front. Long sleeves with button cuffs. Chest patch pocket, interior patch pocket, side welt pockets.",
+    "buy_link": "https://www.gap.com/browse/product.do?pid=894748002&vid=1#pdp-page-content"
+  }
+]
