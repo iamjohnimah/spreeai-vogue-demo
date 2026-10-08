@@ -2,11 +2,15 @@
 
 Independent shopping review, not an official Vogue website or endorsed partnership.
 
-## October 7 update — build 2026.10.07.04
+## October 7 update — build 2026.10.07.05
 
 25 captured products from Vogue Shopping, with original product photography, designer names, prices and retailer links. Provenance is in source-catalog.json; prices are snapshots, not live stock.
 
 Homepage Try on buttons remain centered inside each image frame, below the garment. On the product page, Try it on appears inside the fitting-room panel directly above Build a look; it is not over the photograph. Compare remains separate, and Find my size sits beside Size Guide. The try-on dialog contains only try-on controls. Back and video remain explicit Coming soon placeholders.
+
+## Image recovery
+
+The browser verifies that a completed preview can actually display before marking it ready. When delivery fails, it refreshes the same result with bounded retries and preserves its request ID for manual recovery. For eligible unsigned staging render URLs, a failed CDN image can load the identical render key from the known SPREEAI image origin. This is limited to this Vogue review. Signed URLs, foreign hosts, uploads and mismatched render IDs are excluded. Retry does not substitute another model or show a product photo as a personal preview. Ten deterministic recovery tests pass. This client behavior cannot replace an image that the service does not deliver.
 
 ## Verified and remaining work
 

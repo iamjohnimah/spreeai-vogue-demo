@@ -1,4 +1,4 @@
-import {loadImage} from './image-readiness';
+import {verifyPreviewImage,PreviewImageUnavailable} from './preview-image';
 import {withPreviewDeadline} from './preview-job';
 import {previewCache,persistPreviews} from './preview-cache';
 import {isPresignedUrlExpired} from './presigned';
@@ -18,12 +18,40 @@ const notify=()=>listeners.forEach(f=>f());
 export const profileScope=()=>{const p=currentProfile();return p.identity?p.version+':'+p.identity.id:''};
 export const renderKey=(ids:string[],size='',base='',environment='dev')=>profileScope()+':'+environment+':image:'+ids.join('|')+':'+size+':'+base;
 export const cachedImage=(id:string)=>cache.get(renderKey([id]))?.url;
-function start(key:string,load:()=>Promise<Partial<Result>>,scope:string){if(!key||jobs.has(key)||(cache.has(key)&&cache.get(key)?.status!=='loading'&&!isPresignedUrlExpired(cache.get(key)?.url)&&(!cache.get(key)?.url||verifiedImages.has(cache.get(key)!.url!))))return;cache.set(key,{status:'loading'});notify();const finishLoading=beginLoading();const promise=withPreviewDeadline(load).then(value=>{if(scope===profileScope()){cache.set(key,{...value,status:'ready'});persistPreviews()}}).catch(e=>{if(scope===profileScope())cache.set(key,{status:'error',error:e instanceof Error?e.message:'Temporarily unavailable.'})}).finally(()=>{if(scope!==profileScope()&&cache.get(key)?.status==='loading')cache.delete(key);finishLoading();jobs.delete(key);notify()});jobs.set(key,promise)}
+function start(key:string,load:()=>Promise<Partial<Result>>,scope:string){if(!key||jobs.has(key)||(cache.has(key)&&cache.get(key)?.status!=='loading'&&!isPresignedUrlExpired(cache.get(key)?.url)&&(!cache.get(key)?.url||verifiedImages.has(cache.get(key)!.url!))))return;cache.set(key,{status:'loading'});notify();const finishLoading=beginLoading();const promise=withPreviewDeadline(load).then(value=>{if(scope===profileScope()){cache.set(key,{...value,status:'ready'});persistPreviews()}}).catch(e=>{if(scope===profileScope())cache.set(key,{status:'error',error:e instanceof Error?e.message:'Temporarily unavailable.',...(e instanceof PreviewImageUnavailable?{requestId:e.requestId,environment:e.environment}:{})})}).finally(()=>{if(scope!==profileScope()&&cache.get(key)?.status==='loading')cache.delete(key);finishLoading();jobs.delete(key);notify()});jobs.set(key,promise)}
 function useResult(key:string){return useSyncExternalStore(f=>{listeners.add(f);return()=>{listeners.delete(f)}},()=>key?(cache.get(key)?.status==='ready'&&isPresignedUrlExpired(cache.get(key)?.url)?pending:cache.get(key)||empty):empty)}
 export function usePersonalImage(products:Product[],size='',base='',retry=0){
  const profile=useConnectedProfile(),identity=profile.identity,scope=identity?profile.version+':'+identity.id:'',ids=products.map(p=>p.garmentId);const usable=identity&&ids.length>0;const key=usable?scope+':'+(products[0]?.environment||'dev')+':image:'+ids.join('|')+':'+size+':'+base:'';const state=useResult(key),expired=cache.get(key)?.status==='ready'&&isPresignedUrlExpired(cache.get(key)?.url);
  const historyToken=useMemo(()=>historyWriteToken(identity?.id||''),[key,retry,expired]);
- useEffect(()=>{if(!identity||!ids.length)return;if(retry>0&&cache.get(key)?.status==='error')cache.delete(key);const saved=cache.get(key);const timer=setTimeout(()=>start(key,async()=>{if(scope!==profileScope())throw Error('Profile changed');if(saved?.requestId&&isPresignedUrlExpired(saved.url)){const get=saved.environment==='prod'?productionRequest:request;const refreshed=await get<{image?:{url:string}}>('/v1/user-assets/tryon/'+encodeURIComponent(saved.requestId));if(!refreshed.image?.url||isPresignedUrlExpired(refreshed.image.url))throw Error('This preview link is unavailable. Please retry your look.');await loadImage(refreshed.image.url);verifiedImages.add(refreshed.image.url);return {...saved,url:refreshed.image.url}}if(saved?.url&&saved.status==='ready'){try{await loadImage(saved.url);verifiedImages.add(saved.url);return saved}catch{if(saved.requestId){const get=saved.environment==='prod'?productionRequest:request;const fresh=await get<{image?:{url:string}}>('/v1/user-assets/tryon/'+encodeURIComponent(saved.requestId));if(fresh.image?.url){await loadImage(fresh.image.url);verifiedImages.add(fresh.image.url);return {...saved,url:fresh.image.url}}}throw Error('Your saved preview could not be loaded. Retry to create a fresh view.')}}if(products.some(p=>(p.environment||'dev')!==(products[0].environment||'dev')))throw Error('Choose pieces from the same collection for a combined look.');const r=products[0].environment==='prod'?await productionRender(ids,identity,new AbortController().signal,size||undefined,base||undefined):await render(ids,identity,new AbortController().signal,'front',size||undefined,base||undefined);if(!r.image?.url)throw Error('No image was returned. Please retry your look.');await loadImage(r.image.url);verifiedImages.add(r.image.url);if(scope===profileScope())recordHistory({id:key,kind:size?'sizing':'tryon',identityId:identity.id,identityName:identity.name,pieces:products.map(p=>({id:p.id,name:p.name,image:p.image})),images:[r.image.url],size:size||undefined,recommended:base||undefined},historyToken);return {url:r.image!.url,requestId:r.request_id,environment:products[0].environment||'dev'}},scope),size||ids.length>1?450:0);return()=>clearTimeout(timer)},[key,retry,expired]);return state;
+ useEffect(()=>{
+  if(!identity||!ids.length)return;
+  const saved=cache.get(key);
+  if(retry>0&&saved?.status==='error')cache.delete(key);
+  const timer=setTimeout(()=>start(key,async()=>{
+   if(scope!==profileScope())throw Error('Profile changed');
+   const environment=products[0].environment||'dev';
+   const get=environment==='prod'?productionRequest:request;
+   let completed:{request_id:string;status?:string;image?:{url:string}};
+   if(saved?.requestId){
+    // Manual retries recover the existing render, including failures in image delivery.
+    // Retain its ID even when the status lookup or image decoding fails.
+    completed={request_id:saved.requestId,status:saved.status==='ready'?'COMPLETE':undefined,image:saved.url?{url:saved.url}:undefined};
+    if(saved.status==='error'||isPresignedUrlExpired(saved.url)){
+     try{completed={...await get<typeof completed>('/v1/user-assets/tryon/'+encodeURIComponent(saved.requestId)),request_id:saved.requestId}}catch{completed={request_id:saved.requestId}}
+    }
+   }else{
+    if(products.some(p=>(p.environment||'dev')!==environment))throw Error('Choose pieces from the same collection for a combined look.');
+    completed=environment==='prod'?await productionRender(ids,identity,new AbortController().signal,size||undefined,base||undefined):await render(ids,identity,new AbortController().signal,'front',size||undefined,base||undefined);
+   }
+   let url:string;
+   try{url=await verifyPreviewImage(completed,async id=>({...await get<typeof completed>('/v1/user-assets/tryon/'+encodeURIComponent(id)),request_id:id}),{allowStageOrigin:window.PARTNER_DEMO?.theme==='vogue'&&environment==='dev'})}
+   catch(error){if(error instanceof PreviewImageUnavailable)error.environment=environment;throw error}
+   verifiedImages.add(url);
+   if(scope===profileScope())recordHistory({id:key,kind:size?'sizing':'tryon',identityId:identity.id,identityName:identity.name,pieces:products.map(p=>({id:p.id,name:p.name,image:p.image})),images:[url],size:size||undefined,recommended:base||undefined},historyToken);
+   return {url,requestId:completed.request_id,environment};
+  },scope),size||ids.length>1?450:0);
+  return()=>clearTimeout(timer);
+ },[key,retry,expired]);return state;
 }
 export function usePersonalFit(product?:Product){
  const profile=useConnectedProfile(),identity=profile.identity,scope=identity?profile.version+':'+identity.id:'',key=identity&&product&&!isOneSize(product.sizes)?scope+':'+(product.environment||'dev')+':fit:'+product.garmentId+(window.PARTNER_DEMO?':simulation-v1':''):'';const state=useResult(key);
