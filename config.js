@@ -243,7 +243,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Zara"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "facts": [
         "Featured in Vogue’s New Arrivals edit",
         "Retailer: ZARA",
@@ -653,7 +653,7 @@ window.PARTNER_DEMO = {
       "source": [
         "By Malene Birger"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "availableSizes": [
         "Retailer selection"
       ],
@@ -817,7 +817,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Dries Van Noten"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "availableSizes": [
         "Retailer selection"
       ],
