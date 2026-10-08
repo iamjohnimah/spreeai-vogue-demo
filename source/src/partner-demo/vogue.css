@@ -105,3 +105,17 @@
 .vogue .vogue-gallery-image .retail-zoom-label{bottom:auto;top:16px}
 .vogue .vogue-gallery-stage .vogue-card-try-row{bottom:38px}
 @media(max-width:700px){.vogue .retail-card-photo{margin-bottom:10px}.vogue .retail-card-photo>a{height:calc(100% - 74px)}.vogue .retail-card-photo .vogue-card-try-row{bottom:21px;padding:0 8px;height:44px}.vogue .retail-card-photo .vogue-card-try{height:44px}.vogue .retail-card-photo .vogue-card-try img{width:50px}.vogue .vogue-gallery-stage .vogue-card-try{font-size:12px;width:220px}.vogue .vogue-gallery-stage .vogue-card-try img{width:62px}.vogue .vogue-gallery-stage .vogue-card-try span{padding-left:14px}}
+
+/* Routine profile requests stay in flow; preview progress is scoped to its frame. */
+.vogue-loading-status{position:static;display:flex;align-items:center;justify-content:center;gap:12px;max-width:100%;padding:18px 12px;box-sizing:border-box;font:400 12px/19px 'Vogue Avant Garde',sans-serif;color:#615d59;text-align:center;animation:vogue-status-appear .15s .3s both}
+.vogue-loading-spinner{display:block;width:20px;height:20px;flex:0 0 20px;border:1.5px solid #dedbd7;border-top-color:#252220;border-radius:50%;animation:vogue-status-spin 1s linear infinite;box-sizing:border-box}
+.vogue-experience .compare-look-photo>span:has(>.vogue-loading-status){position:absolute!important;inset:0!important;display:grid!important;place-items:center;background:#f7f6f4}
+.vogue-experience .compare-look-photo .vogue-loading-status{max-width:100%;overflow-wrap:anywhere}
+@keyframes vogue-status-spin{to{transform:rotate(360deg)}}
+@keyframes vogue-status-appear{from{opacity:0}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){.vogue-loading-status,.vogue-loading-spinner{animation:none}}
+
+.vogue-experience .saved-photo-state{position:relative;display:grid;place-content:center;justify-items:center;gap:12px;min-height:380px;padding:70px 24px 32px;background:#f7f6f4;text-align:center;box-sizing:border-box}
+.vogue-experience .saved-photo-state h3{font:300 26px/32px 'FB Didot',serif;margin:0}
+.vogue-experience .saved-photo-state p{font-size:12px;line-height:20px;color:#615d59;margin:0;max-width:280px}
+.vogue-experience .saved-photo-state>button{padding:10px 18px;border:1px solid #bbb;min-height:44px;background:#fff;font-size:12px}

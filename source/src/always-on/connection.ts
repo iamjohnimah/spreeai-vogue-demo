@@ -25,6 +25,8 @@ export function useConnectedProfile(){return useSyncExternalStore(f=>{listeners.
 export function currentProfile(){return profile}
 export function currentSessionRevision(){return epoch}
 export function selectIdentity(identity:Identity|null){profile={...profile,identity,version:profile.version+1};save()}
+// Renewing a URL for the same selected upload does not invalidate completed try-ons.
+export function updatePhotoUrl(id:string,url:string,version:number){if(profile.version!==version||profile.identity?.kind!=='photo'||profile.identity.id!==id)return;if(profile.identity.url===url)return;profile={...profile,identity:{...profile.identity,url}};save()}
 const uploadLedgerKey=PARTNER+':spree-session-upload-ledger';
 function uploadLedger():string[]{return read<string[]>(uploadLedgerKey,[])}
 export function forgetSessionPhotos(){sessionStorage.removeItem(uploadLedgerKey)}

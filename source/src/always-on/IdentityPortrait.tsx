@@ -1,6 +1,8 @@
 import {useEffect,useState} from 'react';
 import {User} from '@phosphor-icons/react/dist/csr/User';
-import {listPhotos,listTwins,type Identity} from './connection';
+import {listPhotos,listTwins,currentProfile,updatePhotoUrl,type Identity} from './connection';
+
+import {recoverSavedPhoto} from './saved-photo';
 
 // A new identity gets its own recovery state; a late response cannot show another person.
 export default function IdentityPortrait({identity}:{identity:Identity}){
@@ -13,6 +15,11 @@ function Portrait({identity}:{identity:Identity}){
   let active=true;
   const refresh=async()=>{
    try{
+    if(identity.kind==='photo'&&window.PARTNER_DEMO?.theme==='vogue'){
+     const version=currentProfile().version;
+     const ready=await recoverSavedPhoto(identity.url,async()=>{const photo=(await listPhotos()).images.find(row=>row.id===identity.id);if(!photo)throw Error('Photo unavailable');return photo.url},{photoId:identity.id,allowStageOrigin:true});
+     if(active){setUrl(ready);setFailed(false);updatePhotoUrl(identity.id,ready,version)}return;
+    }
     const rows=identity.kind==='twin'?await listTwins(true):(await listPhotos()).images;
     const portrait=rows?.find(row=>row.id===identity.id);
     if(active&&portrait?.url){setUrl(portrait.url);setFailed(false)}
