@@ -24,4 +24,4 @@ Editable React source is included under source/. With a current Node runtime: cd
 
 No API secrets, session credentials or shopper photos are included. Browser sessions authenticate with SPREEAI at runtime. Own photos are transmitted directly to SPREEAI only after shopper consent. The service may require VPN access.
 
-Build 2026.10.07.02.
+Build 2026.10.07.03.

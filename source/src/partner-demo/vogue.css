@@ -94,14 +94,14 @@
 
 /* The CTA belongs to the image, with a protected area below the garment. */
 .vogue .retail-card-photo{margin-bottom:16px}
-.vogue .retail-card-photo>a{height:calc(100% - 72px)}
+.vogue .retail-card-photo>a{height:calc(100% - 92px)}
 .vogue .retail-card-photo>a>img{object-fit:contain}
-.vogue .retail-card-photo .vogue-card-try-row,.vogue .vogue-gallery-stage .vogue-card-try-row{position:absolute;bottom:12px;left:0;right:0;z-index:2;padding:0 12px;height:46px;align-items:center}
+.vogue .retail-card-photo .vogue-card-try-row,.vogue .vogue-gallery-stage .vogue-card-try-row{position:absolute;bottom:32px;left:0;right:0;z-index:2;padding:0 12px;height:46px;align-items:center}
 .vogue .retail-card-photo .vogue-card-try{max-width:100%;height:46px}
 .vogue .retail-card-photo .vogue-card-try img{width:62px;height:auto;object-fit:contain}
 .vogue-gallery-stage{position:relative;aspect-ratio:3/4;background:#f8f8f8;overflow:hidden}
-.vogue .vogue-gallery-stage .vogue-gallery-image{display:block;position:relative;height:100%;width:100%;padding:0 0 80px;background:#f8f8f8;border:0;box-sizing:border-box}
+.vogue .vogue-gallery-stage .vogue-gallery-image{display:block;position:relative;height:100%;width:100%;padding:0 0 100px;background:#f8f8f8;border:0;box-sizing:border-box}
 .vogue .vogue-gallery-image>img{height:100%;width:100%;object-fit:contain}
 .vogue .vogue-gallery-image .retail-zoom-label{bottom:auto;top:16px}
-.vogue .vogue-gallery-stage .vogue-card-try-row{bottom:18px}
-@media(max-width:700px){.vogue .retail-card-photo{margin-bottom:10px}.vogue .retail-card-photo>a{height:calc(100% - 62px)}.vogue .retail-card-photo .vogue-card-try-row{bottom:9px;padding:0 8px;height:44px}.vogue .retail-card-photo .vogue-card-try{height:44px}.vogue .retail-card-photo .vogue-card-try img{width:50px}.vogue .vogue-gallery-stage .vogue-card-try{font-size:12px;width:220px}.vogue .vogue-gallery-stage .vogue-card-try img{width:62px}.vogue .vogue-gallery-stage .vogue-card-try span{padding-left:14px}}
+.vogue .vogue-gallery-stage .vogue-card-try-row{bottom:38px}
+@media(max-width:700px){.vogue .retail-card-photo{margin-bottom:10px}.vogue .retail-card-photo>a{height:calc(100% - 74px)}.vogue .retail-card-photo .vogue-card-try-row{bottom:21px;padding:0 8px;height:44px}.vogue .retail-card-photo .vogue-card-try{height:44px}.vogue .retail-card-photo .vogue-card-try img{width:50px}.vogue .vogue-gallery-stage .vogue-card-try{font-size:12px;width:220px}.vogue .vogue-gallery-stage .vogue-card-try img{width:62px}.vogue .vogue-gallery-stage .vogue-card-try span{padding-left:14px}}
