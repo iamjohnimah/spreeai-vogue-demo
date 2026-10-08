@@ -243,7 +243,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Zara"
       ],
-      "previewAvailable": true,
+      "previewAvailable": false,
       "facts": [
         "Featured in Vogue’s New Arrivals edit",
         "Retailer: ZARA",
@@ -448,7 +448,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Rue Sophie"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "availableSizes": [
         "Retailer selection"
       ],
@@ -489,7 +489,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Flore Flore"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "availableSizes": [
         "Retailer selection"
       ],
@@ -530,7 +530,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Polo Ralph Lauren"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "availableSizes": [
         "Retailer selection"
       ],
@@ -571,7 +571,7 @@ window.PARTNER_DEMO = {
       "source": [
         "The Horse"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "availableSizes": [
         "Retailer selection"
       ],
@@ -612,7 +612,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Skall"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "availableSizes": [
         "Retailer selection"
       ],
@@ -694,7 +694,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Maguire"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "availableSizes": [
         "Retailer selection"
       ],
@@ -735,7 +735,7 @@ window.PARTNER_DEMO = {
       "source": [
         "The Frankie Shop"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "availableSizes": [
         "Retailer selection"
       ],
@@ -776,7 +776,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Dries Van Noten"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "availableSizes": [
         "Retailer selection"
       ],
@@ -858,7 +858,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Nili Lotan"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "availableSizes": [
         "Retailer selection"
       ],
@@ -899,7 +899,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Dries Van Noten"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "availableSizes": [
         "Retailer selection"
       ],
@@ -940,7 +940,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Celine"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "availableSizes": [
         "Retailer selection"
       ],
@@ -981,7 +981,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Proenza Schouler"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "availableSizes": [
         "Retailer selection"
       ],
@@ -1022,7 +1022,7 @@ window.PARTNER_DEMO = {
       "source": [
         "Chanel"
       ],
-      "previewAvailable": false,
+      "previewAvailable": true,
       "availableSizes": [
         "Retailer selection"
       ],
