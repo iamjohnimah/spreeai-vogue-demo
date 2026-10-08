@@ -2,26 +2,26 @@
 
 Independent shopping review, not an official Vogue website or endorsed partnership.
 
-## October 7 update
+## October 7 update — build 2026.10.07.04
 
-25 products: the original ten New Arrivals pieces and 15 additional products from https://www.vogue.com/shopping, with Vogue product photographs, designer names, prices and retailer links. Provenance is in source-catalog.json. Prices are a capture, not live inventory.
+25 captured products from Vogue Shopping, with original product photography, designer names, prices and retailer links. Provenance is in source-catalog.json; prices are snapshots, not live stock.
 
-Vogue wordmarks, FB Didot, Vogue Avant Garde and Adobe Garamond typography, navigation, editorial banner and shopping layout. Centered, always-visible Vogue try-on buttons now sit inside the collection and product image frames, in a reserved area beneath the garment. Photographs use contain sizing and do not overlap the buttons. Compare stands alone below product details. The product page uses an image-mounted branded try-on button and a dedicated Build a look card, with Find my size beside Size Guide. Each fitting-room tool opens independently; try-on has no feature-hub navigation or saved-look action. Category filters and price sorting remain available. Desktop 1440px and mobile 390px/320px checks verified button placement, image loading and no horizontal page overflow; product sizing, builder and comparison entry points opened independently. Original retailer checkout links remain external.
+Homepage Try on buttons remain centered inside each image frame, below the garment. On the product page, Try it on appears inside the fitting-room panel directly above Build a look; it is not over the photograph. Compare remains separate, and Find my size sits beside Size Guide. The try-on dialog contains only try-on controls. Back and video remain explicit Coming soon placeholders.
 
-## Features and verification
+## Verified and remaining work
 
-Local interactions verified: category filtering, price sorting, shopping bag size validation, saved looks and restoration, outfit-to-bag quantity merging, styling search and occasion controls, comparison selection, and profile consent gating. Desktop 1440px and mobile 390px/320px product images loaded without page overflow. No claim of pixel identity: Vogue's live advertising and editorial inventory vary.
+All 25 product pages passed desktop/mobile layout checks: the primary action is above Build a look, no image-mounted product-page CTA, no horizontal overflow. All 25 homepage product images loaded. Saving/removing a look was exercised for all 25 garments; saved-look persistence across reload and reopening the correct outfit were verified. Compare selection supports three pieces with separate save actions.
 
-All 15 staging garment records were created in isolated vogue-partner-review. Importing a record is not successful try-on verification. Current anonymous guest tests of all 25 garments failed: existing pieces return a missing Twin image URL error; new variants remain AVATARS while their QA renders fail against the same missing images. Failed renders were not accepted and readiness was not bypassed. Restore staging image resolution, rerun garment QA, review the output and then mark verified variants ready.
+A real staging Twin-image connection failure was repaired in the client: an approved catalog Twin is registered into the current guest session, with a deduplicated session-scoped connection. Only the catalog image matching the selected Twin may be used; shopper photos retain their separate consent/upload flow and photo ledger. The recovery produced COMPLETE renders and real images for Tilda jacket, Eden top and The Kyle gloves. The updated local storefront also displayed the live Tilda image. Broader rendering verification hit HTTP 429; these requests are not recorded as successful. The browser honors the service retry delay once and offers a manual retry.
 
-The Twin picker now rejects incomplete image records and explains the service issue. Photo preview/upload/delete consent flow remains implemented; end-to-end upload was not verified in this pass because the browser file chooser timed out. Rendering remains a live staging dependency, never a synthetic success.
+The 15 added garments are imported but not ready: the latest unrestricted readiness audit found eight FAILED and seven AVATARS. Admin evidence identifies failing inherited Twin image references during ingestion QA. No failed render was approved and readiness was not bypassed. These variants need the staging Twin references repaired, ingestion QA rerun, output reviewed and approved before live previews are available. The client Twin repair cannot repair server-side ingestion jobs.
 
-Back and video try-on remain explicit Coming soon placeholders. Size recommendation requests need calibrated retailer charts; these records lack them. Fit preferences and curated Style edits are guidance, not calibrated fit maps or an AI stylist. Browser-local saves are not cloud accounts.
+All 25 sizing requests returned no calibrated size chart. The UI states that personal sizing is unavailable and links to the original retailer size guide. Verified garment charts must be attached before calibrated recommendations can work; no fabricated sizing predictions are supplied. Full all-garment try-on/sizing verification remains incomplete.
+
+Browser-local saved looks are not cloud accounts. Retailer checkout remains external. Style edits and fitting preferences are guidance, not calibrated fit maps. No pixel-identity claim: Vogue editorial and advertising inventory varies.
 
 ## Rebuild and publish
 
-Editable React source is included under source/. With a current Node runtime: cd source, npm install, npm run build. This writes the bundled assets and updates index.html cache hashes. GitHub Pages publishes root static files via the existing workflow.
+Editable React source is under source/. With Node: cd source, npm install, npm run build. GitHub Pages publishes the root static files via the existing workflow.
 
-No API secrets, session credentials or shopper photos are included. Browser sessions authenticate with SPREEAI at runtime. Own photos are transmitted directly to SPREEAI only after shopper consent. The service may require VPN access.
-
-Build 2026.10.07.03.
+No API secrets, session credentials or shopper photos are shipped. Sessions authenticate with SPREEAI at runtime. The staging service may require VPN access.
