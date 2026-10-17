@@ -21,6 +21,20 @@ export class PreviewImageUnavailable extends Error{
  constructor(readonly requestId:string){super('This preview image is temporarily unavailable. Please retry in a moment.');this.name='PreviewImageUnavailable'}
 }
 
+/** A terminal render without an image needs a new render, not another CDN lookup. */
+export class PreviewRenderEmpty extends PreviewImageUnavailable{
+ constructor(requestId:string){super(requestId);this.name='PreviewRenderEmpty';this.message='The service finished without an image. Please retry this view.'}
+}
+
+export async function resolvePreviewWithRecovery<T extends Preview>(load:()=>Promise<T>,regenerate:()=>Promise<T>,verify:(result:T)=>Promise<string>):Promise<{completed:T;url:string}>{
+ try{const completed=await load();return {completed,url:await verify(completed)}}
+ catch(error){
+  if(!(error instanceof PreviewRenderEmpty))throw error;
+  // One new attempt, using the same identity, garments and pose. Never loop.
+  const completed=await regenerate();return {completed,url:await verify(completed)};
+ }
+}
+
 /** A completed render is usable only once the browser can decode its image.
  * Refresh the same request during delivery delays; never substitute another view.
  */
@@ -38,5 +52,5 @@ export async function verifyPreviewImage(initial:Preview,read:(id:string)=>Promi
   await wait(delays[attempt]);
   try{result=await read(initial.request_id)}catch{result={request_id:initial.request_id}}
  }
- throw new PreviewImageUnavailable(initial.request_id);
+ throw result.status==='COMPLETE'&&!result.image?.url?new PreviewRenderEmpty(initial.request_id):new PreviewImageUnavailable(initial.request_id);
 }

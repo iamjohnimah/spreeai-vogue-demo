@@ -1,5 +1,5 @@
 import {poseCacheSuffix} from './pose-preview';
-import {verifyPreviewImage,PreviewImageUnavailable} from './preview-image';
+import {verifyPreviewImage,PreviewImageUnavailable,resolvePreviewWithRecovery} from './preview-image';
 import {withPreviewDeadline} from './preview-job';
 import {previewCache,persistPreviews} from './preview-cache';
 import {isPresignedUrlExpired} from './presigned';
@@ -34,21 +34,26 @@ export function usePersonalImage(products:Product[],size='',base='',retry=0,pose
    if(scope!==profileScope())throw Error('Profile changed');
    const environment=products[0].environment||'dev';
    const get=environment==='prod'?productionRequest:request;
-   let completed:{request_id:string;status?:string;image?:{url:string}};
-   if(saved?.requestId){
-    // Manual retries recover the existing render, including failures in image delivery.
-    // Retain its ID even when the status lookup or image decoding fails.
-    completed={request_id:saved.requestId,status:saved.status==='ready'?'COMPLETE':undefined,image:saved.url?{url:saved.url}:undefined};
-    if(saved.status==='error'||isPresignedUrlExpired(saved.url)){
-     try{completed={...await get<typeof completed>('/v1/user-assets/tryon/'+encodeURIComponent(saved.requestId)),request_id:saved.requestId}}catch{completed={request_id:saved.requestId}}
-    }
-   }else{
+   type Preview={request_id:string;status?:string;image?:{url:string}};
+   const generate=async():Promise<Preview>=>{
+    if(scope!==profileScope())throw Error("Profile changed");
     if(products.some(p=>(p.environment||'dev')!==environment))throw Error('Choose pieces from the same collection for a combined look.');
     const front=posePreset&&ids.length>1?cache.get(renderKey(ids,size,base,environment)):undefined;
-    if(posePreset&&ids.length>1&&environment==='dev'){if(front?.status!=='ready'||!front.requestId)throw Error('Your complete front look is still preparing.');completed=await renderOutfitPose(ids,identity,new AbortController().signal,posePreset,front.requestId)}else completed=environment==='prod'?await productionRender(ids,identity,new AbortController().signal,size||undefined,base||undefined,posePreset||undefined):await render(ids,identity,new AbortController().signal,'front',size||undefined,base||undefined,posePreset||undefined);
-   }
-   let url:string;
-   try{url=await verifyPreviewImage(completed,async id=>({...await get<typeof completed>('/v1/user-assets/tryon/'+encodeURIComponent(id)),request_id:id}),{allowStageOrigin:window.PARTNER_DEMO?.theme==='vogue'&&environment==='dev'})}
+    if(posePreset&&ids.length>1&&environment==='dev'){if(front?.status!=='ready'||!front.requestId)throw Error('Your complete front look is still preparing.');return renderOutfitPose(ids,identity,new AbortController().signal,posePreset,front.requestId)}
+    return environment==='prod'?productionRender(ids,identity,new AbortController().signal,size||undefined,base||undefined,posePreset||undefined):render(ids,identity,new AbortController().signal,'front',size||undefined,base||undefined,posePreset||undefined);
+   };
+   const load=async():Promise<Preview>=>{
+    if(!saved?.requestId)return generate();
+    // Preserve successful image requests during delivery recovery. Only an explicitly
+    // completed, empty render is eligible for one fresh generation.
+    let completed:Preview={request_id:saved.requestId,status:saved.status==='ready'?'COMPLETE':undefined,image:saved.url?{url:saved.url}:undefined};
+    if(saved.status==='error'||isPresignedUrlExpired(saved.url)){
+     try{completed={...await get<Preview>('/v1/user-assets/tryon/'+encodeURIComponent(saved.requestId)),request_id:saved.requestId}}catch{completed={request_id:saved.requestId}}
+    }
+    return completed;
+   };
+   let completed:Preview,url:string;
+   try{({completed,url}=await resolvePreviewWithRecovery(load,generate,result=>verifyPreviewImage(result,async id=>({...await get<Preview>('/v1/user-assets/tryon/'+encodeURIComponent(id)),request_id:id}),{allowStageOrigin:window.PARTNER_DEMO?.theme==='vogue'&&environment==='dev'})))}
    catch(error){if(error instanceof PreviewImageUnavailable)error.environment=environment;throw error}
    verifiedImages.add(url);
    if(scope===profileScope())recordHistory({id:key,kind:size?'sizing':'tryon',identityId:identity.id,identityName:identity.name,pieces:products.map(p=>({id:p.id,name:p.name,image:p.image})),images:[url],size:size||undefined,recommended:base||undefined},historyToken);
