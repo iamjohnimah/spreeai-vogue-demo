@@ -4,7 +4,7 @@ Independent shopping review, not an official Vogue website or endorsed partnersh
 
 ## October 17 update — meeting preparation
 
-Build 2026.10.17.04 unifies garment ribbons and complete outfits in Profile → Saved looks. Existing ribbons and saved outfits migrate into the same browser-local collection, with matching save/remove states across cards, product pages, comparison and the builder. Saves do not require a model and remain available when the selected model changes. A short floating ribbon confirms new saves, with reduced-motion support.
+Build 2026.10.17.05 unifies garment ribbons and complete outfits in Profile → Saved looks. Existing ribbons and saved outfits migrate into the same browser-local collection, with matching save/remove states across cards, product pages, comparison and the builder. Saves do not require a model and remain available when the selected model changes. A short floating ribbon confirms new saves, with reduced-motion support.
 
 Try-on, Build a look and Fittings offer Straight-on, Side profile and Three-quarter poses. The latter two use the same v3.1 presets as the current SPREEAI shop: editorial and three_quarter. For complete outfits, the verified front render is connected as the pose input, preserving its other clothes and accessories while the service re-poses the primary garment. Derived inputs remain session-scoped and never replace the selected identity or enter its uploaded-photo ledger. Cache keys and retry counters are isolated per pose, outfit and identity. Duplicate front results are rejected as alternate views; image recovery still resolves the original request. All three thumbnail photographs are verified generated try-ons of the currently selected model or uploaded photo and outfit, framed full body. The additional poses prepare after the front image is ready. Pending or unavailable states never substitute a reference person or a different pose.
 
@@ -12,7 +12,7 @@ The Vogue partner's staging service requires the scoped backend release 1.26.18-
 
 Click any ready pose thumbnail or main try-on image to open an enlarged full-body viewer, with keyboard-accessible zoom controls and Escape/close returning to the same fitting-room selection.
 
-Hover contrast, modal transitions, pose cards, save feedback, profile navigation and mobile controls were refined. Frontend validation: production bundle builds and all 25 automated checks pass. Browser checks cover ribbon-to-profile saving, reload persistence, complete-outfit saving and reopening, readable hover text/wordmark, and a 390px mobile layout with no horizontal overflow.
+Hover contrast, modal transitions, pose cards, save feedback, profile navigation and mobile controls were refined. Frontend validation: production bundle builds and all 32 automated checks pass. Browser checks cover ribbon-to-profile saving, reload persistence, complete-outfit saving and reopening, readable hover text/wordmark, and a 390px mobile layout with no horizontal overflow.
 
 ## October 8 update — repaired front previews
 
@@ -22,7 +22,7 @@ Homepage Try on buttons remain centered inside each image frame, below the garme
 
 ## Image recovery
 
-The browser verifies that a completed preview can actually display before marking it ready. When delivery fails, it refreshes the same result with bounded retries and preserves its request ID for manual recovery. For eligible unsigned staging render URLs, a failed CDN image can load the identical render key from the known SPREEAI image origin. This is limited to this Vogue review. Signed URLs, foreign hosts, uploads and mismatched render IDs are excluded. Retry does not substitute another model or show a product photo as a personal preview. Ten deterministic recovery tests pass. This client behavior cannot replace an image that the service does not deliver.
+The browser verifies that a completed preview can actually display before marking it ready. When delivery fails, it refreshes the same result with bounded retries and preserves its request ID for manual recovery. For eligible unsigned staging render URLs, a failed CDN image can load the identical render key from the known SPREEAI image origin. This is limited to this Vogue review. Signed URLs, foreign hosts, uploads and mismatched render IDs are excluded. If the service remains COMPLETE without an image after bounded refreshes, recovery makes one fresh render using the identical identity, garment selection and pose. A second empty result stops with a retryable error. Requests with existing but temporarily unavailable images retain their original request ID. Retry does not substitute another model or show a product photo as a personal preview. Ten deterministic recovery tests pass. This client behavior cannot replace an image that the service does not deliver.
 
 ## Verified and remaining work
 
