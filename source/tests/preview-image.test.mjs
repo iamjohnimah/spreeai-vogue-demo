@@ -9,7 +9,7 @@ const require=createRequire(import.meta.url);
 const {build}=require(process.env.ESBUILD_MODULE||'esbuild');
 const scratch=await mkdtemp(path.join(tmpdir(),'vogue-preview-tests-'));
 await build({entryPoints:['src/always-on/preview-image.ts'],bundle:true,platform:'node',format:'esm',outfile:path.join(scratch,'preview.mjs')});
-const {verifyPreviewImage,PreviewImageUnavailable,stagePreviewOrigin}=await import(pathToFileURL(path.join(scratch,'preview.mjs')));
+const {verifyPreviewImage,PreviewImageUnavailable,PreviewRenderEmpty,resolvePreviewWithRecovery,stagePreviewOrigin}=await import(pathToFileURL(path.join(scratch,'preview.mjs')));
 test.after(()=>rm(scratch,{recursive:true,force:true}));
 const initial={request_id:'same-request',status:'COMPLETE',image:{url:'https://example.test/missing.webp'}};
 const noWait=async()=>{};
@@ -64,4 +64,37 @@ test('both delivery paths failing never produce a ready preview',async()=>{
  const decoded=[];
  await assert.rejects(verifyPreviewImage({request_id:rid,status:'COMPLETE',image:{url:cdn}},async()=>{assert.fail('no refresh configured')},{delays:[],allowStageOrigin:true,decode:async url=>{decoded.push(url);throw Error('404')}}),error=>error instanceof PreviewImageUnavailable&&error.requestId===rid);
  assert.deepEqual(decoded,[cdn,origin]);
+});
+
+test('a completed empty render allows one fresh generation after delivery refreshes',async()=>{
+ let reads=0;
+ await assert.rejects(verifyPreviewImage({request_id:'empty',status:'COMPLETE'},async()=>{reads++;return {request_id:'empty',status:'COMPLETE'}},{wait:noWait}),error=>error instanceof PreviewRenderEmpty&&error.requestId==='empty');
+ assert.equal(reads,3);
+});
+test('an empty result that gains an image during refresh does not need regeneration',async()=>{
+ const url=await verifyPreviewImage({request_id:'delayed',status:'COMPLETE'},async()=>({request_id:'delayed',status:'COMPLETE',image:{url:'ready'}}),{wait:noWait,decode:async()=>{}});
+ assert.equal(url,'ready');
+});
+test('empty render recovery submits and verifies exactly one replacement',async()=>{
+ let generated=0;const seen=[];
+ const result=await resolvePreviewWithRecovery(async()=>{throw new PreviewRenderEmpty('old')},async()=>{generated++;return {request_id:'new',status:'COMPLETE',image:{url:'new-image'}}},async value=>{seen.push(value.request_id);return value.image.url});
+ assert.equal(generated,1);assert.deepEqual(seen,['new']);assert.equal(result.completed.request_id,'new');assert.equal(result.url,'new-image');
+});
+test('an empty stored request is eligible for the same bounded recovery',async()=>{
+ let generated=0;
+ const result=await resolvePreviewWithRecovery(async()=>({request_id:'stored'}),async()=>{generated++;return {request_id:'replacement',image:{url:'ready'}}},async value=>{if(!value.image)throw new PreviewRenderEmpty(value.request_id);return value.image.url});
+ assert.equal(generated,1);assert.equal(result.url,'ready');
+});
+test('a second empty render stops with a recoverable error instead of looping',async()=>{
+ let generated=0;
+ await assert.rejects(resolvePreviewWithRecovery(async()=>{throw new PreviewRenderEmpty('first')},async()=>{generated++;throw new PreviewRenderEmpty('second')},async()=>assert.fail()),error=>error.requestId==='second');
+ assert.equal(generated,1);
+});
+test('delivery failure with an existing image never submits another render',async()=>{
+ let generated=0;
+ await assert.rejects(resolvePreviewWithRecovery(async()=>initial,async()=>{generated++;return initial},async()=>{throw new PreviewImageUnavailable('same-request')}),error=>error.requestId==='same-request');
+ assert.equal(generated,0);
+});
+test('unknown API status never authorizes a new render',async()=>{
+ await assert.rejects(verifyPreviewImage({request_id:'unknown'},async()=>{throw Error('network')},{wait:noWait}),error=>error instanceof PreviewImageUnavailable&&!(error instanceof PreviewRenderEmpty));
 });
