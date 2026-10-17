@@ -1,0 +1,9 @@
+.tryon-lightbox-overlay{position:fixed;inset:0;z-index:2000;background:#151515b8;backdrop-filter:blur(8px)}
+.tryon-image-lightbox{position:fixed;inset:16px;z-index:2001;background:#faf9f7;color:#171717;display:flex;flex-direction:column;overflow:hidden;box-shadow:0 20px 100px #0004;font-family:'Vogue Avant Garde',Arial,sans-serif}
+.tryon-image-lightbox>header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 24px;background:#fff;border-bottom:1px solid #e5e3df;flex-shrink:0}
+.tryon-image-lightbox header small{font-size:9px;letter-spacing:1.6px;color:#666}.tryon-image-lightbox h2{font-size:17px;font-weight:400;margin:5px 0 0;line-height:1.4}
+.tryon-image-lightbox header button{min-width:44px;min-height:44px;flex-shrink:0;border:1px solid #ddd;background:#fff;color:#111;border-radius:50%;font-size:27px;cursor:pointer}
+.tryon-image-lightbox>p{font-size:10px;text-align:center;margin:0;padding:8px 16px;border-top:1px solid #e5e3df;background:#fff;flex-shrink:0;color:#666}
+.tryon-image-lightbox .image-zoom{display:flex!important;flex-direction:column;flex:1;min-height:0;background:#f3f1ee}.tryon-image-lightbox .image-zoom-viewport{height:auto;flex:1;min-height:0;overflow:auto}.tryon-image-lightbox .image-zoom-controls{min-height:52px}.tryon-image-lightbox :focus-visible{outline:2px solid #111;outline-offset:3px}
+button.inline-zoom-stage{display:block;border:0;padding:0;background:transparent;color:inherit;cursor:zoom-in;font:inherit}
+@media(max-width:700px){.tryon-image-lightbox{inset:0}.tryon-image-lightbox>header{padding:10px 14px;gap:12px}.tryon-image-lightbox h2{font-size:13px}.tryon-image-lightbox header small{font-size:8px}}
