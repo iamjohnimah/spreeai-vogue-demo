@@ -1,5 +1,5 @@
 import {poseRequestOptions} from './pose-preview';
-import {PreviewImageUnavailable} from './preview-image';
+import {verifyPreviewImage,PreviewImageUnavailable} from './preview-image';
 import {tryonRetryDelay} from './retry-after';
 import {clearShoppingState} from './useShoppingState';
 import {createTwinCatalog} from './twin-catalog';
@@ -31,7 +31,7 @@ export function updatePhotoUrl(id:string,url:string,version:number){if(profile.v
 const uploadLedgerKey=PARTNER+':spree-session-upload-ledger';
 function uploadLedger():string[]{return read<string[]>(uploadLedgerKey,[])}
 export function forgetSessionPhotos(){sessionStorage.removeItem(uploadLedgerKey)}
-export function clearConnectedSession(){forgetSessionPhotos();for(const key of Object.keys(sessionStorage))if(key.startsWith('ao-looks:'))sessionStorage.removeItem(key);clearShoppingState();clearHistory();clearPreviews();epoch++;session=null;flight=null;productionSession=null;productionFlight=null;productionIdentities.clear();demoTwinImages.clear();profile={identity:null,authenticated:false,name:'',version:profile.version+1};save()}
+export function clearConnectedSession(){outfitPoseInputs.clear();forgetSessionPhotos();for(const key of Object.keys(sessionStorage))if(key.startsWith('ao-looks:'))sessionStorage.removeItem(key);clearShoppingState();clearHistory();clearPreviews();epoch++;session=null;flight=null;productionSession=null;productionFlight=null;productionIdentities.clear();demoTwinImages.clear();profile={identity:null,authenticated:false,name:'',version:profile.version+1};save()}
 async function raw(path:string,method:string,body?:unknown,token?:string,base=API,rateRetry=0):Promise<any>{const finishLoading=beginLoading();try{const r=await fetch(base+path,{method,headers:{...(body instanceof FormData?{}:{'Content-Type':'application/json'}),...(token?{Authorization:'Bearer '+token}:{})},body:body===undefined?undefined:body instanceof FormData?body:JSON.stringify(body),signal:AbortSignal.timeout(body instanceof FormData?60000:30000)});const d=await r.json().catch(()=>null);if(r.status===429&&rateRetry===0&&window.PARTNER_DEMO?.theme==='vogue'&&method==='POST'&&/^\/v3(?:\.1)?\/store-experience\/tryon$/.test(path)){const delay=tryonRetryDelay(r.headers.get('Retry-After'),d?.errors?.[0]?.retry_after,rateRetry);if(delay!==null){await new Promise(resolve=>setTimeout(resolve,delay));return raw(path,method,body,token,base,1)}}if(!r.ok)throw Object.assign(new Error(r.status===429&&window.PARTNER_DEMO?.theme==='vogue'?'The preview service is busy. Please wait a moment, then retry.':d?.error==='garment_not_ready'?(d?.variant_status==='FAILED'?'This piece needs to be prepared again before live try-on is available.':'This piece is still being prepared. Please try another piece.'):d?.errors?.[0]?.message||d?.message||`SPREEAI could not complete this request (${r.status}).`),{httpStatus:r.status,serviceCode:d?.error,variantStatus:d?.variant_status});return d}finally{finishLoading()}}
 export async function ensureSession(){if(session&&session.expiresAt>Date.now()+60000)return session;if(flight)return flight;const start=epoch;flight=(async()=>{let d;try{d=await raw(session?'/v1/auth/refresh':'/v1/user/guest','POST',session?{refresh_token:session.refresh_token,partner_id:PARTNER}:{partner_id:PARTNER,language:'en'})}catch(error){if(!session||![400,401].includes((error as {httpStatus:number}).httpStatus))throw error;session=null;if(profile.identity?.kind==='photo')profile={...profile,identity:null,version:profile.version+1};d=await raw('/v1/user/guest','POST',{partner_id:PARTNER,language:'en'})}if(epoch!==start)throw Error('Your session changed. Please try again.');if(!d?.access_token)throw Error('Unable to start your SPREEAI session.');session={...d,expiresAt:Date.now()+Number(d.expires_in)*1000};save();return session!})().finally(()=>{if(epoch===start)flight=null});return flight}
 export async function request<T>(path:string,method='GET',body?:unknown,base=API):Promise<T>{const start=epoch,s=await ensureSession();if(start!==epoch)throw Error('Your session changed.');let d;try{d=await raw(path,method,body,s.access_token,base)}catch(error){if((error as {httpStatus?:number}).httpStatus!==401||base!==API)throw error;session=null;flight=null;const fresh=await ensureSession();d=await raw(path,method,body,fresh.access_token,base)}if(start!==epoch)throw Error('Your session changed. Please try again.');return d}
@@ -105,3 +105,27 @@ export async function productionSizing(garmentId:string,identity:Identity,signal
 
 export type FitAdvice={size?:string;fit_note?:string;smaller_note?:string;larger_note?:string};
 export async function fitAdvice(garmentId:string,identity:Identity,name:string,category:string,sizes:string[]){if(!hasFitConnection())throw Error('Detailed fit advice requires the connected preview.');return request<FitAdvice>('/api/size-recommendation/garment/'+encodeURIComponent(garmentId),'POST',{profile:{gender:identity.bodyType==='Masculine'?'male':'female',height_cm:identity.height,weight_kg:identity.weight},garment:{name,category},available_sizes:sizes},'')}
+
+const outfitPoseInputs=new Map<string,Promise<string>>();
+/** Re-pose this session's verified complete look. The pose service accepts one
+ * garment, while its PERSON input preserves the other clothes and accessories.
+ * Derived inputs never replace the selected identity or enter the photo ledger. */
+export async function renderOutfitPose(ids:string[],identity:Identity,signal:AbortSignal,preset:string,frontRequestId:string){
+ if(ids.length<2||ids.length>5||!['editorial','three_quarter'].includes(preset)||!frontRequestId)throw Error('Choose a complete front look before creating this pose.');
+ const version=profile.version,revision=epoch,key=revision+':'+version+':'+identity.id+':'+frontRequestId;
+ if(!outfitPoseInputs.has(key))outfitPoseInputs.set(key,(async()=>{
+  const front=await request<Render>('/v1/user-assets/tryon/'+encodeURIComponent(frontRequestId));
+  if(front.status!=='COMPLETE')throw Error('Your complete front look is still preparing.');
+  const url=await verifyPreviewImage({...front,request_id:frontRequestId},id=>request<Render>('/v1/user-assets/tryon/'+encodeURIComponent(id)),{allowStageOrigin:window.PARTNER_DEMO?.theme==='vogue'});
+  const image=await fetch(url,{signal});if(!image.ok)throw Error('Your complete look could not be connected to this pose.');
+  const blob=await image.blob();if(!blob.type.startsWith('image/')||blob.size>20*1024*1024)throw Error('Your complete look image could not be verified.');
+  if(profile.version!==version||epoch!==revision||signal.aborted)throw Error('Your profile changed. Create a new view.');
+  const form=new FormData();form.append('user_image',blob,'generated-look.png');form.append('source','web-sdk');form.append('is_uploaded','true');
+  const uploaded=await request<{id:string;url:string}>('/v2/store-experience/user-images','POST',form);
+  if(!validPhoto(uploaded)||profile.version!==version||epoch!==revision)throw Error('Your profile changed. Create a new view.');
+  return uploaded.id;
+ })().catch(error=>{outfitPoseInputs.delete(key);throw error}));
+ const imageId=await outfitPoseInputs.get(key)!;
+ if(profile.version!==version||epoch!==revision||signal.aborted)throw Error('Your profile changed. Create a new view.');
+ return render([ids[0]],{...identity,id:imageId,kind:'photo'},signal,'front',undefined,undefined,preset);
+}

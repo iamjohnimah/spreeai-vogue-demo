@@ -7,7 +7,7 @@ import {previewPlan} from './fit-preview';
 import {isOneSize,translateSize} from './fit-scale';
 import {beginLoading} from './loading';
 import {useEffect,useMemo,useRef,useSyncExternalStore} from 'react';
-import {currentProfile,useConnectedProfile,render,sizing,fitMap,fitAdvice,hasFitConnection,productionRender,productionSizing,request,productionRequest} from './connection';
+import {currentProfile,useConnectedProfile,render,renderOutfitPose,sizing,fitMap,fitAdvice,hasFitConnection,productionRender,productionSizing,request,productionRequest} from './connection';
 import type {Product} from './data';
 import {recordHistory,historyWriteToken} from './history';
 import type {FitMap} from './connection';
@@ -44,7 +44,8 @@ export function usePersonalImage(products:Product[],size='',base='',retry=0,pose
     }
    }else{
     if(products.some(p=>(p.environment||'dev')!==environment))throw Error('Choose pieces from the same collection for a combined look.');
-    completed=environment==='prod'?await productionRender(ids,identity,new AbortController().signal,size||undefined,base||undefined,posePreset||undefined):await render(ids,identity,new AbortController().signal,'front',size||undefined,base||undefined,posePreset||undefined);
+    const front=posePreset&&ids.length>1?cache.get(renderKey(ids,size,base,environment)):undefined;
+    if(posePreset&&ids.length>1&&environment==='dev'){if(front?.status!=='ready'||!front.requestId)throw Error('Your complete front look is still preparing.');completed=await renderOutfitPose(ids,identity,new AbortController().signal,posePreset,front.requestId)}else completed=environment==='prod'?await productionRender(ids,identity,new AbortController().signal,size||undefined,base||undefined,posePreset||undefined):await render(ids,identity,new AbortController().signal,'front',size||undefined,base||undefined,posePreset||undefined);
    }
    let url:string;
    try{url=await verifyPreviewImage(completed,async id=>({...await get<typeof completed>('/v1/user-assets/tryon/'+encodeURIComponent(id)),request_id:id}),{allowStageOrigin:window.PARTNER_DEMO?.theme==='vogue'&&environment==='dev'})}
