@@ -2,6 +2,16 @@
 
 Independent shopping review, not an official Vogue website or endorsed partnership.
 
+## October 17 update — meeting preparation
+
+Build 2026.10.17.01 unifies garment ribbons and complete outfits in Profile → Saved looks. Existing ribbons and saved outfits migrate into the same browser-local collection, with matching save/remove states across cards, product pages, comparison and the builder. Saves do not require a model and remain available when the selected model changes. A short floating ribbon confirms new saves, with reduced-motion support.
+
+Try-on, Build a look and Fittings offer Straight-on, Side profile and Three-quarter poses. The latter two use the same v3.1 presets as the current SPREEAI shop: editorial and three_quarter. Cache keys and retry counters are isolated per pose, outfit and identity. Duplicate front results are rejected as alternate views; image recovery still resolves the original request. The pose photographs are reference images from SPREEAI's existing pose-selection assets; generated previews use the selected model or uploaded photo.
+
+The Vogue partner's staging service requires the scoped backend release 1.26.18-vogue-poses.1 for the two additional presets. It retains partner isolation and Oscar's existing access. Retailer purchases remain external; calibrated sizing, back try-on and video availability are unchanged.
+
+Hover contrast, modal transitions, pose cards, save feedback, profile navigation and mobile controls were refined. Frontend validation: production bundle builds and all 25 automated checks pass. Browser checks cover ribbon-to-profile saving, reload persistence, complete-outfit saving and reopening, readable hover text/wordmark, and a 390px mobile layout with no horizontal overflow.
+
 ## October 8 update — repaired front previews
 
 25 captured products from Vogue Shopping, with original product photography, designer names, prices and retailer links. Provenance is in source-catalog.json; prices are snapshots, not live stock.
