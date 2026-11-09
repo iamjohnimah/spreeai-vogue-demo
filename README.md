@@ -2,6 +2,12 @@
 
 Independent shopping review, not an official Vogue website or endorsed partnership.
 
+## November 9 reliability update
+
+Session authorization failures now refresh the existing session, deduplicating concurrent renewals and retaining the selected uploaded photo when refresh succeeds. Initial model connection waits for the actual bounded service request rather than failing prematurely at 15 seconds. Alternate poses prepare sequentially after the front preview to reduce simultaneous render requests. Back/video remain unavailable.
+
+Validation: 34 automated checks, including concurrent 401 recovery and invalid-refresh isolation.
+
 ## October 17 update — meeting preparation
 
 Build 2026.10.17.05 unifies garment ribbons and complete outfits in Profile → Saved looks. Existing ribbons and saved outfits migrate into the same browser-local collection, with matching save/remove states across cards, product pages, comparison and the builder. Saves do not require a model and remain available when the selected model changes. A short floating ribbon confirms new saves, with reduced-motion support.
